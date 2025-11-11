@@ -79,18 +79,19 @@ import org.slf4j.LoggerFactory;
     private void getChannel(){
         // logger.info(&quot;Getting value from channel {}&quot;, CHANNEL);
         try {
-<span class="nc bnc" id="L82" title="All 2 branches missed.">            for(int i = 0; i &lt; 3;i++){</span>
-<span class="nc" id="L83">                String channelId = &quot;cell1_&quot; + (i+1);</span>
-<span class="nc" id="L84">                Channel channel = dataAccessService.getChannel(channelId);</span>
-<span class="nc" id="L85">                Record record = channel.getLatestRecord();</span>
-<span class="nc" id="L86">                double value = record.getValue().asDouble();</span>
-
-<span class="nc" id="L88">                logger.info(&quot;Channel: {}, Value: {} {}&quot;, channelId, value);</span>
+<span class="nc bnc" id="L82" title="All 2 branches missed.">            for(int i = 0; i &lt; 3; i++){</span>
+<span class="nc bnc" id="L83" title="All 2 branches missed.">                for(int j = 0; j &lt; 3; j++){</span>
+<span class="nc" id="L84">                    String channelId = &quot;str1_cell&quot;+ (i+1)+&quot;_&quot; + (j+1);</span>
+<span class="nc" id="L85">                    Channel channel = dataAccessService.getChannel(channelId);</span>
+<span class="nc" id="L86">                    Record record = channel.getLatestRecord();</span>
+<span class="nc" id="L87">                    double value = record.getValue().asDouble();</span>
+<span class="nc" id="L88">                    logger.info(&quot;Channel: {}, Value: {} {}&quot;, channelId, value);</span>
+                }
             }
-<span class="nc" id="L90">        } catch (Exception e) {</span>
-<span class="nc" id="L91">            logger.warn(&quot;Error updating channel {}&quot;, e.getMessage());</span>
-<span class="nc" id="L92">        }</span>
-<span class="nc" id="L93">    }</span>
+<span class="nc" id="L91">        } catch (Exception e) {</span>
+<span class="nc" id="L92">            logger.warn(&quot;Error updating channel {}&quot;, e.getMessage());</span>
+<span class="nc" id="L93">        }</span>
+<span class="nc" id="L94">    }</span>
     /**
      * Initialize channel objects
      */
@@ -98,17 +99,17 @@ import org.slf4j.LoggerFactory;
      * Apply a RecordListener to get notified if a new value is available for a channel
      */
     private void initUpdateTimer() {
-<span class="nc" id="L101">        logger.info(&quot;Initializing update timer...&quot;);</span>
-<span class="nc" id="L102">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
+<span class="nc" id="L102">        logger.info(&quot;Initializing update timer...&quot;);</span>
+<span class="nc" id="L103">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
 
-<span class="nc" id="L104">        TimerTask task = new TimerTask() {</span>
+<span class="nc" id="L105">        TimerTask task = new TimerTask() {</span>
             @Override
             public void run() {
-<span class="nc" id="L107">                getChannel();</span>
-<span class="nc" id="L108">            }</span>
+<span class="nc" id="L108">                getChannel();</span>
+<span class="nc" id="L109">            }</span>
         };
-<span class="nc" id="L110">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
-<span class="nc" id="L111">    }</span>
+<span class="nc" id="L111">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
+<span class="nc" id="L112">    }</span>
    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
