@@ -9,31 +9,35 @@
       <samplingTimeout>3s</samplingTimeout>
       <connectRetryInterval>3s</connectRetryInterval>
       <disabled>false</disabled>
-      <channel id="str1_demo_1">
+      <channel id="cell_1_1">
         <description>Cell (R) (str1_cell1)</description>
         <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
-
+        <!-- <samplingTimeOffset>2ms</samplingTimeOffset> -->
         <loggingInterval>1s</loggingInterval>
+        <samplingGroup>group1</samplingGroup>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
-      <!-- <channel id="str1_demo_2">
+      <channel id="cell_1_1">
         <description>Cell (R) (str1_cell1)</description>
         <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
-        <samplingInterval>2s</samplingInterval>
+        <samplingInterval>1s</samplingInterval>
+        <!-- <samplingTimeOffset>4ms</samplingTimeOffset> -->
+        <samplingGroup>group1</samplingGroup>
         <loggingInterval>2s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
-      </channel> -->
-       <channel id="str1_demo_3">
+      </channel>
+       <channel id="cell_1_2">
         <description>Cell (R) (str1_cell1)</description>
         <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
-        <!-- <samplingTimeOffset>1s</samplingTimeOffset> -->
+        <!-- <samplingTimeOffset>6ms</samplingTimeOffset> -->
+        <samplingGroup>group1</samplingGroup>
         <loggingInterval>2s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
