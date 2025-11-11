@@ -9,9 +9,29 @@
       <samplingTimeout>1s</samplingTimeout>
       <connectRetryInterval>1s</connectRetryInterval>
       <disabled>false</disabled>
-      <channel id="str1_demo">
+      <channel id="str1_demo_1">
         <description>Cell (R) (str1_cell1)</description>
         <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>1s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_demo_2">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>1s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+       <channel id="str1_demo_3">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>

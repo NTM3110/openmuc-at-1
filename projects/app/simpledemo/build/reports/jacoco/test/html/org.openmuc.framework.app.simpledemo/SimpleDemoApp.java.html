@@ -36,7 +36,9 @@ import org.slf4j.LoggerFactory;
 <span class="nc" id="L36">    private static final DecimalFormat DF = new DecimalFormat(&quot;#0.000&quot;, DFS);</span>
 
     // ChannelIDs, see conf/channel.xml
-    private static final String CHANNEL = &quot;str1_demo&quot;;
+    private static final String CHANNEL_1 = &quot;str1_demo_1&quot;;
+    private static final String CHANNEL_2 = &quot;str1_demo_2&quot;;
+    private static final String CHANNEL_3 = &quot;str1_demo_3&quot;;
 
 
     // With the dataAccessService you can access to your measured and control data of your devices.
@@ -51,54 +53,78 @@ import org.slf4j.LoggerFactory;
      */
     @Activate
     private void activate() {
-<span class="nc" id="L54">        logger.info(&quot;Activating Demo App&quot;);</span>
-<span class="nc" id="L55">        init();</span>
-<span class="nc" id="L56">    }</span>
+<span class="nc" id="L56">        logger.info(&quot;Activating Demo App&quot;);</span>
+<span class="nc" id="L57">        init();</span>
+<span class="nc" id="L58">    }</span>
 
     /**
      * Every app needs one deactivate method. It handles the shutdown of your app e.g. closing open streams.
      */
     @Deactivate
     private void deactivate() {
-<span class="nc" id="L63">        logger.info(&quot;Deactivating Demo App&quot;);</span>
-<span class="nc" id="L64">        logger.info(&quot;DemoApp thread interrupted: will stop&quot;);</span>
-<span class="nc" id="L65">        updateTimer.cancel();</span>
-<span class="nc" id="L66">        updateTimer.purge();</span>
-<span class="nc" id="L67">    }</span>
+<span class="nc" id="L65">        logger.info(&quot;Deactivating Demo App&quot;);</span>
+<span class="nc" id="L66">        logger.info(&quot;DemoApp thread interrupted: will stop&quot;);</span>
+<span class="nc" id="L67">        updateTimer.cancel();</span>
+<span class="nc" id="L68">        updateTimer.purge();</span>
+<span class="nc" id="L69">    }</span>
 
     /**
      * application logic
      */
     private void init() {
-<span class="nc" id="L73">        logger.info(&quot;Demo App started running...&quot;); </span>
-<span class="nc" id="L74">        initUpdateTimer();</span>
-<span class="nc" id="L75">    }</span>
+<span class="nc" id="L75">        logger.info(&quot;Demo App started running...&quot;); </span>
+<span class="nc" id="L76">        initUpdateTimer();</span>
+<span class="nc" id="L77">    }</span>
 
     private void getChannel(){
-<span class="nc" id="L78">        logger.info(&quot;Getting value from channel {}&quot;, CHANNEL);</span>
+        // logger.info(&quot;Getting value from channel {}&quot;, CHANNEL);
         try {
-<span class="nc" id="L80">            Channel channel = dataAccessService.getChannel(CHANNEL);</span>
-<span class="nc bnc" id="L81" title="All 2 branches missed.">            if (channel == null) {</span>
-<span class="nc" id="L82">                logger.warn(&quot;Channel {} not found!&quot;, CHANNEL);</span>
-<span class="nc" id="L83">                return;</span>
+<span class="nc" id="L82">            Channel channel1 = dataAccessService.getChannel(CHANNEL_1);</span>
+<span class="nc bnc" id="L83" title="All 2 branches missed.">            if (channel1 == null) {</span>
+<span class="nc" id="L84">                logger.warn(&quot;Channel 1 {} not found!&quot;, CHANNEL_1);</span>
+<span class="nc" id="L85">                return;</span>
+            }
+<span class="nc" id="L87">            Channel channel2 = dataAccessService.getChannel(CHANNEL_2);</span>
+<span class="nc bnc" id="L88" title="All 2 branches missed.">            if (channel2 == null) {</span>
+<span class="nc" id="L89">                logger.warn(&quot;Channel 2 {} not found!&quot;, CHANNEL_2);</span>
+<span class="nc" id="L90">                return;</span>
+            }
+<span class="nc" id="L92">            Channel channel3 = dataAccessService.getChannel(CHANNEL_3);</span>
+<span class="nc bnc" id="L93" title="All 2 branches missed.">            if (channel3 == null) {</span>
+<span class="nc" id="L94">                logger.warn(&quot;Channel 3 {} not found!&quot;, CHANNEL_3);</span>
+<span class="nc" id="L95">                return;</span>
             }
 
-<span class="nc" id="L86">            Record record = channel.getLatestRecord();</span>
+<span class="nc" id="L98">            Record firstRecord = channel1.getLatestRecord();</span>
+<span class="nc" id="L99">            Record secondRecord = channel2.getLatestRecord();</span>
+<span class="nc" id="L100">            Record thirdRecord = channel3.getLatestRecord();</span>
 
-<span class="nc bnc" id="L88" title="All 2 branches missed.">            if (record == null) {</span>
-<span class="nc" id="L89">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL);</span>
-<span class="nc" id="L90">                return;</span>
+<span class="nc bnc" id="L102" title="All 2 branches missed.">            if (firstRecord == null) {</span>
+<span class="nc" id="L103">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_1);</span>
+<span class="nc" id="L104">                return;</span>
                 
             }
+<span class="nc bnc" id="L107" title="All 2 branches missed.">            if (secondRecord == null) {</span>
+<span class="nc" id="L108">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_2);</span>
+<span class="nc" id="L109">                return;</span>
+                
+            }
+<span class="nc bnc" id="L112" title="All 2 branches missed.">            if (thirdRecord == null) {</span>
+<span class="nc" id="L113">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_3);</span>
+<span class="nc" id="L114">                return; </span>
+            }
 
-<span class="nc" id="L94">            double newValue = record.getValue().asDouble();</span>
+<span class="nc" id="L117">            double newValue1 = firstRecord.getValue().asDouble();</span>
+<span class="nc" id="L118">            double newValue2 = secondRecord.getValue().asDouble();</span>
+<span class="nc" id="L119">            double newValue3 = thirdRecord.getValue().asDouble();</span>
 
-<span class="nc" id="L96">            logger.info(&quot;New value: {}&quot;, newValue);</span>
-
-<span class="nc" id="L98">        } catch (Exception e) {</span>
-<span class="nc" id="L99">            logger.warn(&quot;Error updating channel {}: {}&quot;, CHANNEL, e.getMessage());</span>
-<span class="nc" id="L100">        }</span>
-<span class="nc" id="L101">    }</span>
+<span class="nc" id="L121">            logger.info(&quot;Value of {}: {}&quot;, CHANNEL_1, newValue1);</span>
+<span class="nc" id="L122">            logger.info(&quot;Value of {}: {}&quot;, CHANNEL_2, newValue2);</span>
+<span class="nc" id="L123">            logger.info(&quot;Value of {}: {}&quot;, CHANNEL_3, newValue3);</span>
+<span class="nc" id="L124">        } catch (Exception e) {</span>
+<span class="nc" id="L125">            logger.warn(&quot;Error updating channel {}&quot;, e.getMessage());</span>
+<span class="nc" id="L126">        }</span>
+<span class="nc" id="L127">    }</span>
     /**
      * Initialize channel objects
      */
@@ -106,17 +132,17 @@ import org.slf4j.LoggerFactory;
      * Apply a RecordListener to get notified if a new value is available for a channel
      */
     private void initUpdateTimer() {
-<span class="nc" id="L109">        logger.info(&quot;Initializing update timer...&quot;);</span>
-<span class="nc" id="L110">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
+<span class="nc" id="L135">        logger.info(&quot;Initializing update timer...&quot;);</span>
+<span class="nc" id="L136">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
 
-<span class="nc" id="L112">        TimerTask task = new TimerTask() {</span>
+<span class="nc" id="L138">        TimerTask task = new TimerTask() {</span>
             @Override
             public void run() {
-<span class="nc" id="L115">                getChannel();</span>
-<span class="nc" id="L116">            }</span>
+<span class="nc" id="L141">                getChannel();</span>
+<span class="nc" id="L142">            }</span>
         };
-<span class="nc" id="L118">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
-<span class="nc" id="L119">    }</span>
+<span class="nc" id="L144">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
+<span class="nc" id="L145">    }</span>
    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

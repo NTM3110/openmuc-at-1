@@ -36,7 +36,9 @@ public final class SimpleDemoApp {
     private static final DecimalFormat DF = new DecimalFormat("#0.000", DFS);
 
     // ChannelIDs, see conf/channel.xml
-    private static final String CHANNEL = "str1_demo";
+    private static final String CHANNEL_1 = "str1_demo_1";
+    private static final String CHANNEL_2 = "str1_demo_2";
+    private static final String CHANNEL_3 = "str1_demo_3";
 
 
     // With the dataAccessService you can access to your measured and control data of your devices.
@@ -75,28 +77,52 @@ public final class SimpleDemoApp {
     }
 
     private void getChannel(){
-        logger.info("Getting value from channel {}", CHANNEL);
+        // logger.info("Getting value from channel {}", CHANNEL);
         try {
-            Channel channel = dataAccessService.getChannel(CHANNEL);
-            if (channel == null) {
-                logger.warn("Channel {} not found!", CHANNEL);
+            Channel channel1 = dataAccessService.getChannel(CHANNEL_1);
+            if (channel1 == null) {
+                logger.warn("Channel 1 {} not found!", CHANNEL_1);
+                return;
+            }
+            Channel channel2 = dataAccessService.getChannel(CHANNEL_2);
+            if (channel2 == null) {
+                logger.warn("Channel 2 {} not found!", CHANNEL_2);
+                return;
+            }
+            Channel channel3 = dataAccessService.getChannel(CHANNEL_3);
+            if (channel3 == null) {
+                logger.warn("Channel 3 {} not found!", CHANNEL_3);
                 return;
             }
 
-            Record record = channel.getLatestRecord();
+            Record firstRecord = channel1.getLatestRecord();
+            Record secondRecord = channel2.getLatestRecord();
+            Record thirdRecord = channel3.getLatestRecord();
 
-            if (record == null) {
-                logger.warn("No record found for channel {}", CHANNEL);
+            if (firstRecord == null) {
+                logger.warn("No record found for channel {}", CHANNEL_1);
                 return;
                 
             }
+            if (secondRecord == null) {
+                logger.warn("No record found for channel {}", CHANNEL_2);
+                return;
+                
+            }
+            if (thirdRecord == null) {
+                logger.warn("No record found for channel {}", CHANNEL_3);
+                return; 
+            }
 
-            double newValue = record.getValue().asDouble();
+            double newValue1 = firstRecord.getValue().asDouble();
+            double newValue2 = secondRecord.getValue().asDouble();
+            double newValue3 = thirdRecord.getValue().asDouble();
 
-            logger.info("New value: {}", newValue);
-
+            logger.info("Value of {}: {}", CHANNEL_1, newValue1);
+            logger.info("Value of {}: {}", CHANNEL_2, newValue2);
+            logger.info("Value of {}: {}", CHANNEL_3, newValue3);
         } catch (Exception e) {
-            logger.warn("Error updating channel {}: {}", CHANNEL, e.getMessage());
+            logger.warn("Error updating channel {}", e.getMessage());
         }
     }
     /**
