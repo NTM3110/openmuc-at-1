@@ -80,13 +80,11 @@ public final class SimpleDemoApp {
         // logger.info("Getting value from channel {}", CHANNEL);
         try {
             for(int i = 0; i < 3; i++){
-                for(int j = 0; j < 3; j++){
-                    String channelId = "str1_cell"+ (i+1)+"_" + (j+1);
-                    Channel channel = dataAccessService.getChannel(channelId);
-                    Record record = channel.getLatestRecord();
-                    double value = record.getValue().asDouble();
-                    logger.info("Channel: {}, Value: {} {}", channelId, value);
-                }
+                logger.info("str1_cell_{}, Value: --------> V:{},  T:{},   R{}", i+1, 
+                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_1").getLatestRecord().getValue().asDouble(),
+                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_2").getLatestRecord().getValue().asDouble(),
+                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_3").getLatestRecord().getValue().asDouble()
+                );
             }
         } catch (Exception e) {
             logger.warn("Error updating channel {}", e.getMessage());
