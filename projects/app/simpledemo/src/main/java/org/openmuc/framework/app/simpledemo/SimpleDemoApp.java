@@ -80,7 +80,7 @@ public final class SimpleDemoApp {
         // logger.info("Getting value from channel {}", CHANNEL);
         try {
             for(int i = 0; i < 3; i++){
-                logger.info("str1_cell_{}, Value: --------> V:{},  T:{},   R{}", i+1, 
+                logger.info("str1_cell_{}, Value: --------> V: {},  T: {},   R: {}", i+1, 
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_1").getLatestRecord().getValue().asDouble(),
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_2").getLatestRecord().getValue().asDouble(),
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_3").getLatestRecord().getValue().asDouble()
