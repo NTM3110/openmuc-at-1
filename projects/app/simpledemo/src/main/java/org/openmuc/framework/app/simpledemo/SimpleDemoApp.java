@@ -82,7 +82,7 @@ public final class SimpleDemoApp {
             for(int i = 0; i < 3;i++){
                 String channelId = "cell1_" + (i+1);
                 Channel channel = dataAccessService.getChannel(channelId);
-                Record record = channel.getRecord();
+                Record record = channel.getLatestRecord();
                 double value = record.getValue().asDouble();
 
                 logger.info("Channel: {}, Value: {} {}", channelId, value);
