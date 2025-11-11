@@ -70,27 +70,33 @@ public final class SimpleDemoApp {
      * application logic
      */
     private void init() {
-        logger.info("Demo App started running...");
-
+        logger.info("Demo App started running..."); 
         initUpdateTimer();
     }
 
-    private void updateChannel(){
+    private void getChannel(){
+        logger.info("Getting value from channel {}", CHANNEL);
         try {
             Channel channel = dataAccessService.getChannel(CHANNEL);
             if (channel == null) {
-                logger.error("Channel {} not found!", CHANNEL);
+                logger.warn("Channel {} not found!", CHANNEL);
                 return;
             }
 
             Record record = channel.getLatestRecord();
+
+            if (record == null) {
+                logger.warn("No record found for channel {}", CHANNEL);
+                return;
+                
+            }
 
             double newValue = record.getValue().asDouble();
 
             logger.info("New value: {}", newValue);
 
         } catch (Exception e) {
-            logger.error("Error updating channel {}: {}", CHANNEL, e.getMessage());
+            logger.warn("Error updating channel {}: {}", CHANNEL, e.getMessage());
         }
     }
     /**
@@ -100,12 +106,13 @@ public final class SimpleDemoApp {
      * Apply a RecordListener to get notified if a new value is available for a channel
      */
     private void initUpdateTimer() {
+        logger.info("Initializing update timer...");
         updateTimer = new Timer("BMS Update Timer", true);
 
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                updateChannel();
+                getChannel();
             }
         };
         updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);

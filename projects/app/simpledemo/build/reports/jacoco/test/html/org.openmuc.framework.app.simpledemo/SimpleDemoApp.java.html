@@ -70,29 +70,35 @@ import org.slf4j.LoggerFactory;
      * application logic
      */
     private void init() {
-<span class="nc" id="L73">        logger.info(&quot;Demo App started running...&quot;);</span>
+<span class="nc" id="L73">        logger.info(&quot;Demo App started running...&quot;); </span>
+<span class="nc" id="L74">        initUpdateTimer();</span>
+<span class="nc" id="L75">    }</span>
 
-<span class="nc" id="L75">        initUpdateTimer();</span>
-<span class="nc" id="L76">    }</span>
-
-    private void updateChannel(){
+    private void getChannel(){
+<span class="nc" id="L78">        logger.info(&quot;Getting value from channel {}&quot;, CHANNEL);</span>
         try {
 <span class="nc" id="L80">            Channel channel = dataAccessService.getChannel(CHANNEL);</span>
 <span class="nc bnc" id="L81" title="All 2 branches missed.">            if (channel == null) {</span>
-<span class="nc" id="L82">                logger.error(&quot;Channel {} not found!&quot;, CHANNEL);</span>
+<span class="nc" id="L82">                logger.warn(&quot;Channel {} not found!&quot;, CHANNEL);</span>
 <span class="nc" id="L83">                return;</span>
             }
 
 <span class="nc" id="L86">            Record record = channel.getLatestRecord();</span>
 
-<span class="nc" id="L88">            double newValue = record.getValue().asDouble();</span>
+<span class="nc bnc" id="L88" title="All 2 branches missed.">            if (record == null) {</span>
+<span class="nc" id="L89">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL);</span>
+<span class="nc" id="L90">                return;</span>
+                
+            }
 
-<span class="nc" id="L90">            logger.info(&quot;New value: {}&quot;, newValue);</span>
+<span class="nc" id="L94">            double newValue = record.getValue().asDouble();</span>
 
-<span class="nc" id="L92">        } catch (Exception e) {</span>
-<span class="nc" id="L93">            logger.error(&quot;Error updating channel {}: {}&quot;, CHANNEL, e.getMessage());</span>
-<span class="nc" id="L94">        }</span>
-<span class="nc" id="L95">    }</span>
+<span class="nc" id="L96">            logger.info(&quot;New value: {}&quot;, newValue);</span>
+
+<span class="nc" id="L98">        } catch (Exception e) {</span>
+<span class="nc" id="L99">            logger.warn(&quot;Error updating channel {}: {}&quot;, CHANNEL, e.getMessage());</span>
+<span class="nc" id="L100">        }</span>
+<span class="nc" id="L101">    }</span>
     /**
      * Initialize channel objects
      */
@@ -100,16 +106,17 @@ import org.slf4j.LoggerFactory;
      * Apply a RecordListener to get notified if a new value is available for a channel
      */
     private void initUpdateTimer() {
-<span class="nc" id="L103">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
+<span class="nc" id="L109">        logger.info(&quot;Initializing update timer...&quot;);</span>
+<span class="nc" id="L110">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
 
-<span class="nc" id="L105">        TimerTask task = new TimerTask() {</span>
+<span class="nc" id="L112">        TimerTask task = new TimerTask() {</span>
             @Override
             public void run() {
-<span class="nc" id="L108">                updateChannel();</span>
-<span class="nc" id="L109">            }</span>
+<span class="nc" id="L115">                getChannel();</span>
+<span class="nc" id="L116">            }</span>
         };
-<span class="nc" id="L111">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
-<span class="nc" id="L112">    }</span>
+<span class="nc" id="L118">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
+<span class="nc" id="L119">    }</span>
    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
