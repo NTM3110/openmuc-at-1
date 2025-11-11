@@ -27,7 +27,7 @@
         <samplingInterval>1s</samplingInterval>
         <!-- <samplingTimeOffset>4ms</samplingTimeOffset> -->
         <samplingGroup>group1</samplingGroup>
-        <loggingInterval>2s</loggingInterval>
+        <loggingInterval>1s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
@@ -38,7 +38,7 @@
         <samplingInterval>1s</samplingInterval>
         <!-- <samplingTimeOffset>6ms</samplingTimeOffset> -->
         <samplingGroup>group1</samplingGroup>
-        <loggingInterval>2s</loggingInterval>
+        <loggingInterval>1s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
