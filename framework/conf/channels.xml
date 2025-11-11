@@ -14,6 +14,7 @@
         <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>2s</samplingInterval>
+
         <loggingInterval>2s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
@@ -29,7 +30,7 @@
       </channel> -->
        <channel id="str1_demo_3">
         <description>Cell (R) (str1_cell1)</description>
-        <channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>2s</samplingInterval>
         <loggingInterval>2s</loggingInterval>
