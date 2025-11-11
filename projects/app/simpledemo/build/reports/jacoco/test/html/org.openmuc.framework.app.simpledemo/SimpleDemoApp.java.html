@@ -79,8 +79,8 @@ import org.slf4j.LoggerFactory;
     private void getChannel(){
         // logger.info(&quot;Getting value from channel {}&quot;, CHANNEL);
         try {
-<span class="nc bnc" id="L82" title="All 2 branches missed.">            for(int i = 0; i &lt; 3; i++){</span>
-<span class="nc" id="L83">                logger.info(&quot;str1_cell_{}, Value: --------&gt; V:{},  T:{},   R{}&quot;, i+1, </span>
+<span class="nc bnc" id="L82" title="All 2 branches missed.">            for(int i = 0; i &lt; 1; i++){</span>
+<span class="nc" id="L83">                logger.info(&quot;str1_cell_{}, Value: --------&gt; V: {},  T: {},   R: {}&quot;, i+1, </span>
 <span class="nc" id="L84">                    dataAccessService.getChannel(&quot;str1_cell&quot;+ (i+1)+&quot;_1&quot;).getLatestRecord().getValue().asDouble(),</span>
 <span class="nc" id="L85">                    dataAccessService.getChannel(&quot;str1_cell&quot;+ (i+1)+&quot;_2&quot;).getLatestRecord().getValue().asDouble(),</span>
 <span class="nc" id="L86">                    dataAccessService.getChannel(&quot;str1_cell&quot;+ (i+1)+&quot;_3&quot;).getLatestRecord().getValue().asDouble()</span>
