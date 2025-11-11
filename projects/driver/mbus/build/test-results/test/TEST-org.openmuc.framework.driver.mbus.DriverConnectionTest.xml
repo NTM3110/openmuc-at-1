@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.openmuc.framework.driver.mbus.DriverConnectionTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2025-11-11T04:01:30" hostname="shou-ThinkPad-E14-Gen-5" time="1.202">
+<testsuite name="org.openmuc.framework.driver.mbus.DriverConnectionTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2025-11-11T04:06:28" hostname="shou-ThinkPad-E14-Gen-5" time="0.968">
   <properties/>
-  <testcase name="testReadWithSec" classname="org.openmuc.framework.driver.mbus.DriverConnectionTest" time="1.197"/>
+  <testcase name="testReadWithSec" classname="org.openmuc.framework.driver.mbus.DriverConnectionTest" time="0.963"/>
   <testcase name="executionError" classname="org.openmuc.framework.driver.mbus.DriverConnectionTest" time="0.001">
     <failure message="java.lang.RuntimeException: PowerMock internal error: Should never throw exception at this level" type="java.lang.RuntimeException">java.lang.RuntimeException: PowerMock internal error: Should never throw exception at this level
 	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.handleException(PowerMockJUnit44RunnerDelegateImpl.java:384)
