@@ -26,7 +26,7 @@
         <loggingInterval>2s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
-      </channel>
+      </channel> -->
        <channel id="str1_demo_3">
         <description>Cell (R) (str1_cell1)</description>
         <channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
@@ -35,7 +35,7 @@
         <loggingInterval>2s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
-      </channel> -->
+      </channel>
     </device>
 </driver>
 </configuration>

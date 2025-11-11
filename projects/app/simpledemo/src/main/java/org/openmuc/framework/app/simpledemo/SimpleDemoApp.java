@@ -89,15 +89,15 @@ public final class SimpleDemoApp {
             //     logger.warn("Channel 2 {} not found!", CHANNEL_2);
             //     return;
             // }
-            // Channel channel3 = dataAccessService.getChannel(CHANNEL_3);
-            // if (channel3 == null) {
-            //     logger.warn("Channel 3 {} not found!", CHANNEL_3);
-            //     return;
-            // }
+            Channel channel3 = dataAccessService.getChannel(CHANNEL_3);
+            if (channel3 == null) {
+                logger.warn("Channel 3 {} not found!", CHANNEL_3);
+                return;
+            }
 
             Record firstRecord = channel1.getLatestRecord();
             // Record secondRecord = channel2.getLatestRecord();
-            // Record thirdRecord = channel3.getLatestRecord();
+            Record thirdRecord = channel3.getLatestRecord();
 
             if (firstRecord == null) {
                 logger.warn("No record found for channel {}", CHANNEL_1);
@@ -109,18 +109,18 @@ public final class SimpleDemoApp {
             //     return;
                 
             // }
-            // if (thirdRecord == null) {
-            //     logger.warn("No record found for channel {}", CHANNEL_3);
-            //     return; 
-            // }
+            if (thirdRecord == null) {
+                logger.warn("No record found for channel {}", CHANNEL_3);
+                return; 
+            }
 
             double newValue1 = firstRecord.getValue().asDouble();
             // double newValue2 = secondRecord.getValue().asDouble();
-            // double newValue3 = thirdRecord.getValue().asDouble();
+            double newValue3 = thirdRecord.getValue().asDouble();
 
             logger.info("Value of {}: {}", CHANNEL_1, newValue1);
             // logger.info("Value of {}: {}", CHANNEL_2, newValue2);
-            // logger.info("Value of {}: {}", CHANNEL_3, newValue3);
+            logger.info("Value of {}: {}", CHANNEL_3, newValue3);
         } catch (Exception e) {
             logger.warn("Error updating channel {}", e.getMessage());
         }
