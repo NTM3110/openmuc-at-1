@@ -1,0 +1,242 @@
+25.11.11 10:43:25.177 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.16+8-Ubuntu-0ubuntu124.04.1
+25.11.11 10:43:25.218 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.11.11 10:43:25.241 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1208ddf7{/,null,AVAILABLE}
+25.11.11 10:43:25.250 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@686fd5b4{STARTING}[11.0.22,sto=0] @649ms
+25.11.11 10:43:25.264 [FelixStartLevel] ERROR org.apache.felix.http - Failed to start Connector: ServerConnector@15c5dbea{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8888
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:74)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:228)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at org.apache.felix.http.jetty.internal.JettyService.startConnector(JettyService.java:720)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeHttp(JettyService.java:469)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeJetty(JettyService.java:367)
+	at org.apache.felix.http.jetty.internal.JettyService.startJetty(JettyService.java:205)
+	at org.apache.felix.http.jetty.internal.JettyService.start(JettyService.java:137)
+	at org.apache.felix.http.jetty.internal.JettyActivator.doStart(JettyActivator.java:66)
+	at org.apache.felix.http.base.internal.AbstractActivator.start(AbstractActivator.java:35)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:849)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2429)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2335)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:297)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	... 17 common frames omitted
+25.11.11 10:43:25.270 [FelixStartLevel] ERROR org.apache.felix.http - Failed to start Connector: ServerConnector@2615ed9b{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8889
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:74)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:228)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at org.apache.felix.http.jetty.internal.JettyService.startConnector(JettyService.java:720)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeHttps(JettyService.java:518)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeJetty(JettyService.java:372)
+	at org.apache.felix.http.jetty.internal.JettyService.startJetty(JettyService.java:205)
+	at org.apache.felix.http.jetty.internal.JettyService.start(JettyService.java:137)
+	at org.apache.felix.http.jetty.internal.JettyActivator.doStart(JettyActivator.java:66)
+	at org.apache.felix.http.base.internal.AbstractActivator.start(AbstractActivator.java:35)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:849)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2429)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2335)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:297)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	... 17 common frames omitted
+25.11.11 10:43:25.272 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Stopped Server@686fd5b4{STOPPING}[11.0.22,sto=0]
+25.11.11 10:43:25.273 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1208ddf7{/,null,STOPPED}
+25.11.11 10:43:25.274 [FelixStartLevel] INFO  org.apache.felix.http - Stopped Jetty
+25.11.11 10:43:25.275 [FelixStartLevel] ERROR org.apache.felix.http - Jetty stopped (no connectors available)
+25.11.11 10:43:25.275 [FelixStartLevel] ERROR org.apache.felix.http - Exception while initializing Jetty
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jetty.server.Server.setRequestLog(org.eclipse.jetty.server.RequestLog)" because "this.server" is null
+	at org.apache.felix.http.jetty.internal.JettyService.initializeJetty(JettyService.java:412)
+	at org.apache.felix.http.jetty.internal.JettyService.startJetty(JettyService.java:205)
+	at org.apache.felix.http.jetty.internal.JettyService.start(JettyService.java:137)
+	at org.apache.felix.http.jetty.internal.JettyActivator.doStart(JettyActivator.java:66)
+	at org.apache.felix.http.base.internal.AbstractActivator.start(AbstractActivator.java:35)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:849)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2429)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2335)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:297)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.11.11 10:43:25.338 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf/channels.xml
+25.11.11 10:43:25.346 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.11.11 10:43:25.348 [FelixStartLevel] INFO  o.o.f.app.simpledemo.SimpleDemoApp - Activating Demo App
+25.11.11 10:43:25.348 [FelixStartLevel] INFO  o.o.f.app.simpledemo.SimpleDemoApp - Demo App started running...
+25.11.11 10:43:25.353 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.11.11 10:43:25.353 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.11.11 10:43:25.357 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.11.11 10:43:25.358 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - New empty config file: conf/properties/org.openmuc.framework.datalogger.sql.SqlLoggerService.cfg
+25.11.11 10:43:25.360 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.11.11 10:43:25.370 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.11.11 10:43:25.377 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: csv
+25.11.11 10:43:25.381 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.11.11 10:43:25.381 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.11.11 10:43:25.383 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.11.11 10:43:25.430 [FelixStartLevel] WARN  o.o.f.l.o.c.PropertyFileValidator - New empty config file: conf/properties/org.openmuc.framework.lib.ssl.SslManager.cfg
+25.11.11 10:43:25.442 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 5b87134a-aa93-4249-a96f-b80d8e905828
+25.11.11 10:43:25.443 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 5b87134a-aa93-4249-a96f-b80d8e905828
+25.11.11 10:43:25.443 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.11.11 10:43:25.508 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.11.11 10:43:26.003 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 10:43:27.000 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 10:43:28.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 10:43:28.971 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.11.11 10:43:28.972 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.11.11 10:43:28.974 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 5b87134a-aa93-4249-a96f-b80d8e905828
+25.11.11 10:43:28.977 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 0938ce11-3d44-4663-a76d-33a6555bb217
+25.11.11 10:43:28.979 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.11.11 10:43:28.979 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.11.11 10:43:29.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 10:43:29.177 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server 10c1052e-a76a-4fb9-a0f8-b3aa1ef701b5 got update with {felix.fileinstall.filename=file:/home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.11.11 10:43:29.177 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 10c1052e-a76a-4fb9-a0f8-b3aa1ef701b5
+25.11.11 10:43:29.300 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.11.11 10:43:35.204 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering driver: aggregator.
+25.11.11 10:43:35.204 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Driver unregistered: aggregator
+25.11.11 10:43:35.207 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering data logger: asciilogger.
+25.11.11 10:43:35.208 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Data logger deregistered: asciilogger
+25.11.11 10:43:35.209 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Deactivating Ascii Logger
+25.11.11 10:43:35.217 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering data logger: sqllogger.
+25.11.11 10:43:35.220 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Data logger deregistered: sqllogger
+25.11.11 10:43:35.223 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Deactivating SQL Logger
+25.11.11 10:43:35.226 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering driver: csv.
+25.11.11 10:43:35.227 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Driver unregistered: csv
+25.11.11 10:43:35.237 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 10c1052e-a76a-4fb9-a0f8-b3aa1ef701b5
+25.11.11 10:43:35.242 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering driver: math.
+25.11.11 10:43:35.243 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Driver unregistered: math
+25.11.11 10:43:35.244 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Deactivating MathDriver
+25.11.11 10:43:35.249 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Deactivating Data Manager
+25.11.11 11:01:49.684 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - jetty-11.0.22; built: 2024-06-27T16:27:26.756Z; git: e711d4c7040cb1e61aa68cb248fa7280b734a3bb; jvm 17.0.16+8-Ubuntu-0ubuntu124.04.1
+25.11.11 11:01:49.719 [FelixStartLevel] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+25.11.11 11:01:49.734 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@75146841{/,null,AVAILABLE}
+25.11.11 11:01:49.741 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Started Server@3e38b0f8{STARTING}[11.0.22,sto=0] @705ms
+25.11.11 11:01:49.762 [FelixStartLevel] ERROR org.apache.felix.http - Failed to start Connector: ServerConnector@21d4d4ff{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8888
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:74)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:228)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at org.apache.felix.http.jetty.internal.JettyService.startConnector(JettyService.java:720)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeHttp(JettyService.java:469)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeJetty(JettyService.java:367)
+	at org.apache.felix.http.jetty.internal.JettyService.startJetty(JettyService.java:205)
+	at org.apache.felix.http.jetty.internal.JettyService.start(JettyService.java:137)
+	at org.apache.felix.http.jetty.internal.JettyActivator.doStart(JettyActivator.java:66)
+	at org.apache.felix.http.base.internal.AbstractActivator.start(AbstractActivator.java:35)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:849)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2429)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2335)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:297)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	... 17 common frames omitted
+25.11.11 11:01:49.768 [FelixStartLevel] ERROR org.apache.felix.http - Failed to start Connector: ServerConnector@691b593b{SSL, (ssl, http/1.1)}{0.0.0.0:8889}
+java.io.IOException: Failed to bind to 0.0.0.0/0.0.0.0:8889
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:344)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:304)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:74)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:228)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:93)
+	at org.apache.felix.http.jetty.internal.JettyService.startConnector(JettyService.java:720)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeHttps(JettyService.java:518)
+	at org.apache.felix.http.jetty.internal.JettyService.initializeJetty(JettyService.java:372)
+	at org.apache.felix.http.jetty.internal.JettyService.startJetty(JettyService.java:205)
+	at org.apache.felix.http.jetty.internal.JettyService.start(JettyService.java:137)
+	at org.apache.felix.http.jetty.internal.JettyActivator.doStart(JettyActivator.java:66)
+	at org.apache.felix.http.base.internal.AbstractActivator.start(AbstractActivator.java:35)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:849)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2429)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2335)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:297)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	... 17 common frames omitted
+25.11.11 11:01:49.771 [FelixStartLevel] INFO  org.eclipse.jetty.server.Server - Stopped Server@3e38b0f8{STOPPING}[11.0.22,sto=0]
+25.11.11 11:01:49.772 [FelixStartLevel] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@75146841{/,null,STOPPED}
+25.11.11 11:01:49.774 [FelixStartLevel] INFO  org.apache.felix.http - Stopped Jetty
+25.11.11 11:01:49.774 [FelixStartLevel] ERROR org.apache.felix.http - Jetty stopped (no connectors available)
+25.11.11 11:01:49.775 [FelixStartLevel] ERROR org.apache.felix.http - Exception while initializing Jetty
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jetty.server.Server.setRequestLog(org.eclipse.jetty.server.RequestLog)" because "this.server" is null
+	at org.apache.felix.http.jetty.internal.JettyService.initializeJetty(JettyService.java:412)
+	at org.apache.felix.http.jetty.internal.JettyService.startJetty(JettyService.java:205)
+	at org.apache.felix.http.jetty.internal.JettyService.start(JettyService.java:137)
+	at org.apache.felix.http.jetty.internal.JettyActivator.doStart(JettyActivator.java:66)
+	at org.apache.felix.http.base.internal.AbstractActivator.start(AbstractActivator.java:35)
+	at org.apache.felix.framework.util.SecureAction.startActivator(SecureAction.java:849)
+	at org.apache.felix.framework.Felix.activateBundle(Felix.java:2429)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2335)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:297)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+25.11.11 11:01:49.823 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Activating Data Manager with config conf/channels.xml
+25.11.11 11:01:49.830 [FelixStartLevel] WARN  o.o.f.core.datamanager.Device - No driver bundle available for configured driver: 'modbus'.
+25.11.11 11:01:49.832 [FelixStartLevel] INFO  o.o.f.app.simpledemo.SimpleDemoApp - Activating Demo App
+25.11.11 11:01:49.832 [FelixStartLevel] INFO  o.o.f.app.simpledemo.SimpleDemoApp - Demo App started running...
+25.11.11 11:01:49.836 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Activating Ascii Logger
+25.11.11 11:01:49.837 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: asciilogger
+25.11.11 11:01:49.844 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Activating SQL Logger
+25.11.11 11:01:49.849 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Data logger registered: sqllogger
+25.11.11 11:01:49.875 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: aggregator
+25.11.11 11:01:49.887 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: csv
+25.11.11 11:01:49.895 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Activating MathDriver
+25.11.11 11:01:49.896 [OpenMUC Data Manager] INFO  o.o.f.core.datamanager.DataManager - Driver registered: math
+25.11.11 11:01:49.900 [FelixStartLevel] INFO  o.o.f.lib.ssl.SslManagerComponent - SSL Component activated
+25.11.11 11:01:49.979 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 97632f29-9e07-4f5d-ac44-f8bad7a2ff3c
+25.11.11 11:01:49.979 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - updated server mappings for 97632f29-9e07-4f5d-ac44-f8bad7a2ff3c
+25.11.11 11:01:49.980 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.11.11 11:01:50.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 11:01:50.051 [FelixStartLevel] INFO  org.apache.felix.webconsole - Servlet 3 bridge enabled
+25.11.11 11:01:51.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 11:01:52.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 11:01:53.001 [OpenMUC Data Manager] WARN  o.o.f.d.sql.SqlLoggerService - Sql connection not established!
+25.11.11 11:01:53.455 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - sql driver
+25.11.11 11:01:53.456 [CM Configuration Updater (Update: pid=org.openmuc.framework.datalogger.sql.SqlLoggerService)] INFO  o.o.f.datalogger.sql.DbConnector - URL is: jdbc:h2:retry:file:./data/h2/h2;AUTO_SERVER=TRUE;MODE=MYSQL
+25.11.11 11:01:53.457 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 97632f29-9e07-4f5d-ac44-f8bad7a2ff3c
+25.11.11 11:01:53.461 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 45460ffd-76ce-4853-b082-9d5831a0e577
+25.11.11 11:01:53.464 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - No updates in mappings. Leaving server unchanged
+25.11.11 11:01:53.465 [CM Event Dispatcher (Fire ConfigurationEvent: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.core.datamanager.DataManager - Registered Server: iec61850.
+25.11.11 11:01:53.650 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Server 562f9e38-85cc-4a9b-bdbb-d7ffdc656a29 got update with {felix.fileinstall.filename=file:/home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/framework/conf/properties/org.openmuc.framework.server.iec61850.server.Iec61850Server.cfg, port=10003, schedulingEnabled=true, sclPath=conf/iec61850-server-example.cid, service.pid=org.openmuc.framework.server.iec61850.server.Iec61850Server}
+25.11.11 11:01:53.650 [CM Configuration Updater (Update: pid=org.openmuc.framework.server.iec61850.server.Iec61850Server)] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 562f9e38-85cc-4a9b-bdbb-d7ffdc656a29
+25.11.11 11:01:53.741 [CM Configuration Updater (Update: pid=org.openmuc.framework.lib.ssl.SslManager)] INFO  o.o.framework.lib.ssl.SslManager - Successfully loaded
+25.11.11 11:01:57.093 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering data logger: asciilogger.
+25.11.11 11:01:57.093 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Data logger deregistered: asciilogger
+25.11.11 11:01:57.093 [FelixStartLevel] INFO  o.o.f.datalogger.ascii.AsciiLogger - Deactivating Ascii Logger
+25.11.11 11:01:57.095 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering driver: math.
+25.11.11 11:01:57.095 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Driver unregistered: math
+25.11.11 11:01:57.095 [FelixStartLevel] INFO  o.o.f.driver.channelmath.MathDriver - Deactivating MathDriver
+25.11.11 11:01:57.096 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering driver: csv.
+25.11.11 11:01:57.096 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Driver unregistered: csv
+25.11.11 11:01:57.105 [FelixStartLevel] INFO  o.o.f.s.i.server.Iec61850Server - Deactivating 61850 Server 562f9e38-85cc-4a9b-bdbb-d7ffdc656a29
+25.11.11 11:01:57.106 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering driver: aggregator.
+25.11.11 11:01:57.106 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Driver unregistered: aggregator
+25.11.11 11:01:57.108 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Deactivating Data Manager
+25.11.11 11:01:57.109 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Unregistering data logger: sqllogger.
+25.11.11 11:01:57.109 [FelixStartLevel] INFO  o.o.f.core.datamanager.DataManager - Data logger deregistered: sqllogger
+25.11.11 11:01:57.110 [FelixStartLevel] INFO  o.o.f.d.sql.SqlLoggerService - Deactivating SQL Logger

@@ -1,0 +1,133 @@
+∂11:00:59.414 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyHandler - Missing systems.property for felix file install. Using default: "felix.fileinstall.dir=load/"
+§11:00:59.426 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - username= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+§11:00:59.426 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - password= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+®11:00:59.427 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - localAddress= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+©11:00:59.427 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - lastWillTopic= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+´11:00:59.427 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - lastWillPayload= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+™11:00:59.427 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - firstWillTopic= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+¨11:00:59.428 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - firstWillPayload= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+Æ11:00:59.428 [Test worker] WARN org.openmuc.framework.lib.osgi.config.PropertyFileValidator - proxyConfiguration= is not set org.openmuc.framework.datalogger.mqtt.MqttLogger
+v11:00:59.429 [Test worker] INFO org.openmuc.framework.datalogger.mqtt.MqttLogger - Settings used for MqttConnection: 
+
+Ö11:00:59.485 [Test worker] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+[11:00:59.485 [Test worker] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+_11:00:59.485 [Test worker] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+x11:00:59.490 [Test worker] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+h11:00:59.528 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+^11:00:59.528 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+r11:00:59.530 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+s11:00:59.531 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+s11:00:59.532 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+p11:00:59.533 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+ù11:00:59.534 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+v11:00:59.535 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+‡11:00:59.536 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @531d72ca
+ç11:00:59.538 [Test worker] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+g11:00:59.539 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+u11:00:59.549 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 536870912 bytes (maybe)
+u11:00:59.549 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+y11:00:59.550 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+q11:00:59.551 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+Å11:00:59.552 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+p11:00:59.554 [Test worker] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+m11:00:59.554 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+\11:00:59.558 [Test worker] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096
+\11:00:59.608 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttSettings - No proxy set
+è11:00:59.737 [Test worker] DEBUG org.openmuc.framework.lib.osgi.config.DictionaryPreprocessor - Dictionary given by ManagedService updated(): 
+6proxyConfiguration=http://me:my-secret123@myhost:1234
+recoveryDelay=42
+password=*****
+connectionRetryInterval=123
+parser=custom-parser
+ persistenceDirectory=/somewhere
+username=padme
+localAddress=localhost
+lastWillPayload=shootogawa
+lastWillTopic=utini
+firstWillTopic=foo
+lastWillAlways=true
+
+port=8883
+
+ssl=false
+host=localhost
+maxFileCount=1
+maxBufferSize=100
+localPort=0
+webSocket=false
+firstWillPayload=bar
+connectionAliveInterval=456
+recoveryChunkSize=1337
+multiple=false
+maxFileSize=2000
+
+~11:00:59.740 [Test worker] INFO org.openmuc.framework.datalogger.mqtt.MqttLogger - Configuration changed - new configuration 
+
+port=8883
+host=localhost
+
+ssl=false
+username=padme
+password=*****
+localPort=0
+localAddress=localhost
+parser=custom-parser
+webSocket=false
+connectionRetryInterval=123
+connectionAliveInterval=456
+ persistenceDirectory=/somewhere
+multiple=false
+maxFileCount=1
+maxFileSize=2000
+maxBufferSize=100
+recoveryChunkSize=1337
+recoveryDelay=42
+lastWillTopic=utini
+lastWillPayload=shootogawa
+lastWillAlways=true
+firstWillTopic=foo
+firstWillPayload=bar
+6proxyConfiguration=http://me:my-secret123@myhost:1234
+¨11:00:59.744 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttSettings - Parsed ProxySettings{protocol=http, hostname='myhost', port=1234, user=me, hasPassword=true}
+¨11:00:59.745 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttSettings - Parsed ProxySettings{protocol=http, hostname='myhost', port=1234, user=me, hasPassword=true}
+[11:00:59.745 [Test worker] INFO org.openmuc.framework.lib.mqtt.MqttWriter - shutting down 
+i11:00:59.745 [Test worker] INFO org.openmuc.framework.lib.mqtt.MqttWriter - [mqttlogger] Saving buffers.
+|11:00:59.745 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttBufferHandler - move buffered messages from RAM to file
+¨11:00:59.746 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttSettings - Parsed ProxySettings{protocol=http, hostname='myhost', port=1234, user=me, hasPassword=true}
+v11:00:59.746 [Test worker] INFO org.openmuc.framework.datalogger.mqtt.MqttLogger - Settings used for MqttConnection: 
+
+f11:00:59.750 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttSettings - Applied proxy settings
+ã11:00:59.751 [Test worker] ERROR org.openmuc.framework.lib.filePersistence.FilePersistence - The directory /somewhere could not be created
+m11:00:59.751 [Test worker] INFO org.openmuc.framework.datalogger.mqtt.MqttLogger - Connecting to MQTT Broker
+n11:00:59.898 [Test worker] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+Ö11:00:59.919 [Test worker] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+ã11:00:59.933 [Test worker] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+á11:00:59.934 [Test worker] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+l11:00:59.942 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+r11:00:59.943 [Test worker] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+~11:00:59.953 [Test worker] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+m11:01:00.040 [Test worker] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+p11:01:00.041 [Test worker] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+k11:01:00.068 [Test worker] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+g11:01:00.070 [Test worker] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+û11:01:00.071 [Test worker] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@350567f1
+q11:01:00.098 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 21
+s11:01:00.098 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 21
+n11:01:00.098 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+k11:01:00.098 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+r11:01:00.098 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+s11:01:00.098 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+s11:01:00.099 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+~11:01:00.099 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+w11:01:00.099 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+z11:01:00.099 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+|11:01:00.099 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+Ç11:01:00.100 [Test worker] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+a11:01:00.139 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+i11:01:00.139 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+n11:01:00.139 [Test worker] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+r11:01:00.261 [Test worker] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 166885 (auto-detected)
+É11:01:00.262 [Test worker] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 28:a0:6b:ff:fe:93:d8:ac (auto-detected)
+¨11:01:00.291 [Test worker] DEBUG org.openmuc.framework.lib.mqtt.MqttSettings - Parsed ProxySettings{protocol=http, hostname='myhost', port=1234, user=me, hasPassword=true}
+…11:01:00.291 [Timer-2] DEBUG org.openmuc.framework.lib.mqtt.MqttConnection - Client (identifier=dfbe5716-7725-43a1-aad9-e730bd72f43a, host=localhost) state: connected=false, connectedOrReconnect=false
+n11:01:00.291 [Timer-2] DEBUG org.openmuc.framework.lib.mqtt.MqttConnection - Is now disconnected since 1 runs

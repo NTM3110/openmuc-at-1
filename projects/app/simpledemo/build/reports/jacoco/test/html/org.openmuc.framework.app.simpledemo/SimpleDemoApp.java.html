@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SimpleDemoApp.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">openmuc-app-simpledemo</a> &gt; <a href="index.source.html" class="el_package">org.openmuc.framework.app.simpledemo</a> &gt; <span class="el_source">SimpleDemoApp.java</span></div><h1>SimpleDemoApp.java</h1><pre class="source lang-java linenums">/*
+ * This file is part of OpenMUC.
+ * For more information visit http://www.openmuc.org
+ *
+ * You are free to use code of this sample file in any
+ * way you like and without any restrictions.
+ *
+ */
+package org.openmuc.framework.app.simpledemo;
+
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import org.openmuc.framework.data.DoubleValue;
+import org.openmuc.framework.data.Flag;
+import org.openmuc.framework.data.Record;
+import org.openmuc.framework.data.StringValue;
+import org.openmuc.framework.data.Value;
+import org.openmuc.framework.dataaccess.Channel;
+import org.openmuc.framework.dataaccess.DataAccessService;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.Reference;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+@Component(service = {})
+<span class="nc" id="L32">public final class SimpleDemoApp {</span>
+
+<span class="nc" id="L34">    private static final Logger logger = LoggerFactory.getLogger(SimpleDemoApp.class);</span>
+<span class="nc" id="L35">    private static final DecimalFormatSymbols DFS = DecimalFormatSymbols.getInstance(Locale.US);</span>
+<span class="nc" id="L36">    private static final DecimalFormat DF = new DecimalFormat(&quot;#0.000&quot;, DFS);</span>
+
+    // ChannelIDs, see conf/channel.xml
+    private static final String CHANNEL = &quot;str1_demo&quot;;
+
+
+    // With the dataAccessService you can access to your measured and control data of your devices.
+    @Reference
+    private DataAccessService dataAccessService;
+
+    private Timer updateTimer;
+
+    /**
+     * Every app needs one activate method. Is is called at begin. Here you can configure all you need at start of your
+     * app. The Activate method can block the start of your OpenMUC, f.e. if you use Thread.sleep().
+     */
+    @Activate
+    private void activate() {
+<span class="nc" id="L54">        logger.info(&quot;Activating Demo App&quot;);</span>
+<span class="nc" id="L55">        init();</span>
+<span class="nc" id="L56">    }</span>
+
+    /**
+     * Every app needs one deactivate method. It handles the shutdown of your app e.g. closing open streams.
+     */
+    @Deactivate
+    private void deactivate() {
+<span class="nc" id="L63">        logger.info(&quot;Deactivating Demo App&quot;);</span>
+<span class="nc" id="L64">        logger.info(&quot;DemoApp thread interrupted: will stop&quot;);</span>
+<span class="nc" id="L65">        updateTimer.cancel();</span>
+<span class="nc" id="L66">        updateTimer.purge();</span>
+<span class="nc" id="L67">    }</span>
+
+    /**
+     * application logic
+     */
+    private void init() {
+<span class="nc" id="L73">        logger.info(&quot;Demo App started running...&quot;);</span>
+
+<span class="nc" id="L75">        initUpdateTimer();</span>
+<span class="nc" id="L76">    }</span>
+
+    private void updateChannel(){
+        try {
+<span class="nc" id="L80">            Channel channel = dataAccessService.getChannel(CHANNEL);</span>
+<span class="nc bnc" id="L81" title="All 2 branches missed.">            if (channel == null) {</span>
+<span class="nc" id="L82">                logger.error(&quot;Channel {} not found!&quot;, CHANNEL);</span>
+<span class="nc" id="L83">                return;</span>
+            }
+
+<span class="nc" id="L86">            Record record = channel.getLatestRecord();</span>
+
+<span class="nc" id="L88">            double newValue = record.getValue().asDouble();</span>
+
+<span class="nc" id="L90">            logger.info(&quot;New value: {}&quot;, newValue);</span>
+
+<span class="nc" id="L92">        } catch (Exception e) {</span>
+<span class="nc" id="L93">            logger.error(&quot;Error updating channel {}: {}&quot;, CHANNEL, e.getMessage());</span>
+<span class="nc" id="L94">        }</span>
+<span class="nc" id="L95">    }</span>
+    /**
+     * Initialize channel objects
+     */
+    /**
+     * Apply a RecordListener to get notified if a new value is available for a channel
+     */
+    private void initUpdateTimer() {
+<span class="nc" id="L103">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
+
+<span class="nc" id="L105">        TimerTask task = new TimerTask() {</span>
+            @Override
+            public void run() {
+<span class="nc" id="L108">                updateChannel();</span>
+<span class="nc" id="L109">            }</span>
+        };
+<span class="nc" id="L111">        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);</span>
+<span class="nc" id="L112">    }</span>
+   
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

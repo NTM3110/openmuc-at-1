@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.csv.SamplingModeHhmmssTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:14" hostname="shou-ThinkPad-E14-Gen-5" time="0.451">
+  <properties/>
+  <testcase name="testBeforeAvailableData()" classname="org.openmuc.framework.driver.csv.SamplingModeHhmmssTest" time="0.433"/>
+  <testcase name="testNewDayWithoutRewind()" classname="org.openmuc.framework.driver.csv.SamplingModeHhmmssTest" time="0.005"/>
+  <testcase name="testAfterAvailableData()" classname="org.openmuc.framework.driver.csv.SamplingModeHhmmssTest" time="0.003"/>
+  <testcase name="testNewDayRewind()" classname="org.openmuc.framework.driver.csv.SamplingModeHhmmssTest" time="0.003"/>
+  <testcase name="testNormal()" classname="org.openmuc.framework.driver.csv.SamplingModeHhmmssTest" time="0.005"/>
+  <system-out><![CDATA[11:01:14.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:14.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.300 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.300 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:14.300 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:14.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.503 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.503 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:14.503 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+    hhmmss, power_grid
+11:01:14.558 [Test worker] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - NoValueReceivedYetException: Sampling time before first timestamp of csv file.
+11:01:14.558 [Test worker] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - NoValueReceivedYetException: Sampling time before first timestamp of csv file.
+       NaN,        NaN
+    hhmmss, power_grid
+    000020,      0.920
+11:01:14.565 [Test worker] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - TimeTravelException: Current sampling time is before the last sampling time. Since rewind is disabled, driver can't get value for current sampling time.
+11:01:14.565 [Test worker] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - TimeTravelException: Current sampling time is before the last sampling time. Since rewind is disabled, driver can't get value for current sampling time.
+       NaN,        NaN
+    hhmmss, power_grid
+11:01:14.568 [Test worker] WARN org.openmuc.framework.driver.csv.channel.CsvTimeChannel - Current sampling time is behind last available timestamp of csv file. Returning value corresponding to last timestamp in file.
+11:01:14.568 [Test worker] WARN org.openmuc.framework.driver.csv.channel.CsvTimeChannel - Current sampling time is behind last available timestamp of csv file. Returning value corresponding to last timestamp in file.
+    000020,      0.920
+    hhmmss, power_grid
+    000020,      0.920
+    000010,      0.910
+    hhmmss, power_grid
+    000010,      0.910
+    000015,      0.915
+    000020,      0.920
+11:01:14.576 [Test worker] WARN org.openmuc.framework.driver.csv.channel.CsvTimeChannel - Current sampling time is behind last available timestamp of csv file. Returning value corresponding to last timestamp in file.
+11:01:14.576 [Test worker] WARN org.openmuc.framework.driver.csv.channel.CsvTimeChannel - Current sampling time is behind last available timestamp of csv file. Returning value corresponding to last timestamp in file.
+    000020,      0.920
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

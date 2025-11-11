@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:05" hostname="shou-ThinkPad-E14-Gen-5" time="8.749">
+  <properties/>
+  <testcase name="deviceAddressColumnMissingInCsv()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="0.697"/>
+  <testcase name="channelAddressIsMissing()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="3.004"/>
+  <testcase name="channelAddressColumnDoesNotExistInCsv()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="3.009"/>
+  <testcase name="deviceAddressColumnDoesNotExistInCsv()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="0.508"/>
+  <testcase name="settingsColumnMissingInCsv()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="0.506"/>
+  <testcase name="channelAddressTagIsMissing()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="0.505"/>
+  <testcase name="settingsColumnDoesNotExistInCsv()" classname="org.openmuc.framework.driver.csv.ConfigurationErrorHandlingTest" time="0.511"/>
+  <system-out><![CDATA[11:01:05.406 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/deviceAddressIsMissing.xml
+11:01:05.417 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/deviceAddressIsMissing.xml
+11:01:05.477 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:05.496 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:05.497 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.core.datamanager.ConnectTask - Unable to connect to device home1 because the address or settings syntax is incorrect: CSV driver - file not found: , searching file in /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv.
+Will try again in 60000 ms.
+11:01:06.015 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/channelAddressIsMissing.xml
+11:01:06.015 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/channelAddressIsMissing.xml
+11:01:06.016 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:06.016 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:06.129 [OpenMUC Data Manager Pool - thread-1] INFO org.openmuc.framework.driver.csv.CsvDriver - Device connected: ./src/test/resources/home1.csv
+11:01:06.129 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver csv connected.
+11:01:06.202 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:06.900 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.101 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.501 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.700 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:07.900 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:08.900 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.020 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/channelAddressColumnDoesNotExistInCsv.xml
+11:01:09.021 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/channelAddressColumnDoesNotExistInCsv.xml
+11:01:09.025 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:09.027 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:09.089 [OpenMUC Data Manager Pool - thread-1] INFO org.openmuc.framework.driver.csv.CsvDriver - Device connected: ./src/test/resources/home1.csv
+11:01:09.089 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver csv connected.
+11:01:09.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.101 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.300 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.501 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.501 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.700 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.801 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.801 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:09.900 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:09.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.000 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.501 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:10.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:10.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.000 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.101 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.801 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:11.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:11.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.000 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.031 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/deviceAddressDoesNotExist.xml
+11:01:12.031 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/deviceAddressDoesNotExist.xml
+11:01:12.033 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:12.035 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:12.035 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.core.datamanager.ConnectTask - Unable to connect to device home1 because the address or settings syntax is incorrect: CSV driver - file not found: address-does-not-exist, searching file in /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/address-does-not-exist.
+Will try again in 60000 ms.
+11:01:12.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.101 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.201 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.300 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.501 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.540 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/settingsIsMissing.xml
+11:01:12.540 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/settingsIsMissing.xml
+11:01:12.544 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:12.545 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:12.545 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.core.datamanager.ConnectTask - Unable to connect to device home1 because the address or settings syntax is incorrect: CSV driver - file not found: ./csv-driver/home1.csv, searching file in /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/./csv-driver/home1.csv.
+Will try again in 60000 ms.
+11:01:12.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.601 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.701 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.801 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:12.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:12.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.047 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/channelAddressTagIsMissing.xml
+11:01:13.047 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/channelAddressTagIsMissing.xml
+11:01:13.048 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:13.048 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:13.074 [OpenMUC Data Manager Pool - thread-1] INFO org.openmuc.framework.driver.csv.CsvDriver - Device connected: ./src/test/resources/home1.csv
+11:01:13.075 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver csv connected.
+11:01:13.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.100 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.200 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.301 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.400 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.401 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.500 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.501 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.503 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.556 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/settingsColumnDoesNotExist.xml
+11:01:13.557 [Test worker] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/build/resources/test/settingsColumnDoesNotExist.xml
+11:01:13.564 [Test worker] WARN org.openmuc.framework.core.datamanager.Device - No driver bundle available for configured driver: 'csv'.
+11:01:13.564 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:13.565 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.core.datamanager.ConnectTask - Unable to connect to device home1 because the address or settings syntax is incorrect: CSV driver - file not found: ./csv-driver/home1.csv, searching file in /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/./csv-driver/home1.csv.
+Will try again in 60000 ms.
+11:01:13.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.600 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.700 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.700 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.700 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.800 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:13.801 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.801 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.900 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.901 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:13.900 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:14.000 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+11:01:14.000 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: Invalid Channel Address: this-column-does-not-exist
+11:01:14.001 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.csv.CsvDeviceConnection - EmptyChannelAddressException: No ChannelAddress for channel hhmmss
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ConnectionInterface.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">openmuc-driver-mbus</a> &gt; <a href="index.source.html" class="el_package">org.openmuc.framework.driver.mbus</a> &gt; <span class="el_source">ConnectionInterface.java</span></div><h1>ConnectionInterface.java</h1><pre class="source lang-java linenums">/*
+ * Copyright 2011-2024 Fraunhofer ISE
+ *
+ * This file is part of OpenMUC.
+ * For more information visit http://www.openmuc.org
+ *
+ * OpenMUC is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * OpenMUC is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OpenMUC. If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ *
+ */
+package org.openmuc.framework.driver.mbus;
+
+import java.util.Map;
+
+import org.openmuc.jmbus.MBusConnection;
+
+/**
+ * Class representing an MBus Connection.&lt;br&gt;
+ * This class will bind to the local com-interface.&lt;br&gt;
+ * 
+ */
+class ConnectionInterface {
+
+<span class="pc" id="L34">    private int connectionCounter = 0;</span>
+    private MBusConnection mBusConnection;
+<span class="pc" id="L36">    private boolean open = true;</span>
+    private final String connectionName;
+<span class="pc" id="L38">    private int delay = 0;</span>
+    private Map&lt;String, ConnectionInterface&gt; interfaces;
+
+    public ConnectionInterface(MBusConnection mBusConnection, String serialPortName, int delay,
+<span class="fc" id="L42">            Map&lt;String, ConnectionInterface&gt; interfaces) {</span>
+<span class="fc" id="L43">        this.connectionName = serialPortName;</span>
+<span class="fc" id="L44">        generalConnectionInterface(mBusConnection, interfaces, delay);</span>
+<span class="fc" id="L45">    }</span>
+
+    public ConnectionInterface(MBusConnection mBusConnection, String host, int port, int delay,
+<span class="nc" id="L48">            Map&lt;String, ConnectionInterface&gt; interfaces) {</span>
+<span class="nc" id="L49">        this.connectionName = host + port;</span>
+<span class="nc" id="L50">        generalConnectionInterface(mBusConnection, interfaces, delay);</span>
+<span class="nc" id="L51">    }</span>
+
+    private void generalConnectionInterface(MBusConnection mBusConnection, Map&lt;String, ConnectionInterface&gt; interfaces,
+            int delay) {
+<span class="fc" id="L55">        this.mBusConnection = mBusConnection;</span>
+<span class="fc" id="L56">        this.interfaces = interfaces;</span>
+<span class="fc" id="L57">        this.delay = delay;</span>
+<span class="fc" id="L58">        interfaces.put(connectionName, this);</span>
+<span class="fc" id="L59">    }</span>
+
+    public MBusConnection getMBusConnection() {
+<span class="nc" id="L62">        return mBusConnection;</span>
+    }
+
+    public int getDelay() {
+<span class="nc" id="L66">        return delay;</span>
+    }
+
+    public void increaseConnectionCounter() {
+<span class="fc" id="L70">        connectionCounter++;</span>
+<span class="fc" id="L71">    }</span>
+
+    public void decreaseConnectionCounter() {
+<span class="nc" id="L74">        connectionCounter--;</span>
+<span class="nc bnc" id="L75" title="All 2 branches missed.">        if (connectionCounter == 0) {</span>
+<span class="nc" id="L76">            close();</span>
+        }
+<span class="nc" id="L78">    }</span>
+
+    public int getDeviceCounter() {
+<span class="nc" id="L81">        return connectionCounter;</span>
+    }
+
+    public boolean isOpen() {
+<span class="nc" id="L85">        return open;</span>
+    }
+
+    public void close() {
+<span class="nc" id="L89">        synchronized (interfaces) {</span>
+<span class="nc" id="L90">            mBusConnection.close();</span>
+<span class="nc" id="L91">            open = false;</span>
+<span class="nc" id="L92">            interfaces.remove(connectionName);</span>
+<span class="nc" id="L93">        }</span>
+<span class="nc" id="L94">    }</span>
+
+    public String getInterfaceAddress() {
+<span class="nc" id="L97">        return connectionName;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

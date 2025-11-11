@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.csv.DriverInfoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:14" hostname="shou-ThinkPad-E14-Gen-5" time="0.0">
+  <properties/>
+  <testcase name="printDriverInfo()" classname="org.openmuc.framework.driver.csv.DriverInfoTest" time="0.0"/>
+  <system-out><![CDATA[Description: Driver to read out csv files.
+DeviceScanSettingsSyntax: Synopsis: path= <path> path of directory containing csv files e.g: path=/home/usr/openmuc/framework/csv-driver/
+DeviceAddressSyntax: csv file path e.g. /home/usr/bin/openmuc/csv/meter.csv
+ChannelAddressSyntax: column header
+SettingsSyntax: Synopsis: samplingmode= <samplingmode> [;rewind= <rewind>]
+ samplingmode: [unixtimestamp, hhmmss, line] Example: samplingmode=line;rewind=true Default: samplingmode=line
+Id: csv
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

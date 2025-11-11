@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:14" hostname="shou-ThinkPad-E14-Gen-5" time="0.005">
+  <properties/>
+  <testcase name="testWrongArgument()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.001"/>
+  <testcase name="testArgumentsEmptyString()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.001"/>
+  <testcase name="testArgumentCorrectEndingWithoutSlash()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.0"/>
+  <testcase name="testWrongArgumentPathDoesNotExist()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.001"/>
+  <testcase name="testArgumentIncomplete1()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.0"/>
+  <testcase name="testArgumentIncomplete2()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.0"/>
+  <testcase name="testArgumentCorrectEndingWithSlash()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.001"/>
+  <testcase name="testArgumentsNull()" classname="org.openmuc.framework.driver.csv.DeviceScanSettingsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

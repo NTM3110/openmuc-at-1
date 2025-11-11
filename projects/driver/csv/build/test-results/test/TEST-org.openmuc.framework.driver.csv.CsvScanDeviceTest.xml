@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.csv.CsvScanDeviceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:14" hostname="shou-ThinkPad-E14-Gen-5" time="0.006">
+  <properties/>
+  <testcase name="testChannelScan()" classname="org.openmuc.framework.driver.csv.CsvScanDeviceTest" time="0.003"/>
+  <testcase name="testDeviceScan()" classname="org.openmuc.framework.driver.csv.CsvScanDeviceTest" time="0.002"/>
+  <system-out><![CDATA[11:01:14.074 [Test worker] INFO org.openmuc.framework.driver.csv.CsvDriver - Device connected: /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/src/test/resources/test_data.csv
+11:01:14.074 [Test worker] INFO org.openmuc.framework.driver.csv.CsvDeviceConnection - Scan for channels called. Settings: 
+Channel: power_grid
+Channel: hhmmss
+Channel: unixtimestamp
+Channel: power_photovoltaics
+Channel: YYYYMMDD
+Channel: power_electic_vehicle
+Channel: power_heatpump
+11:01:14.076 [Test worker] INFO org.openmuc.framework.driver.csv.CsvDriver - Scan for CSV files. Settings: path=/home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/src/test/resources
+Scan progress: 8 %
+
+DeviceScanInfo:
+  ID: csv_device_1
+  DeviceAddress: /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/src/test/resources/test_data_no_hhmmss.csv
+  Settings: samplingmode=line
+  Description: test_data_no_hhmmss.csv
+Scan progress: 16 %
+
+DeviceScanInfo:
+  ID: csv_device_2
+  DeviceAddress: /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/src/test/resources/test_data_no_unixtimestamp.csv
+  Settings: samplingmode=line
+  Description: test_data_no_unixtimestamp.csv
+Scan progress: 25 %
+Scan progress: 33 %
+Scan progress: 41 %
+Scan progress: 50 %
+Scan progress: 58 %
+Scan progress: 66 %
+Scan progress: 75 %
+Scan progress: 83 %
+
+DeviceScanInfo:
+  ID: csv_device_10
+  DeviceAddress: /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/src/test/resources/test_data.csv
+  Settings: samplingmode=line
+  Description: test_data.csv
+Scan progress: 91 %
+
+DeviceScanInfo:
+  ID: csv_device_11
+  DeviceAddress: /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/csv/src/test/resources/home1.csv
+  Settings: samplingmode=line
+  Description: home1.csv
+Scan progress: 100 %
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

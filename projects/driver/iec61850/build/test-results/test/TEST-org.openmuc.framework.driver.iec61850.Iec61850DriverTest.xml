@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:18" hostname="shou-ThinkPad-E14-Gen-5" time="0.295">
+  <properties/>
+  <testcase name="testConnectInvalidAddress1()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.013"/>
+  <testcase name="testConnectInvalidAddress2()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.06"/>
+  <testcase name="testConnectInvalidAddress3()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.007"/>
+  <testcase name="testConnectInvalidSettings1()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.007"/>
+  <testcase name="testConnectInvalidSettings2()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.006"/>
+  <testcase name="testConnectInvalidSettings3()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.006"/>
+  <testcase name="testConnectValidSettings1()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.078"/>
+  <testcase name="testConnectValidSettings2()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.053"/>
+  <testcase name="testConnectEmptySettings()" classname="org.openmuc.framework.driver.iec61850.Iec61850DriverTest" time="0.053"/>
+  <system-out><![CDATA[IED Server is running
+IED Server stopped
+IED Server is running
+IED Server stopped
+IED Server is running
+IED Server stopped
+IED Server is running
+IED Server stopped
+IED Server is running
+IED Server stopped
+IED Server is running
+IED Server stopped
+IED Server is running
+11:01:18.868 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetServerDirectory (MMS GetNameList[DOMAIN]) request
+11:01:18.871 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a Get{LD|LN}Directory (MMS GetNameList[NAMED_VARIABLE]) request
+11:01:18.916 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetDataDirectory/GetDataDefinition (MMS GetVariableAccessAttributes) request
+11:01:18.929 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetLogicalNodeDirectory[DataSet] (MMS GetNameList[NAMED_VARIABLE_LIST]) request
+11:01:18.930 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Connection was closed by client.
+IED Server stopped
+IED Server is running
+11:01:18.940 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetServerDirectory (MMS GetNameList[DOMAIN]) request
+11:01:18.940 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a Get{LD|LN}Directory (MMS GetNameList[NAMED_VARIABLE]) request
+11:01:18.982 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetDataDirectory/GetDataDefinition (MMS GetVariableAccessAttributes) request
+11:01:18.984 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetLogicalNodeDirectory[DataSet] (MMS GetNameList[NAMED_VARIABLE_LIST]) request
+11:01:18.985 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Connection was closed by client.
+IED Server stopped
+IED Server is running
+11:01:18.994 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetServerDirectory (MMS GetNameList[DOMAIN]) request
+11:01:18.995 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a Get{LD|LN}Directory (MMS GetNameList[NAMED_VARIABLE]) request
+11:01:19.037 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetDataDirectory/GetDataDefinition (MMS GetVariableAccessAttributes) request
+11:01:19.039 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Got a GetLogicalNodeDirectory[DataSet] (MMS GetNameList[NAMED_VARIABLE_LIST]) request
+11:01:19.039 [iec61850bean-server-thread-1] DEBUG com.beanit.iec61850bean.ServerAssociation - Connection was closed by client.
+IED Server stopped
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

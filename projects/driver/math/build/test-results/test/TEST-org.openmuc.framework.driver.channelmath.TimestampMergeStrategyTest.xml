@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:21" hostname="shou-ThinkPad-E14-Gen-5" time="0.676">
+  <properties/>
+  <testcase name="creationOfTimestep_oldestTs()" classname="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" time="0.026"/>
+  <testcase name="creationOfTimestep_avgTs()" classname="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" time="0.025"/>
+  <testcase name="creationOfTimestep_newestTs()" classname="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" time="0.026"/>
+  <testcase name="allStrategies_creationOfTimestep_sameTs()" classname="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" time="0.025"/>
+  <testcase name="parsing_test()" classname="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" time="0.115"/>
+  <testcase name="parsing_bad_string()" classname="org.openmuc.framework.driver.channelmath.TimestampMergeStrategyTest" time="0.675"/>
+  <system-out><![CDATA[11:01:21.543 [ForkJoinPool-1-worker-2] INFO org.openmuc.framework.core.datamanager.DataManagerAccessor - Using file /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/math/build/resources/test/settings_example.xml
+11:01:21.558 [ForkJoinPool-1-worker-2] INFO org.openmuc.framework.core.datamanager.DataManager - Activating Data Manager with config /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/math/build/resources/test/settings_example.xml
+11:01:21.586 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: math
+11:01:21.586 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: math
+11:01:21.588 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:21.588 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:21.588 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:21.588 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:21.589 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:21.592 [ForkJoinPool-1-worker-12] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Set data access service with {0} channels
+11:01:21.592 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:21.592 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:21.593 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: math
+11:01:21.593 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:21.641 [OpenMUC Data Manager Pool - thread-1] INFO org.openmuc.framework.driver.csv.CsvDriver - Device connected: src/test/resources/mantissaExponent.csv
+11:01:21.641 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver csv connected.
+11:01:22.001 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'timestamp_averaging_channel'
+11:01:22.001 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'SUM'
+11:01:22.002 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'DIFF'
+11:01:22.002 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'SUM'
+11:01:22.001 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'Meter_01_p_tot'
+11:01:22.002 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.channelmath.MathDriver - Unable to read from channelId=timestamp_averaging_channel with reason MathChannelReadExcpetion:Read bad latest record value: null; timestamp: null; flag: SAMPLING_AND_LISTENING_DISABLED (flag is not valid) from channel Const_3. Aborting processing.. Skipping value calculation.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'timestamp_newer_channel'
+11:01:22.001 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'DIFF'
+11:01:22.002 [OpenMUC Data Manager Pool - thread-1] ERROR org.openmuc.framework.driver.channelmath.MathDriver - Unable to parse formula of channelId='Meter_01_p_tot':Error parsing '§Meter_01_raw_p_tot_mant§*(10^§Meter_01_raw_p_tot_exp)§': Channel 'Meter_01_raw_p_tot_exp)' not found.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.channelmath.MathDriver - Unable to read from channelId=timestamp_newer_channel with reason MathChannelReadExcpetion:Read bad latest record value: null; timestamp: null; flag: SAMPLING_AND_LISTENING_DISABLED (flag is not valid) from channel Const_3. Aborting processing.. Skipping value calculation.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'timestamp_older_channel'
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathEvaluator - Successfully replaced all channel references by their values. Input formula={0}, only values formula={1}, used channels={2}.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathEvaluator - Successfully replaced all channel references by their values. Input formula={0}, only values formula={1}, used channels={2}.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathEvaluator - Successfully replaced all channel references by their values. Input formula={0}, only values formula={1}, used channels={2}.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathEvaluator - Successfully replaced all channel references by their values. Input formula={0}, only values formula={1}, used channels={2}.
+11:01:22.003 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.channelmath.MathDriver - Unable to read from channelId=timestamp_older_channel with reason MathChannelReadExcpetion:Read bad latest record value: null; timestamp: null; flag: SAMPLING_AND_LISTENING_DISABLED (flag is not valid) from channel Const_3. Aborting processing.. Skipping value calculation.
+11:01:22.004 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'timestamp_older_channel2'
+11:01:22.004 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.channelmath.MathDriver - Unable to read from channelId=timestamp_older_channel2 with reason MathChannelReadExcpetion:Read bad latest record value: null; timestamp: null; flag: SAMPLING_AND_LISTENING_DISABLED (flag is not valid) from channel Const_3. Aborting processing.. Skipping value calculation.
+11:01:22.004 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'timestamp_no_settings'
+11:01:22.004 [OpenMUC Data Manager Pool - thread-1] WARN org.openmuc.framework.driver.channelmath.MathDriver - Unable to read from channelId=timestamp_no_settings with reason MathChannelReadExcpetion:Read bad latest record value: null; timestamp: null; flag: SAMPLING_AND_LISTENING_DISABLED (flag is not valid) from channel Const_3. Aborting processing.. Skipping value calculation.
+11:01:22.014 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Updated cache with channels=[Channel with id=Const_3, Channel with id=Const_5]
+11:01:22.014 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Updated cache with channels=[Channel with id=Const_5, Channel with id=Const_3]
+11:01:22.014 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Updated cache with channels=[Channel with id=Const_5, Channel with id=Const_3]
+11:01:22.015 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Successfully set value org.openmuc.framework.driver.channelmath.MathEvaluator$RecordWithInputChannelCache@25ff82f0 for channelId 'DIFF'
+11:01:22.014 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Updated cache with channels=[Channel with id=Const_5, Channel with id=Const_3]
+11:01:22.015 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Successfully set value org.openmuc.framework.driver.channelmath.MathEvaluator$RecordWithInputChannelCache@1eeede33 for channelId 'SUM'
+11:01:22.015 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Successfully set value org.openmuc.framework.driver.channelmath.MathEvaluator$RecordWithInputChannelCache@6dc7f293 for channelId 'SUM'
+11:01:22.015 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Processing container of channelId 'STACKED_SUM'
+11:01:22.015 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Successfully set value org.openmuc.framework.driver.channelmath.MathEvaluator$RecordWithInputChannelCache@470a7c32 for channelId 'DIFF'
+11:01:22.015 [OpenMUC Data Manager Pool - thread-1] ERROR org.openmuc.framework.driver.channelmath.MathDriver - Unable to parse formula of channelId='STACKED_SUM':Invalid formula for channel 'STACKED_SUM': may not depend on other math channels.
+11:01:22.123 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: math
+11:01:22.125 [ForkJoinPool-1-worker-7] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Set data access service with {0} channels
+11:01:22.125 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:22.132 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: math
+11:01:22.132 [ForkJoinPool-1-worker-11] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Set data access service with {0} channels
+11:01:22.133 [OpenMUC Data Manager] INFO org.openmuc.framework.core.datamanager.DataManager - Driver registered: csv
+11:01:22.133 [OpenMUC Data Manager Pool - thread-1] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver math connected.
+11:01:22.134 [OpenMUC Data Manager Pool - thread-2] INFO org.openmuc.framework.driver.csv.CsvDriver - Device connected: src/test/resources/mantissaExponent.csv
+11:01:22.135 [OpenMUC Data Manager Pool - thread-2] DEBUG org.openmuc.framework.core.datamanager.ConnectTask - Driver csv connected.
+11:01:22.144 [ForkJoinPool-1-worker-10] DEBUG org.openmuc.framework.driver.channelmath.MathDriver - Set data access service with {0} channels
+]]></system-out>
+  <system-err><![CDATA[SLF4J: A number (2) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+NOT IMPLEMENTED
+]]></system-err>
+</testsuite>

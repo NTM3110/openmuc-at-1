@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.openmuc.framework.driver.ehz.test.EhzDriverTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-11T04:01:15" hostname="shou-ThinkPad-E14-Gen-5" time="0.074">
+  <properties/>
+  <testcase name="linux_symlinkResolution()" classname="org.openmuc.framework.driver.ehz.test.EhzDriverTest" time="0.071"/>
+  <testcase name="testMessage()" classname="org.openmuc.framework.driver.ehz.test.EhzDriverTest" time="0.002"/>
+  <system-out><![CDATA[11:01:15.654 [Test worker] INFO org.openmuc.framework.driver.ehz.SmlConnection - Resolved symlink test-symlink1762833675610 to /home/shou/ATEnergy/BMS/openmuc-0.20.1/openmuc/projects/driver/ehz/test-target1762833675603
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
