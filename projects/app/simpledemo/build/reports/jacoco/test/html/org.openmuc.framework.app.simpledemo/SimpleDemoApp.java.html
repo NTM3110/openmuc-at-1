@@ -84,43 +84,43 @@ import org.slf4j.LoggerFactory;
 <span class="nc" id="L84">                logger.warn(&quot;Channel 1 {} not found!&quot;, CHANNEL_1);</span>
 <span class="nc" id="L85">                return;</span>
             }
-<span class="nc" id="L87">            Channel channel2 = dataAccessService.getChannel(CHANNEL_2);</span>
-<span class="nc bnc" id="L88" title="All 2 branches missed.">            if (channel2 == null) {</span>
-<span class="nc" id="L89">                logger.warn(&quot;Channel 2 {} not found!&quot;, CHANNEL_2);</span>
-<span class="nc" id="L90">                return;</span>
-            }
-<span class="nc" id="L92">            Channel channel3 = dataAccessService.getChannel(CHANNEL_3);</span>
-<span class="nc bnc" id="L93" title="All 2 branches missed.">            if (channel3 == null) {</span>
-<span class="nc" id="L94">                logger.warn(&quot;Channel 3 {} not found!&quot;, CHANNEL_3);</span>
-<span class="nc" id="L95">                return;</span>
-            }
+            // Channel channel2 = dataAccessService.getChannel(CHANNEL_2);
+            // if (channel2 == null) {
+            //     logger.warn(&quot;Channel 2 {} not found!&quot;, CHANNEL_2);
+            //     return;
+            // }
+            // Channel channel3 = dataAccessService.getChannel(CHANNEL_3);
+            // if (channel3 == null) {
+            //     logger.warn(&quot;Channel 3 {} not found!&quot;, CHANNEL_3);
+            //     return;
+            // }
 
 <span class="nc" id="L98">            Record firstRecord = channel1.getLatestRecord();</span>
-<span class="nc" id="L99">            Record secondRecord = channel2.getLatestRecord();</span>
-<span class="nc" id="L100">            Record thirdRecord = channel3.getLatestRecord();</span>
+            // Record secondRecord = channel2.getLatestRecord();
+            // Record thirdRecord = channel3.getLatestRecord();
 
 <span class="nc bnc" id="L102" title="All 2 branches missed.">            if (firstRecord == null) {</span>
 <span class="nc" id="L103">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_1);</span>
 <span class="nc" id="L104">                return;</span>
                 
             }
-<span class="nc bnc" id="L107" title="All 2 branches missed.">            if (secondRecord == null) {</span>
-<span class="nc" id="L108">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_2);</span>
-<span class="nc" id="L109">                return;</span>
+            // if (secondRecord == null) {
+            //     logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_2);
+            //     return;
                 
-            }
-<span class="nc bnc" id="L112" title="All 2 branches missed.">            if (thirdRecord == null) {</span>
-<span class="nc" id="L113">                logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_3);</span>
-<span class="nc" id="L114">                return; </span>
-            }
+            // }
+            // if (thirdRecord == null) {
+            //     logger.warn(&quot;No record found for channel {}&quot;, CHANNEL_3);
+            //     return; 
+            // }
 
 <span class="nc" id="L117">            double newValue1 = firstRecord.getValue().asDouble();</span>
-<span class="nc" id="L118">            double newValue2 = secondRecord.getValue().asDouble();</span>
-<span class="nc" id="L119">            double newValue3 = thirdRecord.getValue().asDouble();</span>
+            // double newValue2 = secondRecord.getValue().asDouble();
+            // double newValue3 = thirdRecord.getValue().asDouble();
 
 <span class="nc" id="L121">            logger.info(&quot;Value of {}: {}&quot;, CHANNEL_1, newValue1);</span>
-<span class="nc" id="L122">            logger.info(&quot;Value of {}: {}&quot;, CHANNEL_2, newValue2);</span>
-<span class="nc" id="L123">            logger.info(&quot;Value of {}: {}&quot;, CHANNEL_3, newValue3);</span>
+            // logger.info(&quot;Value of {}: {}&quot;, CHANNEL_2, newValue2);
+            // logger.info(&quot;Value of {}: {}&quot;, CHANNEL_3, newValue3);
 <span class="nc" id="L124">        } catch (Exception e) {</span>
 <span class="nc" id="L125">            logger.warn(&quot;Error updating channel {}&quot;, e.getMessage());</span>
 <span class="nc" id="L126">        }</span>
