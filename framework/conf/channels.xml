@@ -106,41 +106,6 @@
 			<loggingSettings>sqllogger:</loggingSettings>
 			<disabled>false</disabled>
 		</channel>
-
-      <!-- Slave 4 -->
-      	<channel id="str1_cell4_1">
-			<description>Cell (R) (str1_cell4)</description>
-			<channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>300ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
-			<disabled>false</disabled>
-		</channel>
-    	<channel id="str1_cell4_2">
-			<description>Cell (V) (str1_cell4)</description>
-			<channelAddress>4:HOLDING_REGISTERS:2:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>1s</samplingInterval>
-			<samplingTimeOffset>300ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
-			<disabled>false</disabled>
-		</channel>
-		<channel id="str1_cell4_3">
-			<description>Cell (T) (str1_cell4)</description>
-			<channelAddress>4:HOLDING_REGISTERS:3:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>1s</samplingInterval>
-			<samplingTimeOffset>300ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
-			<disabled>false</disabled>
-      	</channel>
   	</device>
 </driver>
 </configuration>
