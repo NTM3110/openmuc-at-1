@@ -13,7 +13,7 @@
     	<connectRetryInterval>5s</connectRetryInterval>
 
   <!-- Slave 1 -->
-    	<channel id="str1_cell1_1">
+    	<!-- <channel id="str1_cell1_1">
         	<channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
         	<valueType>INTEGER</valueType>
         	<samplingInterval>3s</samplingInterval>
@@ -39,7 +39,7 @@
         	<loggingInterval>5s</loggingInterval>
         	<loggingSettings>sqllogger:</loggingSettings>
         	<disabled>false</disabled>
-    	</channel>
+    	</channel> -->
 
     <!-- Slave 2 -->
     	<channel id="str1_cell2_1">
