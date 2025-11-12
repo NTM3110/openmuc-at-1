@@ -80,7 +80,7 @@
 		<channel id="str1_cell3_1">
 			<channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
 			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
+			<samplingInterval>1s</samplingInterval>
 			<samplingTimeOffset>200ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_3</samplingGroup>
 			<loggingInterval>5s</loggingInterval>
@@ -90,7 +90,7 @@
       	<channel id="str1_cell3_2">
 			<channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
 			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
+			<samplingInterval>1s</samplingInterval>
 			<samplingGroup>str1_sg_slave_3</samplingGroup>
 			<samplingTimeOffset>200ms</samplingTimeOffset>
 			<loggingInterval>5s</loggingInterval>
@@ -100,7 +100,7 @@
 		<channel id="str1_cell3_3">
 			<channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
 			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
+			<samplingInterval>1s</samplingInterval>
 			<samplingGroup>str1_sg_slave_3</samplingGroup>
 			<samplingTimeOffset>200ms</samplingTimeOffset>
 			<loggingInterval>5s</loggingInterval>
