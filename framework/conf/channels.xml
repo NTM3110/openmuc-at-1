@@ -65,7 +65,7 @@
       <channel id="str1_cell2_3">
         <channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
         <valueType>INTEGER</valueType>
-        <samplingInterval>3ss</samplingInterval>
+        <samplingInterval>3s</samplingInterval>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <samplingTimeOffset>100ms</samplingTimeOffset>
         <loggingInterval>5s</loggingInterval>
