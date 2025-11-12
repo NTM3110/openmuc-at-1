@@ -60,8 +60,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingTimeOffset>100ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_2</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>1s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
     	</channel>
     	<channel id="str1_cell2_3">
@@ -71,8 +71,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingTimeOffset>100ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_2</samplingGroup>
-			<loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>5s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
     	</channel>
 
@@ -83,8 +83,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingTimeOffset>200ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_3</samplingGroup>
-			<loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>5s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
       	</channel>
       	<channel id="str1_cell3_2">
@@ -93,8 +93,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingGroup>str1_sg_slave_3</samplingGroup>
 			<samplingTimeOffset>200ms</samplingTimeOffset>
-			<loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>5s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
 		</channel>
 		<channel id="str1_cell3_3">
@@ -103,8 +103,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingGroup>str1_sg_slave_3</samplingGroup>
 			<samplingTimeOffset>200ms</samplingTimeOffset>
-			<loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>5s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
 		</channel>
 
@@ -116,8 +116,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingTimeOffset>300ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>1s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
 		</channel>
     	<channel id="str1_cell4_2">
@@ -127,8 +127,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingTimeOffset>300ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>1s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
 		</channel>
 		<channel id="str1_cell4_3">
@@ -138,8 +138,8 @@
 			<samplingInterval>3s</samplingInterval>
 			<samplingTimeOffset>300ms</samplingTimeOffset>
 			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
+			<!-- <loggingInterval>1s</loggingInterval>
+			<loggingSettings>sqllogger:</loggingSettings> -->
 			<disabled>false</disabled>
       	</channel>
   	</device>
