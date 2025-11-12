@@ -72,7 +72,7 @@
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
-    </device>
+    <!-- </device> -->
 
     <channel id="str1_cell3_1">
       <description>Cell (R) (str1_cell3)</description>
@@ -141,5 +141,6 @@
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel> -->
+      </device>
 </driver>
 </configuration>
