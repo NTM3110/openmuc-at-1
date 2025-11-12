@@ -15,7 +15,7 @@
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>
-        <!-- <samplingGroup>str1_sg_slave_1</samplingGroup> -->
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
         <loggingInterval>1s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
