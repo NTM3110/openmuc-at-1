@@ -46,6 +46,7 @@
         <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>100ms</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <loggingInterval>3s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
@@ -56,6 +57,7 @@
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <samplingTimeOffset>100ms</samplingTimeOffset>
         <loggingInterval>3s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
@@ -65,6 +67,7 @@
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <samplingTimeOffset>100ms</samplingTimeOffset>
         <loggingInterval>3s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
