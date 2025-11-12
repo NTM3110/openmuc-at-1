@@ -45,8 +45,8 @@
       <channel id="str1_cell2_1">
         <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
-        <samplingInterval>1s</samplingInterval>
-        <samplingTimeOffset>10ms</samplingTimeOffset>
+        <samplingInterval>1200s</samplingInterval>
+        <!-- <samplingTimeOffset>10ms</samplingTimeOffset> -->
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
@@ -55,7 +55,7 @@
       <channel id="str1_cell2_2">
         <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
-        <samplingInterval>1s</samplingInterval>
+        <samplingInterval>1200s</samplingInterval>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <samplingTimeOffset>10ms</samplingTimeOffset>
         <loggingInterval>5s</loggingInterval>
@@ -65,7 +65,7 @@
       <channel id="str1_cell2_3">
         <channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
         <valueType>INTEGER</valueType>
-        <samplingInterval>1s</samplingInterval>
+        <samplingInterval>1200s</samplingInterval>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <samplingTimeOffset>10ms</samplingTimeOffset>
         <loggingInterval>5s</loggingInterval>
