@@ -11,18 +11,18 @@
       <disabled>false</disabled>
       <channel id="str1_cell1_1">
         <description>Cell (R) (str1_cell1)</description>
-        <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>
-        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <!-- <samplingGroup>str1_sg_slave_1</samplingGroup> -->
         <loggingInterval>1s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
       <channel id="str1_cell1_2">
         <description>Cell (V) (str1_cell1)</description>
-        <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>
@@ -33,7 +33,7 @@
       </channel>
       <channel id="str1_cell1_3">
         <description>Cell (T) (str1_cell1)</description>
-        <channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:3:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>1s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>
