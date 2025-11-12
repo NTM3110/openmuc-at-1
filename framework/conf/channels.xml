@@ -42,7 +42,7 @@
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
-      <channel id="str1_cell2_1">
+      <!-- <channel id="str1_cell2_1">
         <description>Cell (R) (str1_cell2)</description>
         <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
@@ -74,7 +74,7 @@
         <loggingInterval>1s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
-      </channel>
+      </channel> -->
       <!--
       <channel id="str1_cell3_1">
         <description>Cell (R) (str1_cell3)</description>
