@@ -138,6 +138,5 @@
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel> -->
-    </device>
 </driver>
 </configuration>
