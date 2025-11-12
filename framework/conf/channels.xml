@@ -14,28 +14,28 @@
 
   <!-- Slave 2 -->
       <channel id="str1_cell1_1">
-        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
-        <samplingGroup>str1_sg_slave_2</samplingGroup>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
       <channel id="str1_cell1_2">
-        <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
-        <samplingGroup>str1_sg_slave_2</samplingGroup>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
       <channel id="str1_cell1_3">
-        <channelAddress>2:HOLDING_REGISTERS:3:INT16</channelAddress>
+        <channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
-        <samplingGroup>str1_sg_slave_2</samplingGroup>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
@@ -43,30 +43,30 @@
 
       <!-- Slave 3 -->
       <channel id="str1_cell2_1">
-        <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
         <samplingTimeOffset>100ms</samplingTimeOffset>
-        <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <samplingGroup>str1_sg_slave_2</samplingGroup>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
       <channel id="str1_cell2_2">
-        <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
-        <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <samplingGroup>str1_sg_slave_2</samplingGroup>
         <samplingTimeOffset>100ms</samplingTimeOffset>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
         <disabled>false</disabled>
       </channel>
       <channel id="str1_cell2_3">
-        <channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
+        <channelAddress>2:HOLDING_REGISTERS:3:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>3s</samplingInterval>
-        <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <samplingGroup>str1_sg_slave_2</samplingGroup>
         <samplingTimeOffset>100ms</samplingTimeOffset>
         <loggingInterval>5s</loggingInterval>
         <loggingSettings>sqllogger:</loggingSettings>
@@ -74,40 +74,40 @@
       </channel>
     </device>
 
-      <!--
-      <channel id="str1_cell3_1">
-        <description>Cell (R) (str1_cell3)</description>
-        <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
-        <valueType>INTEGER</valueType>
-        <samplingInterval>1s</samplingInterval>
-        <samplingTimeOffset>200ms</samplingTimeOffset>
-        <samplingGroup>str1_sg_slave_3</samplingGroup>
-        <loggingInterval>1s</loggingInterval>
-        <loggingSettings>sqllogger:</loggingSettings>
-        <disabled>false</disabled>
-      </channel>
-      <channel id="str1_cell3_2">
-        <description>Cell (V) (str1_cell3)</description>
-        <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
-        <valueType>INTEGER</valueType>
-        <samplingInterval>1s</samplingInterval>
-        <samplingTimeOffset>200ms</samplingTimeOffset>
-        <samplingGroup>str1_sg_slave_3</samplingGroup>
-        <loggingInterval>1s</loggingInterval>
-        <loggingSettings>sqllogger:</loggingSettings>
-        <disabled>false</disabled>
-      </channel>
-      <channel id="str1_cell3_3">
-        <description>Cell (T) (str1_cell3)</description>
-        <channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
-        <valueType>INTEGER</valueType>
-        <samplingInterval>1s</samplingInterval>
-        <samplingTimeOffset>200ms</samplingTimeOffset>
-        <samplingGroup>str1_sg_slave_3</samplingGroup>
-        <loggingInterval>1s</loggingInterval>
-        <loggingSettings>sqllogger:</loggingSettings>
-        <disabled>false</disabled>
-      </channel>
+    <channel id="str1_cell3_1">
+      <description>Cell (R) (str1_cell3)</description>
+      <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
+      <valueType>INTEGER</valueType>
+      <samplingInterval>3s</samplingInterval>
+      <samplingTimeOffset>100ms</samplingTimeOffset>
+      <samplingGroup>str1_sg_slave_3</samplingGroup>
+      <loggingInterval>1s</loggingInterval>
+      <loggingSettings>sqllogger:</loggingSettings>
+      <disabled>false</disabled>
+    </channel>
+    <channel id="str1_cell3_2">
+      <description>Cell (V) (str1_cell3)</description>
+      <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
+      <valueType>INTEGER</valueType>
+      <samplingInterval>1s</samplingInterval>
+      <samplingTimeOffset>100ms</samplingTimeOffset>
+      <samplingGroup>str1_sg_slave_3</samplingGroup>
+      <loggingInterval>1s</loggingInterval>
+      <loggingSettings>sqllogger:</loggingSettings>
+      <disabled>false</disabled>
+    </channel>
+    <channel id="str1_cell3_3">
+      <description>Cell (T) (str1_cell3)</description>
+      <channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
+      <valueType>INTEGER</valueType>
+      <samplingInterval>3s</samplingInterval>
+      <samplingTimeOffset>100ms</samplingTimeOffset>
+      <samplingGroup>str1_sg_slave_3</samplingGroup>
+      <loggingInterval>1s</loggingInterval>
+      <loggingSettings>sqllogger:</loggingSettings>
+      <disabled>false</disabled>
+    </channel>
+     <!--
       <channel id="str1_cell4_1">
         <description>Cell (R) (str1_cell4)</description>
         <channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
