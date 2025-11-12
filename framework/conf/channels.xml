@@ -108,7 +108,7 @@
 			<disabled>false</disabled>
 		</channel>
 
-      <!-- Slave 4 -->
+      <!-- Slave 4
       	<channel id="str1_cell4_1">
 			<description>Cell (R) (str1_cell4)</description>
 			<channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
@@ -141,7 +141,7 @@
 			<loggingInterval>1s</loggingInterval>
 			<loggingSettings>sqllogger:</loggingSettings>
 			<disabled>false</disabled>
-      	</channel>
+      	</channel> -->
   	</device>
 </driver>
 </configuration>
