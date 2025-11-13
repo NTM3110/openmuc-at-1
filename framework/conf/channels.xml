@@ -55,8 +55,6 @@
         <samplingInterval>3s</samplingInterval>
         <samplingTimeOffset>200ms</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
-        <!-- <loggingInterval>1s</loggingInterval> -->
-        <!-- <loggingSettings>sqllogger:</loggingSettings> -->
         <disabled>false</disabled>
       </channel>
       <channel id="str1_cell3_V">
@@ -75,6 +73,2848 @@
         <samplingInterval>3s</samplingInterval>
         <samplingTimeOffset>200ms</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell1_R">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell1_V">
+        <description>Cell (V) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell1_T">
+        <description>Cell (T) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell4_R">
+        <description>Cell (R) (str1_cell4)</description>
+        <channelAddress>4:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_4</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell4_V">
+        <description>Cell (V) (str1_cell4)</description>
+        <channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_4</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell4_T">
+        <description>Cell (T) (str1_cell4)</description>
+        <channelAddress>4:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_4</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell5_R">
+        <description>Cell (R) (str1_cell5)</description>
+        <channelAddress>5:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_5</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell5_V">
+        <description>Cell (V) (str1_cell5)</description>
+        <channelAddress>5:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_5</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell5_T">
+        <description>Cell (T) (str1_cell5)</description>
+        <channelAddress>5:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_5</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell6_R">
+        <description>Cell (R) (str1_cell6)</description>
+        <channelAddress>6:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_6</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell6_V">
+        <description>Cell (V) (str1_cell6)</description>
+        <channelAddress>6:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_6</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell6_T">
+        <description>Cell (T) (str1_cell6)</description>
+        <channelAddress>6:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_6</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell7_R">
+        <description>Cell (R) (str1_cell7)</description>
+        <channelAddress>7:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_7</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell7_V">
+        <description>Cell (V) (str1_cell7)</description>
+        <channelAddress>7:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_7</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell7_T">
+        <description>Cell (T) (str1_cell7)</description>
+        <channelAddress>7:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_7</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell8_R">
+        <description>Cell (R) (str1_cell8)</description>
+        <channelAddress>8:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_8</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell8_V">
+        <description>Cell (V) (str1_cell8)</description>
+        <channelAddress>8:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_8</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell8_T">
+        <description>Cell (T) (str1_cell8)</description>
+        <channelAddress>8:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_8</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell9_R">
+        <description>Cell (R) (str1_cell9)</description>
+        <channelAddress>9:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_9</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell9_V">
+        <description>Cell (V) (str1_cell9)</description>
+        <channelAddress>9:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_9</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell9_T">
+        <description>Cell (T) (str1_cell9)</description>
+        <channelAddress>9:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_9</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell10_R">
+        <description>Cell (R) (str1_cell10)</description>
+        <channelAddress>10:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_10</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell10_V">
+        <description>Cell (V) (str1_cell10)</description>
+        <channelAddress>10:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_10</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell10_T">
+        <description>Cell (T) (str1_cell10)</description>
+        <channelAddress>10:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_10</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell11_R">
+        <description>Cell (R) (str1_cell11)</description>
+        <channelAddress>11:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_11</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell11_V">
+        <description>Cell (V) (str1_cell11)</description>
+        <channelAddress>11:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_11</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell11_T">
+        <description>Cell (T) (str1_cell11)</description>
+        <channelAddress>11:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_11</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell12_R">
+        <description>Cell (R) (str1_cell12)</description>
+        <channelAddress>12:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_12</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell12_V">
+        <description>Cell (V) (str1_cell12)</description>
+        <channelAddress>12:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_12</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell12_T">
+        <description>Cell (T) (str1_cell12)</description>
+        <channelAddress>12:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_12</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell13_R">
+        <description>Cell (R) (str1_cell13)</description>
+        <channelAddress>13:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_13</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell13_V">
+        <description>Cell (V) (str1_cell13)</description>
+        <channelAddress>13:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_13</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell13_T">
+        <description>Cell (T) (str1_cell13)</description>
+        <channelAddress>13:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_13</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell14_R">
+        <description>Cell (R) (str1_cell14)</description>
+        <channelAddress>14:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_14</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell14_V">
+        <description>Cell (V) (str1_cell14)</description>
+        <channelAddress>14:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_14</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell14_T">
+        <description>Cell (T) (str1_cell14)</description>
+        <channelAddress>14:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_14</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell15_R">
+        <description>Cell (R) (str1_cell15)</description>
+        <channelAddress>15:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_15</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell15_V">
+        <description>Cell (V) (str1_cell15)</description>
+        <channelAddress>15:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_15</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell15_T">
+        <description>Cell (T) (str1_cell15)</description>
+        <channelAddress>15:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_15</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell16_R">
+        <description>Cell (R) (str1_cell16)</description>
+        <channelAddress>16:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_16</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell16_V">
+        <description>Cell (V) (str1_cell16)</description>
+        <channelAddress>16:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_16</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell16_T">
+        <description>Cell (T) (str1_cell16)</description>
+        <channelAddress>16:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_16</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell17_R">
+        <description>Cell (R) (str1_cell17)</description>
+        <channelAddress>17:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_17</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell17_V">
+        <description>Cell (V) (str1_cell17)</description>
+        <channelAddress>17:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_17</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell17_T">
+        <description>Cell (T) (str1_cell17)</description>
+        <channelAddress>17:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_17</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell18_R">
+        <description>Cell (R) (str1_cell18)</description>
+        <channelAddress>18:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_18</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell18_V">
+        <description>Cell (V) (str1_cell18)</description>
+        <channelAddress>18:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_18</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell18_T">
+        <description>Cell (T) (str1_cell18)</description>
+        <channelAddress>18:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_18</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell19_R">
+        <description>Cell (R) (str1_cell19)</description>
+        <channelAddress>19:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_19</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell19_V">
+        <description>Cell (V) (str1_cell19)</description>
+        <channelAddress>19:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_19</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell19_T">
+        <description>Cell (T) (str1_cell19)</description>
+        <channelAddress>19:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_19</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell20_R">
+        <description>Cell (R) (str1_cell20)</description>
+        <channelAddress>20:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_20</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell20_V">
+        <description>Cell (V) (str1_cell20)</description>
+        <channelAddress>20:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_20</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell20_T">
+        <description>Cell (T) (str1_cell20)</description>
+        <channelAddress>20:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>1900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_20</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell21_R">
+        <description>Cell (R) (str1_cell21)</description>
+        <channelAddress>21:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_21</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell21_V">
+        <description>Cell (V) (str1_cell21)</description>
+        <channelAddress>21:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_21</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell21_T">
+        <description>Cell (T) (str1_cell21)</description>
+        <channelAddress>21:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_21</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell22_R">
+        <description>Cell (R) (str1_cell22)</description>
+        <channelAddress>22:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_22</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell22_V">
+        <description>Cell (V) (str1_cell22)</description>
+        <channelAddress>22:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_22</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell22_T">
+        <description>Cell (T) (str1_cell22)</description>
+        <channelAddress>22:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_22</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell23_R">
+        <description>Cell (R) (str1_cell23)</description>
+        <channelAddress>23:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_23</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell23_V">
+        <description>Cell (V) (str1_cell23)</description>
+        <channelAddress>23:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_23</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell23_T">
+        <description>Cell (T) (str1_cell23)</description>
+        <channelAddress>23:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_23</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell24_R">
+        <description>Cell (R) (str1_cell24)</description>
+        <channelAddress>24:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_24</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell24_V">
+        <description>Cell (V) (str1_cell24)</description>
+        <channelAddress>24:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_24</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell24_T">
+        <description>Cell (T) (str1_cell24)</description>
+        <channelAddress>24:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_24</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell25_R">
+        <description>Cell (R) (str1_cell25)</description>
+        <channelAddress>25:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_25</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell25_V">
+        <description>Cell (V) (str1_cell25)</description>
+        <channelAddress>25:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_25</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell25_T">
+        <description>Cell (T) (str1_cell25)</description>
+        <channelAddress>25:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_25</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell26_R">
+        <description>Cell (R) (str1_cell26)</description>
+        <channelAddress>26:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_26</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell26_V">
+        <description>Cell (V) (str1_cell26)</description>
+        <channelAddress>26:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_26</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell26_T">
+        <description>Cell (T) (str1_cell26)</description>
+        <channelAddress>26:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_26</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell27_R">
+        <description>Cell (R) (str1_cell27)</description>
+        <channelAddress>27:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_27</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell27_V">
+        <description>Cell (V) (str1_cell27)</description>
+        <channelAddress>27:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_27</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell27_T">
+        <description>Cell (T) (str1_cell27)</description>
+        <channelAddress>27:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_27</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell28_R">
+        <description>Cell (R) (str1_cell28)</description>
+        <channelAddress>28:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_28</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell28_V">
+        <description>Cell (V) (str1_cell28)</description>
+        <channelAddress>28:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_28</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell28_T">
+        <description>Cell (T) (str1_cell28)</description>
+        <channelAddress>28:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_28</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell29_R">
+        <description>Cell (R) (str1_cell29)</description>
+        <channelAddress>29:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_29</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell29_V">
+        <description>Cell (V) (str1_cell29)</description>
+        <channelAddress>29:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_29</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell29_T">
+        <description>Cell (T) (str1_cell29)</description>
+        <channelAddress>29:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_29</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell30_R">
+        <description>Cell (R) (str1_cell30)</description>
+        <channelAddress>30:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_30</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell30_V">
+        <description>Cell (V) (str1_cell30)</description>
+        <channelAddress>30:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_30</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell30_T">
+        <description>Cell (T) (str1_cell30)</description>
+        <channelAddress>30:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>2900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_30</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell31_R">
+        <description>Cell (R) (str1_cell31)</description>
+        <channelAddress>31:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_31</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell31_V">
+        <description>Cell (V) (str1_cell31)</description>
+        <channelAddress>31:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_31</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell31_T">
+        <description>Cell (T) (str1_cell31)</description>
+        <channelAddress>31:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_31</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell32_R">
+        <description>Cell (R) (str1_cell32)</description>
+        <channelAddress>32:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_32</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell32_V">
+        <description>Cell (V) (str1_cell32)</description>
+        <channelAddress>32:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_32</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell32_T">
+        <description>Cell (T) (str1_cell32)</description>
+        <channelAddress>32:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_32</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell33_R">
+        <description>Cell (R) (str1_cell33)</description>
+        <channelAddress>33:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_33</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell33_V">
+        <description>Cell (V) (str1_cell33)</description>
+        <channelAddress>33:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_33</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell33_T">
+        <description>Cell (T) (str1_cell33)</description>
+        <channelAddress>33:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_33</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell34_R">
+        <description>Cell (R) (str1_cell34)</description>
+        <channelAddress>34:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_34</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell34_V">
+        <description>Cell (V) (str1_cell34)</description>
+        <channelAddress>34:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_34</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell34_T">
+        <description>Cell (T) (str1_cell34)</description>
+        <channelAddress>34:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_34</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell35_R">
+        <description>Cell (R) (str1_cell35)</description>
+        <channelAddress>35:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_35</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell35_V">
+        <description>Cell (V) (str1_cell35)</description>
+        <channelAddress>35:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_35</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell35_T">
+        <description>Cell (T) (str1_cell35)</description>
+        <channelAddress>35:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_35</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell36_R">
+        <description>Cell (R) (str1_cell36)</description>
+        <channelAddress>36:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_36</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell36_V">
+        <description>Cell (V) (str1_cell36)</description>
+        <channelAddress>36:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_36</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell36_T">
+        <description>Cell (T) (str1_cell36)</description>
+        <channelAddress>36:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_36</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell37_R">
+        <description>Cell (R) (str1_cell37)</description>
+        <channelAddress>37:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_37</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell37_V">
+        <description>Cell (V) (str1_cell37)</description>
+        <channelAddress>37:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_37</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell37_T">
+        <description>Cell (T) (str1_cell37)</description>
+        <channelAddress>37:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_37</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell38_R">
+        <description>Cell (R) (str1_cell38)</description>
+        <channelAddress>38:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_38</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell38_V">
+        <description>Cell (V) (str1_cell38)</description>
+        <channelAddress>38:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_38</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell38_T">
+        <description>Cell (T) (str1_cell38)</description>
+        <channelAddress>38:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_38</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell39_R">
+        <description>Cell (R) (str1_cell39)</description>
+        <channelAddress>39:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_39</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell39_V">
+        <description>Cell (V) (str1_cell39)</description>
+        <channelAddress>39:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_39</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell39_T">
+        <description>Cell (T) (str1_cell39)</description>
+        <channelAddress>39:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_39</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell40_R">
+        <description>Cell (R) (str1_cell40)</description>
+        <channelAddress>40:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_40</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell40_V">
+        <description>Cell (V) (str1_cell40)</description>
+        <channelAddress>40:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_40</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell40_T">
+        <description>Cell (T) (str1_cell40)</description>
+        <channelAddress>40:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>3900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_40</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell41_R">
+        <description>Cell (R) (str1_cell41)</description>
+        <channelAddress>41:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_41</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell41_V">
+        <description>Cell (V) (str1_cell41)</description>
+        <channelAddress>41:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_41</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell41_T">
+        <description>Cell (T) (str1_cell41)</description>
+        <channelAddress>41:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_41</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell42_R">
+        <description>Cell (R) (str1_cell42)</description>
+        <channelAddress>42:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_42</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell42_V">
+        <description>Cell (V) (str1_cell42)</description>
+        <channelAddress>42:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_42</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell42_T">
+        <description>Cell (T) (str1_cell42)</description>
+        <channelAddress>42:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_42</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell43_R">
+        <description>Cell (R) (str1_cell43)</description>
+        <channelAddress>43:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_43</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell43_V">
+        <description>Cell (V) (str1_cell43)</description>
+        <channelAddress>43:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_43</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell43_T">
+        <description>Cell (T) (str1_cell43)</description>
+        <channelAddress>43:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_43</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell44_R">
+        <description>Cell (R) (str1_cell44)</description>
+        <channelAddress>44:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_44</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell44_V">
+        <description>Cell (V) (str1_cell44)</description>
+        <channelAddress>44:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_44</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell44_T">
+        <description>Cell (T) (str1_cell44)</description>
+        <channelAddress>44:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_44</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell45_R">
+        <description>Cell (R) (str1_cell45)</description>
+        <channelAddress>45:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_45</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell45_V">
+        <description>Cell (V) (str1_cell45)</description>
+        <channelAddress>45:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_45</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell45_T">
+        <description>Cell (T) (str1_cell45)</description>
+        <channelAddress>45:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_45</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell46_R">
+        <description>Cell (R) (str1_cell46)</description>
+        <channelAddress>46:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_46</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell46_V">
+        <description>Cell (V) (str1_cell46)</description>
+        <channelAddress>46:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_46</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell46_T">
+        <description>Cell (T) (str1_cell46)</description>
+        <channelAddress>46:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_46</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell47_R">
+        <description>Cell (R) (str1_cell47)</description>
+        <channelAddress>47:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_47</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell47_V">
+        <description>Cell (V) (str1_cell47)</description>
+        <channelAddress>47:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_47</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell47_T">
+        <description>Cell (T) (str1_cell47)</description>
+        <channelAddress>47:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_47</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell48_R">
+        <description>Cell (R) (str1_cell48)</description>
+        <channelAddress>48:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_48</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell48_V">
+        <description>Cell (V) (str1_cell48)</description>
+        <channelAddress>48:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_48</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell48_T">
+        <description>Cell (T) (str1_cell48)</description>
+        <channelAddress>48:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_48</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell49_R">
+        <description>Cell (R) (str1_cell49)</description>
+        <channelAddress>49:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_49</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell49_V">
+        <description>Cell (V) (str1_cell49)</description>
+        <channelAddress>49:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_49</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell49_T">
+        <description>Cell (T) (str1_cell49)</description>
+        <channelAddress>49:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_49</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell50_R">
+        <description>Cell (R) (str1_cell50)</description>
+        <channelAddress>50:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_50</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell50_V">
+        <description>Cell (V) (str1_cell50)</description>
+        <channelAddress>50:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_50</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell50_T">
+        <description>Cell (T) (str1_cell50)</description>
+        <channelAddress>50:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>4900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_50</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell51_R">
+        <description>Cell (R) (str1_cell51)</description>
+        <channelAddress>51:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_51</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell51_V">
+        <description>Cell (V) (str1_cell51)</description>
+        <channelAddress>51:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_51</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell51_T">
+        <description>Cell (T) (str1_cell51)</description>
+        <channelAddress>51:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_51</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell52_R">
+        <description>Cell (R) (str1_cell52)</description>
+        <channelAddress>52:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_52</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell52_V">
+        <description>Cell (V) (str1_cell52)</description>
+        <channelAddress>52:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_52</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell52_T">
+        <description>Cell (T) (str1_cell52)</description>
+        <channelAddress>52:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_52</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell53_R">
+        <description>Cell (R) (str1_cell53)</description>
+        <channelAddress>53:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_53</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell53_V">
+        <description>Cell (V) (str1_cell53)</description>
+        <channelAddress>53:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_53</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell53_T">
+        <description>Cell (T) (str1_cell53)</description>
+        <channelAddress>53:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_53</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell54_R">
+        <description>Cell (R) (str1_cell54)</description>
+        <channelAddress>54:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_54</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell54_V">
+        <description>Cell (V) (str1_cell54)</description>
+        <channelAddress>54:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_54</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell54_T">
+        <description>Cell (T) (str1_cell54)</description>
+        <channelAddress>54:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_54</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell55_R">
+        <description>Cell (R) (str1_cell55)</description>
+        <channelAddress>55:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_55</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell55_V">
+        <description>Cell (V) (str1_cell55)</description>
+        <channelAddress>55:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_55</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell55_T">
+        <description>Cell (T) (str1_cell55)</description>
+        <channelAddress>55:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_55</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell56_R">
+        <description>Cell (R) (str1_cell56)</description>
+        <channelAddress>56:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_56</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell56_V">
+        <description>Cell (V) (str1_cell56)</description>
+        <channelAddress>56:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_56</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell56_T">
+        <description>Cell (T) (str1_cell56)</description>
+        <channelAddress>56:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_56</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell57_R">
+        <description>Cell (R) (str1_cell57)</description>
+        <channelAddress>57:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_57</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell57_V">
+        <description>Cell (V) (str1_cell57)</description>
+        <channelAddress>57:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_57</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell57_T">
+        <description>Cell (T) (str1_cell57)</description>
+        <channelAddress>57:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_57</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell58_R">
+        <description>Cell (R) (str1_cell58)</description>
+        <channelAddress>58:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_58</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell58_V">
+        <description>Cell (V) (str1_cell58)</description>
+        <channelAddress>58:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_58</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell58_T">
+        <description>Cell (T) (str1_cell58)</description>
+        <channelAddress>58:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_58</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell59_R">
+        <description>Cell (R) (str1_cell59)</description>
+        <channelAddress>59:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_59</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell59_V">
+        <description>Cell (V) (str1_cell59)</description>
+        <channelAddress>59:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_59</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell59_T">
+        <description>Cell (T) (str1_cell59)</description>
+        <channelAddress>59:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_59</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell60_R">
+        <description>Cell (R) (str1_cell60)</description>
+        <channelAddress>60:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_60</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell60_V">
+        <description>Cell (V) (str1_cell60)</description>
+        <channelAddress>60:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_60</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell60_T">
+        <description>Cell (T) (str1_cell60)</description>
+        <channelAddress>60:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>5900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_60</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell61_R">
+        <description>Cell (R) (str1_cell61)</description>
+        <channelAddress>61:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_61</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell61_V">
+        <description>Cell (V) (str1_cell61)</description>
+        <channelAddress>61:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_61</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell61_T">
+        <description>Cell (T) (str1_cell61)</description>
+        <channelAddress>61:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_61</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell62_R">
+        <description>Cell (R) (str1_cell62)</description>
+        <channelAddress>62:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_62</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell62_V">
+        <description>Cell (V) (str1_cell62)</description>
+        <channelAddress>62:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_62</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell62_T">
+        <description>Cell (T) (str1_cell62)</description>
+        <channelAddress>62:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_62</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell63_R">
+        <description>Cell (R) (str1_cell63)</description>
+        <channelAddress>63:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_63</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell63_V">
+        <description>Cell (V) (str1_cell63)</description>
+        <channelAddress>63:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_63</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell63_T">
+        <description>Cell (T) (str1_cell63)</description>
+        <channelAddress>63:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_63</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell64_R">
+        <description>Cell (R) (str1_cell64)</description>
+        <channelAddress>64:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_64</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell64_V">
+        <description>Cell (V) (str1_cell64)</description>
+        <channelAddress>64:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_64</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell64_T">
+        <description>Cell (T) (str1_cell64)</description>
+        <channelAddress>64:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_64</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell65_R">
+        <description>Cell (R) (str1_cell65)</description>
+        <channelAddress>65:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_65</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell65_V">
+        <description>Cell (V) (str1_cell65)</description>
+        <channelAddress>65:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_65</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell65_T">
+        <description>Cell (T) (str1_cell65)</description>
+        <channelAddress>65:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_65</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell66_R">
+        <description>Cell (R) (str1_cell66)</description>
+        <channelAddress>66:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_66</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell66_V">
+        <description>Cell (V) (str1_cell66)</description>
+        <channelAddress>66:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_66</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell66_T">
+        <description>Cell (T) (str1_cell66)</description>
+        <channelAddress>66:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_66</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell67_R">
+        <description>Cell (R) (str1_cell67)</description>
+        <channelAddress>67:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_67</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell67_V">
+        <description>Cell (V) (str1_cell67)</description>
+        <channelAddress>67:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_67</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell67_T">
+        <description>Cell (T) (str1_cell67)</description>
+        <channelAddress>67:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_67</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell68_R">
+        <description>Cell (R) (str1_cell68)</description>
+        <channelAddress>68:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_68</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell68_V">
+        <description>Cell (V) (str1_cell68)</description>
+        <channelAddress>68:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_68</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell68_T">
+        <description>Cell (T) (str1_cell68)</description>
+        <channelAddress>68:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_68</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell69_R">
+        <description>Cell (R) (str1_cell69)</description>
+        <channelAddress>69:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_69</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell69_V">
+        <description>Cell (V) (str1_cell69)</description>
+        <channelAddress>69:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_69</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell69_T">
+        <description>Cell (T) (str1_cell69)</description>
+        <channelAddress>69:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_69</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell70_R">
+        <description>Cell (R) (str1_cell70)</description>
+        <channelAddress>70:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_70</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell70_V">
+        <description>Cell (V) (str1_cell70)</description>
+        <channelAddress>70:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_70</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell70_T">
+        <description>Cell (T) (str1_cell70)</description>
+        <channelAddress>70:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>6900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_70</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell71_R">
+        <description>Cell (R) (str1_cell71)</description>
+        <channelAddress>71:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_71</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell71_V">
+        <description>Cell (V) (str1_cell71)</description>
+        <channelAddress>71:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_71</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell71_T">
+        <description>Cell (T) (str1_cell71)</description>
+        <channelAddress>71:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_71</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell72_R">
+        <description>Cell (R) (str1_cell72)</description>
+        <channelAddress>72:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_72</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell72_V">
+        <description>Cell (V) (str1_cell72)</description>
+        <channelAddress>72:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_72</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell72_T">
+        <description>Cell (T) (str1_cell72)</description>
+        <channelAddress>72:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_72</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell73_R">
+        <description>Cell (R) (str1_cell73)</description>
+        <channelAddress>73:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_73</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell73_V">
+        <description>Cell (V) (str1_cell73)</description>
+        <channelAddress>73:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_73</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell73_T">
+        <description>Cell (T) (str1_cell73)</description>
+        <channelAddress>73:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_73</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell74_R">
+        <description>Cell (R) (str1_cell74)</description>
+        <channelAddress>74:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_74</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell74_V">
+        <description>Cell (V) (str1_cell74)</description>
+        <channelAddress>74:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_74</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell74_T">
+        <description>Cell (T) (str1_cell74)</description>
+        <channelAddress>74:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_74</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell75_R">
+        <description>Cell (R) (str1_cell75)</description>
+        <channelAddress>75:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_75</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell75_V">
+        <description>Cell (V) (str1_cell75)</description>
+        <channelAddress>75:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_75</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell75_T">
+        <description>Cell (T) (str1_cell75)</description>
+        <channelAddress>75:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_75</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell76_R">
+        <description>Cell (R) (str1_cell76)</description>
+        <channelAddress>76:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_76</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell76_V">
+        <description>Cell (V) (str1_cell76)</description>
+        <channelAddress>76:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_76</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell76_T">
+        <description>Cell (T) (str1_cell76)</description>
+        <channelAddress>76:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_76</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell77_R">
+        <description>Cell (R) (str1_cell77)</description>
+        <channelAddress>77:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_77</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell77_V">
+        <description>Cell (V) (str1_cell77)</description>
+        <channelAddress>77:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_77</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell77_T">
+        <description>Cell (T) (str1_cell77)</description>
+        <channelAddress>77:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_77</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell78_R">
+        <description>Cell (R) (str1_cell78)</description>
+        <channelAddress>78:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_78</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell78_V">
+        <description>Cell (V) (str1_cell78)</description>
+        <channelAddress>78:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_78</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell78_T">
+        <description>Cell (T) (str1_cell78)</description>
+        <channelAddress>78:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_78</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell79_R">
+        <description>Cell (R) (str1_cell79)</description>
+        <channelAddress>79:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_79</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell79_V">
+        <description>Cell (V) (str1_cell79)</description>
+        <channelAddress>79:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_79</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell79_T">
+        <description>Cell (T) (str1_cell79)</description>
+        <channelAddress>79:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_79</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell80_R">
+        <description>Cell (R) (str1_cell80)</description>
+        <channelAddress>80:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_80</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell80_V">
+        <description>Cell (V) (str1_cell80)</description>
+        <channelAddress>80:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_80</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell80_T">
+        <description>Cell (T) (str1_cell80)</description>
+        <channelAddress>80:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>7900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_80</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell81_R">
+        <description>Cell (R) (str1_cell81)</description>
+        <channelAddress>81:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_81</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell81_V">
+        <description>Cell (V) (str1_cell81)</description>
+        <channelAddress>81:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_81</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell81_T">
+        <description>Cell (T) (str1_cell81)</description>
+        <channelAddress>81:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_81</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell82_R">
+        <description>Cell (R) (str1_cell82)</description>
+        <channelAddress>82:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_82</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell82_V">
+        <description>Cell (V) (str1_cell82)</description>
+        <channelAddress>82:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_82</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell82_T">
+        <description>Cell (T) (str1_cell82)</description>
+        <channelAddress>82:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_82</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell83_R">
+        <description>Cell (R) (str1_cell83)</description>
+        <channelAddress>83:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_83</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell83_V">
+        <description>Cell (V) (str1_cell83)</description>
+        <channelAddress>83:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_83</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell83_T">
+        <description>Cell (T) (str1_cell83)</description>
+        <channelAddress>83:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_83</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell84_R">
+        <description>Cell (R) (str1_cell84)</description>
+        <channelAddress>84:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_84</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell84_V">
+        <description>Cell (V) (str1_cell84)</description>
+        <channelAddress>84:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_84</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell84_T">
+        <description>Cell (T) (str1_cell84)</description>
+        <channelAddress>84:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_84</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell85_R">
+        <description>Cell (R) (str1_cell85)</description>
+        <channelAddress>85:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_85</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell85_V">
+        <description>Cell (V) (str1_cell85)</description>
+        <channelAddress>85:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_85</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell85_T">
+        <description>Cell (T) (str1_cell85)</description>
+        <channelAddress>85:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_85</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell86_R">
+        <description>Cell (R) (str1_cell86)</description>
+        <channelAddress>86:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_86</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell86_V">
+        <description>Cell (V) (str1_cell86)</description>
+        <channelAddress>86:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_86</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell86_T">
+        <description>Cell (T) (str1_cell86)</description>
+        <channelAddress>86:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_86</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell87_R">
+        <description>Cell (R) (str1_cell87)</description>
+        <channelAddress>87:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_87</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell87_V">
+        <description>Cell (V) (str1_cell87)</description>
+        <channelAddress>87:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_87</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell87_T">
+        <description>Cell (T) (str1_cell87)</description>
+        <channelAddress>87:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_87</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell88_R">
+        <description>Cell (R) (str1_cell88)</description>
+        <channelAddress>88:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_88</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell88_V">
+        <description>Cell (V) (str1_cell88)</description>
+        <channelAddress>88:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_88</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell88_T">
+        <description>Cell (T) (str1_cell88)</description>
+        <channelAddress>88:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_88</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell89_R">
+        <description>Cell (R) (str1_cell89)</description>
+        <channelAddress>89:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_89</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell89_V">
+        <description>Cell (V) (str1_cell89)</description>
+        <channelAddress>89:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_89</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell89_T">
+        <description>Cell (T) (str1_cell89)</description>
+        <channelAddress>89:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_89</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell90_R">
+        <description>Cell (R) (str1_cell90)</description>
+        <channelAddress>90:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_90</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell90_V">
+        <description>Cell (V) (str1_cell90)</description>
+        <channelAddress>90:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_90</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell90_T">
+        <description>Cell (T) (str1_cell90)</description>
+        <channelAddress>90:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>8900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_90</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell91_R">
+        <description>Cell (R) (str1_cell91)</description>
+        <channelAddress>91:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_91</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell91_V">
+        <description>Cell (V) (str1_cell91)</description>
+        <channelAddress>91:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_91</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell91_T">
+        <description>Cell (T) (str1_cell91)</description>
+        <channelAddress>91:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_91</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell92_R">
+        <description>Cell (R) (str1_cell92)</description>
+        <channelAddress>92:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_92</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell92_V">
+        <description>Cell (V) (str1_cell92)</description>
+        <channelAddress>92:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_92</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell92_T">
+        <description>Cell (T) (str1_cell92)</description>
+        <channelAddress>92:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_92</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell93_R">
+        <description>Cell (R) (str1_cell93)</description>
+        <channelAddress>93:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_93</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell93_V">
+        <description>Cell (V) (str1_cell93)</description>
+        <channelAddress>93:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_93</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell93_T">
+        <description>Cell (T) (str1_cell93)</description>
+        <channelAddress>93:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_93</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell94_R">
+        <description>Cell (R) (str1_cell94)</description>
+        <channelAddress>94:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_94</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell94_V">
+        <description>Cell (V) (str1_cell94)</description>
+        <channelAddress>94:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_94</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell94_T">
+        <description>Cell (T) (str1_cell94)</description>
+        <channelAddress>94:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_94</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell95_R">
+        <description>Cell (R) (str1_cell95)</description>
+        <channelAddress>95:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_95</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell95_V">
+        <description>Cell (V) (str1_cell95)</description>
+        <channelAddress>95:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_95</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell95_T">
+        <description>Cell (T) (str1_cell95)</description>
+        <channelAddress>95:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9400ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_95</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell96_R">
+        <description>Cell (R) (str1_cell96)</description>
+        <channelAddress>96:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_96</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell96_V">
+        <description>Cell (V) (str1_cell96)</description>
+        <channelAddress>96:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_96</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell96_T">
+        <description>Cell (T) (str1_cell96)</description>
+        <channelAddress>96:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9500ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_96</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell97_R">
+        <description>Cell (R) (str1_cell97)</description>
+        <channelAddress>97:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_97</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell97_V">
+        <description>Cell (V) (str1_cell97)</description>
+        <channelAddress>97:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_97</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell97_T">
+        <description>Cell (T) (str1_cell97)</description>
+        <channelAddress>97:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9600ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_97</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell98_R">
+        <description>Cell (R) (str1_cell98)</description>
+        <channelAddress>98:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_98</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell98_V">
+        <description>Cell (V) (str1_cell98)</description>
+        <channelAddress>98:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_98</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell98_T">
+        <description>Cell (T) (str1_cell98)</description>
+        <channelAddress>98:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9700ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_98</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell99_R">
+        <description>Cell (R) (str1_cell99)</description>
+        <channelAddress>99:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_99</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell99_V">
+        <description>Cell (V) (str1_cell99)</description>
+        <channelAddress>99:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_99</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell99_T">
+        <description>Cell (T) (str1_cell99)</description>
+        <channelAddress>99:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9800ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_99</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell100_R">
+        <description>Cell (R) (str1_cell100)</description>
+        <channelAddress>100:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_100</samplingGroup>
+        <loggingInterval>1s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell100_V">
+        <description>Cell (V) (str1_cell100)</description>
+        <channelAddress>100:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_100</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell100_T">
+        <description>Cell (T) (str1_cell100)</description>
+        <channelAddress>100:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>9900ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_100</samplingGroup>
         <disabled>false</disabled>
       </channel>
     </device>
