@@ -79,7 +79,7 @@ public final class SimpleDemoApp {
     private void getChannel(){
         // logger.info("Getting value from channel {}", CHANNEL);
         // try {
-            for(int i = 0; i < 50; i++){
+            for(int i = 0; i < 100; i++){
 
                 Value voltage = dataAccessService.getChannel("str1_cell"+ (i+1)+"_V").getLatestRecord().getValue();
                 Value temperature = dataAccessService.getChannel("str1_cell"+ (i+1)+"_T").getLatestRecord().getValue();
