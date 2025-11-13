@@ -85,7 +85,7 @@ public final class SimpleDemoApp {
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_T").getLatestRecord().getValue().asDouble(),
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_R").getLatestRecord().getValue().asDouble()
                 );
-            }x  
+            }
         } catch (Exception e) {
             logger.warn("Error updating channel {}", e.getMessage());
         }
