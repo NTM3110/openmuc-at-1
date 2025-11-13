@@ -78,17 +78,25 @@ public final class SimpleDemoApp {
 
     private void getChannel(){
         // logger.info("Getting value from channel {}", CHANNEL);
-        try {
+        // try {
             for(int i = 0; i < 50; i++){
+
+                Value voltage = dataAccessService.getChannel("str1_cell"+ (i+1)+"_V").getLatestRecord().getValue();
+                Value temperature = dataAccessService.getChannel("str1_cell"+ (i+1)+"_T").getLatestRecord().getValue();
+                Value resistance = dataAccessService.getChannel("str1_cell"+ (i+1)+"_R").getLatestRecord().getValue();
+                if (voltage == null || temperature == null || resistance == null) {
+                    logger.warn("Channel str1_cell{}_V or str1_cell{}_T or str1_cell{}_R not found!", i+1, i+1, i+1);
+                    continue;
+                }
                 logger.info("str1_cell_{}, Value: --------> V: {},  T: {},   R: {}", i+1, 
-                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_V").getLatestRecord().getValue().asDouble(),
-                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_T").getLatestRecord().getValue().asDouble(),
-                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_R").getLatestRecord().getValue().asDouble()
+                    voltage.asDouble(),
+                    temperature.asDouble(),
+                    resistance.asDouble()
                 );
             }
-        } catch (Exception e) {
-            logger.warn("Error updating channel {}", e.getMessage());
-        }
+        // } catch (Exception e) {
+        //     logger.warn("Error updating channel {}", e.getMessage());
+        // }
     }
     /**
      * Initialize channel objects
