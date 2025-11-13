@@ -54,7 +54,7 @@
         <channelAddress>2:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingTimeOffset>1s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_2</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -63,7 +63,7 @@
         <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingTimeOffset>1s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_2</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -72,7 +72,7 @@
         <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingTimeOffset>1s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_2</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -81,7 +81,7 @@
         <channelAddress>3:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>600ms</samplingTimeOffset>
+        <samplingTimeOffset>2s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -90,7 +90,7 @@
         <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>600ms</samplingTimeOffset>
+        <samplingTimeOffset>2s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -99,7 +99,7 @@
         <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>600ms</samplingTimeOffset>
+        <samplingTimeOffset>2s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_3</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -108,7 +108,7 @@
         <channelAddress>4:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>900ms</samplingTimeOffset>
+        <samplingTimeOffset>3s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_4</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -117,7 +117,7 @@
         <channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>900ms</samplingTimeOffset>
+        <samplingTimeOffset>3s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_4</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -126,7 +126,7 @@
         <channelAddress>4:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>900ms</samplingTimeOffset>
+        <samplingTimeOffset>3s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_4</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -135,7 +135,7 @@
         <channelAddress>5:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1200ms</samplingTimeOffset>
+        <samplingTimeOffset>4s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_5</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -144,7 +144,7 @@
         <channelAddress>5:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1200ms</samplingTimeOffset>
+        <samplingTimeOffset>4s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_5</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -153,7 +153,7 @@
         <channelAddress>5:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1200ms</samplingTimeOffset>
+        <samplingTimeOffset>4s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_5</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -162,7 +162,7 @@
         <channelAddress>6:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1500ms</samplingTimeOffset>
+        <samplingTimeOffset>5s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_6</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -171,7 +171,7 @@
         <channelAddress>6:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1500ms</samplingTimeOffset>
+        <samplingTimeOffset>5s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_6</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -180,7 +180,7 @@
         <channelAddress>6:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1500ms</samplingTimeOffset>
+        <samplingTimeOffset>5s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_6</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -189,7 +189,7 @@
         <channelAddress>7:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1800ms</samplingTimeOffset>
+        <samplingTimeOffset>6s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_7</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -198,7 +198,7 @@
         <channelAddress>7:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1800ms</samplingTimeOffset>
+        <samplingTimeOffset>6s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_7</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -207,7 +207,7 @@
         <channelAddress>7:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>1800ms</samplingTimeOffset>
+        <samplingTimeOffset>6s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_7</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -216,7 +216,7 @@
         <channelAddress>8:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2100ms</samplingTimeOffset>
+        <samplingTimeOffset>7s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_8</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -225,7 +225,7 @@
         <channelAddress>8:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2100ms</samplingTimeOffset>
+        <samplingTimeOffset>7s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_8</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -234,7 +234,7 @@
         <channelAddress>8:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2100ms</samplingTimeOffset>
+        <samplingTimeOffset>7s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_8</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -243,7 +243,7 @@
         <channelAddress>9:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2400ms</samplingTimeOffset>
+        <samplingTimeOffset>8s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_9</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -252,7 +252,7 @@
         <channelAddress>9:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2400ms</samplingTimeOffset>
+        <samplingTimeOffset>8s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_9</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -261,7 +261,7 @@
         <channelAddress>9:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2400ms</samplingTimeOffset>
+        <samplingTimeOffset>8s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_9</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -270,7 +270,7 @@
         <channelAddress>10:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2700ms</samplingTimeOffset>
+        <samplingTimeOffset>9s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_10</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -279,7 +279,7 @@
         <channelAddress>10:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2700ms</samplingTimeOffset>
+        <samplingTimeOffset>9s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_10</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -288,7 +288,7 @@
         <channelAddress>10:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>2700ms</samplingTimeOffset>
+        <samplingTimeOffset>9s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_10</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -297,7 +297,7 @@
         <channelAddress>11:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingTimeOffset>10s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_11</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -306,7 +306,7 @@
         <channelAddress>11:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingTimeOffset>10s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_11</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -315,7 +315,7 @@
         <channelAddress>11:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingTimeOffset>10s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_11</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -324,7 +324,7 @@
         <channelAddress>12:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3300ms</samplingTimeOffset>
+        <samplingTimeOffset>11s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_12</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -333,7 +333,7 @@
         <channelAddress>12:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3300ms</samplingTimeOffset>
+        <samplingTimeOffset>11s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_12</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -342,7 +342,7 @@
         <channelAddress>12:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3300ms</samplingTimeOffset>
+        <samplingTimeOffset>11s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_12</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -351,7 +351,7 @@
         <channelAddress>13:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3600ms</samplingTimeOffset>
+        <samplingTimeOffset>12s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_13</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -360,7 +360,7 @@
         <channelAddress>13:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3600ms</samplingTimeOffset>
+        <samplingTimeOffset>12s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_13</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -369,7 +369,7 @@
         <channelAddress>13:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3600ms</samplingTimeOffset>
+        <samplingTimeOffset>12s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_13</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -378,7 +378,7 @@
         <channelAddress>14:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3900ms</samplingTimeOffset>
+        <samplingTimeOffset>13s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_14</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -387,7 +387,7 @@
         <channelAddress>14:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3900ms</samplingTimeOffset>
+        <samplingTimeOffset>13s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_14</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -396,7 +396,7 @@
         <channelAddress>14:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>3900ms</samplingTimeOffset>
+        <samplingTimeOffset>13s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_14</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -405,7 +405,7 @@
         <channelAddress>15:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4200ms</samplingTimeOffset>
+        <samplingTimeOffset>14s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_15</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -414,7 +414,7 @@
         <channelAddress>15:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4200ms</samplingTimeOffset>
+        <samplingTimeOffset>14s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_15</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -423,7 +423,7 @@
         <channelAddress>15:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4200ms</samplingTimeOffset>
+        <samplingTimeOffset>14s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_15</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -432,7 +432,7 @@
         <channelAddress>16:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4500ms</samplingTimeOffset>
+        <samplingTimeOffset>15s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_16</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -441,7 +441,7 @@
         <channelAddress>16:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4500ms</samplingTimeOffset>
+        <samplingTimeOffset>15s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_16</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -450,7 +450,7 @@
         <channelAddress>16:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4500ms</samplingTimeOffset>
+        <samplingTimeOffset>15s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_16</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -459,7 +459,7 @@
         <channelAddress>17:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4800ms</samplingTimeOffset>
+        <samplingTimeOffset>16s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_17</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -468,7 +468,7 @@
         <channelAddress>17:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4800ms</samplingTimeOffset>
+        <samplingTimeOffset>16s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_17</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -477,7 +477,7 @@
         <channelAddress>17:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>4800ms</samplingTimeOffset>
+        <samplingTimeOffset>16s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_17</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -486,7 +486,7 @@
         <channelAddress>18:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5100ms</samplingTimeOffset>
+        <samplingTimeOffset>17s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_18</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -495,7 +495,7 @@
         <channelAddress>18:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5100ms</samplingTimeOffset>
+        <samplingTimeOffset>17s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_18</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -504,7 +504,7 @@
         <channelAddress>18:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5100ms</samplingTimeOffset>
+        <samplingTimeOffset>17s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_18</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -513,7 +513,7 @@
         <channelAddress>19:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5400ms</samplingTimeOffset>
+        <samplingTimeOffset>18s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_19</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -522,7 +522,7 @@
         <channelAddress>19:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5400ms</samplingTimeOffset>
+        <samplingTimeOffset>18s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_19</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -531,7 +531,7 @@
         <channelAddress>19:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5400ms</samplingTimeOffset>
+        <samplingTimeOffset>18s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_19</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -540,7 +540,7 @@
         <channelAddress>20:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5700ms</samplingTimeOffset>
+        <samplingTimeOffset>19s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_20</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -549,7 +549,7 @@
         <channelAddress>20:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5700ms</samplingTimeOffset>
+        <samplingTimeOffset>19s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_20</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -558,7 +558,7 @@
         <channelAddress>20:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>5700ms</samplingTimeOffset>
+        <samplingTimeOffset>19s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_20</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -567,7 +567,7 @@
         <channelAddress>21:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingTimeOffset>20s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_21</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -576,7 +576,7 @@
         <channelAddress>21:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingTimeOffset>20s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_21</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -585,7 +585,7 @@
         <channelAddress>21:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingTimeOffset>20s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_21</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -594,7 +594,7 @@
         <channelAddress>22:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6300ms</samplingTimeOffset>
+        <samplingTimeOffset>21s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_22</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -603,7 +603,7 @@
         <channelAddress>22:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6300ms</samplingTimeOffset>
+        <samplingTimeOffset>21s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_22</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -612,7 +612,7 @@
         <channelAddress>22:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6300ms</samplingTimeOffset>
+        <samplingTimeOffset>21s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_22</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -621,7 +621,7 @@
         <channelAddress>23:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6600ms</samplingTimeOffset>
+        <samplingTimeOffset>22s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_23</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -630,7 +630,7 @@
         <channelAddress>23:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6600ms</samplingTimeOffset>
+        <samplingTimeOffset>22s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_23</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -639,7 +639,7 @@
         <channelAddress>23:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6600ms</samplingTimeOffset>
+        <samplingTimeOffset>22s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_23</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -648,7 +648,7 @@
         <channelAddress>24:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6900ms</samplingTimeOffset>
+        <samplingTimeOffset>23s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_24</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -657,7 +657,7 @@
         <channelAddress>24:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6900ms</samplingTimeOffset>
+        <samplingTimeOffset>23s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_24</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -666,7 +666,7 @@
         <channelAddress>24:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>6900ms</samplingTimeOffset>
+        <samplingTimeOffset>23s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_24</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -675,7 +675,7 @@
         <channelAddress>25:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7200ms</samplingTimeOffset>
+        <samplingTimeOffset>24s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_25</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -684,7 +684,7 @@
         <channelAddress>25:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7200ms</samplingTimeOffset>
+        <samplingTimeOffset>24s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_25</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -693,7 +693,7 @@
         <channelAddress>25:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7200ms</samplingTimeOffset>
+        <samplingTimeOffset>24s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_25</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -702,7 +702,7 @@
         <channelAddress>26:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7500ms</samplingTimeOffset>
+        <samplingTimeOffset>25s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_26</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -711,7 +711,7 @@
         <channelAddress>26:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7500ms</samplingTimeOffset>
+        <samplingTimeOffset>25s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_26</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -720,7 +720,7 @@
         <channelAddress>26:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7500ms</samplingTimeOffset>
+        <samplingTimeOffset>25s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_26</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -729,7 +729,7 @@
         <channelAddress>27:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7800ms</samplingTimeOffset>
+        <samplingTimeOffset>26s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_27</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -738,7 +738,7 @@
         <channelAddress>27:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7800ms</samplingTimeOffset>
+        <samplingTimeOffset>26s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_27</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -747,7 +747,7 @@
         <channelAddress>27:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>7800ms</samplingTimeOffset>
+        <samplingTimeOffset>26s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_27</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -756,7 +756,7 @@
         <channelAddress>28:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8100ms</samplingTimeOffset>
+        <samplingTimeOffset>27s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_28</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -765,7 +765,7 @@
         <channelAddress>28:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8100ms</samplingTimeOffset>
+        <samplingTimeOffset>27s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_28</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -774,7 +774,7 @@
         <channelAddress>28:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8100ms</samplingTimeOffset>
+        <samplingTimeOffset>27s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_28</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -783,7 +783,7 @@
         <channelAddress>29:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8400ms</samplingTimeOffset>
+        <samplingTimeOffset>28s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_29</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -792,7 +792,7 @@
         <channelAddress>29:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8400ms</samplingTimeOffset>
+        <samplingTimeOffset>28s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_29</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -801,7 +801,7 @@
         <channelAddress>29:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8400ms</samplingTimeOffset>
+        <samplingTimeOffset>28s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_29</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -810,7 +810,7 @@
         <channelAddress>30:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8700ms</samplingTimeOffset>
+        <samplingTimeOffset>29s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_30</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -819,7 +819,7 @@
         <channelAddress>30:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8700ms</samplingTimeOffset>
+        <samplingTimeOffset>29s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_30</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -828,7 +828,7 @@
         <channelAddress>30:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>8700ms</samplingTimeOffset>
+        <samplingTimeOffset>29s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_30</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -837,7 +837,7 @@
         <channelAddress>31:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingTimeOffset>30s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_31</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -846,7 +846,7 @@
         <channelAddress>31:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingTimeOffset>30s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_31</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -855,7 +855,7 @@
         <channelAddress>31:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingTimeOffset>30s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_31</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -864,7 +864,7 @@
         <channelAddress>32:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9300ms</samplingTimeOffset>
+        <samplingTimeOffset>31s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_32</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -873,7 +873,7 @@
         <channelAddress>32:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9300ms</samplingTimeOffset>
+        <samplingTimeOffset>31s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_32</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -882,7 +882,7 @@
         <channelAddress>32:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9300ms</samplingTimeOffset>
+        <samplingTimeOffset>31s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_32</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -891,7 +891,7 @@
         <channelAddress>33:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9600ms</samplingTimeOffset>
+        <samplingTimeOffset>32s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_33</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -900,7 +900,7 @@
         <channelAddress>33:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9600ms</samplingTimeOffset>
+        <samplingTimeOffset>32s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_33</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -909,7 +909,7 @@
         <channelAddress>33:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9600ms</samplingTimeOffset>
+        <samplingTimeOffset>32s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_33</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -918,7 +918,7 @@
         <channelAddress>34:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9900ms</samplingTimeOffset>
+        <samplingTimeOffset>33s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_34</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -927,7 +927,7 @@
         <channelAddress>34:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9900ms</samplingTimeOffset>
+        <samplingTimeOffset>33s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_34</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -936,7 +936,7 @@
         <channelAddress>34:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>9900ms</samplingTimeOffset>
+        <samplingTimeOffset>33s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_34</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -945,7 +945,7 @@
         <channelAddress>35:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10200ms</samplingTimeOffset>
+        <samplingTimeOffset>34s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_35</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -954,7 +954,7 @@
         <channelAddress>35:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10200ms</samplingTimeOffset>
+        <samplingTimeOffset>34s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_35</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -963,7 +963,7 @@
         <channelAddress>35:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10200ms</samplingTimeOffset>
+        <samplingTimeOffset>34s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_35</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -972,7 +972,7 @@
         <channelAddress>36:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10500ms</samplingTimeOffset>
+        <samplingTimeOffset>35s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_36</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -981,7 +981,7 @@
         <channelAddress>36:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10500ms</samplingTimeOffset>
+        <samplingTimeOffset>35s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_36</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -990,7 +990,7 @@
         <channelAddress>36:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10500ms</samplingTimeOffset>
+        <samplingTimeOffset>35s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_36</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -999,7 +999,7 @@
         <channelAddress>37:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10800ms</samplingTimeOffset>
+        <samplingTimeOffset>36s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_37</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1008,7 +1008,7 @@
         <channelAddress>37:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10800ms</samplingTimeOffset>
+        <samplingTimeOffset>36s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_37</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1017,7 +1017,7 @@
         <channelAddress>37:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>10800ms</samplingTimeOffset>
+        <samplingTimeOffset>36s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_37</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1026,7 +1026,7 @@
         <channelAddress>38:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11100ms</samplingTimeOffset>
+        <samplingTimeOffset>37s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_38</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1035,7 +1035,7 @@
         <channelAddress>38:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11100ms</samplingTimeOffset>
+        <samplingTimeOffset>37s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_38</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1044,7 +1044,7 @@
         <channelAddress>38:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11100ms</samplingTimeOffset>
+        <samplingTimeOffset>37s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_38</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1053,7 +1053,7 @@
         <channelAddress>39:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11400ms</samplingTimeOffset>
+        <samplingTimeOffset>38s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_39</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1062,7 +1062,7 @@
         <channelAddress>39:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11400ms</samplingTimeOffset>
+        <samplingTimeOffset>38s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_39</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1071,7 +1071,7 @@
         <channelAddress>39:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11400ms</samplingTimeOffset>
+        <samplingTimeOffset>38s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_39</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1080,7 +1080,7 @@
         <channelAddress>40:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11700ms</samplingTimeOffset>
+        <samplingTimeOffset>39s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_40</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1089,7 +1089,7 @@
         <channelAddress>40:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11700ms</samplingTimeOffset>
+        <samplingTimeOffset>39s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_40</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1098,7 +1098,7 @@
         <channelAddress>40:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>11700ms</samplingTimeOffset>
+        <samplingTimeOffset>39s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_40</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1107,7 +1107,7 @@
         <channelAddress>41:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12s</samplingTimeOffset>
+        <samplingTimeOffset>40s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_41</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1116,7 +1116,7 @@
         <channelAddress>41:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12s</samplingTimeOffset>
+        <samplingTimeOffset>40s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_41</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1125,7 +1125,7 @@
         <channelAddress>41:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12s</samplingTimeOffset>
+        <samplingTimeOffset>40s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_41</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1134,7 +1134,7 @@
         <channelAddress>42:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12300ms</samplingTimeOffset>
+        <samplingTimeOffset>41s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_42</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1143,7 +1143,7 @@
         <channelAddress>42:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12300ms</samplingTimeOffset>
+        <samplingTimeOffset>41s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_42</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1152,7 +1152,7 @@
         <channelAddress>42:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12300ms</samplingTimeOffset>
+        <samplingTimeOffset>41s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_42</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1161,7 +1161,7 @@
         <channelAddress>43:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12600ms</samplingTimeOffset>
+        <samplingTimeOffset>42s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_43</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1170,7 +1170,7 @@
         <channelAddress>43:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12600ms</samplingTimeOffset>
+        <samplingTimeOffset>42s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_43</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1179,7 +1179,7 @@
         <channelAddress>43:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12600ms</samplingTimeOffset>
+        <samplingTimeOffset>42s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_43</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1188,7 +1188,7 @@
         <channelAddress>44:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12900ms</samplingTimeOffset>
+        <samplingTimeOffset>43s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_44</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1197,7 +1197,7 @@
         <channelAddress>44:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12900ms</samplingTimeOffset>
+        <samplingTimeOffset>43s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_44</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1206,7 +1206,7 @@
         <channelAddress>44:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>12900ms</samplingTimeOffset>
+        <samplingTimeOffset>43s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_44</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1215,7 +1215,7 @@
         <channelAddress>45:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13200ms</samplingTimeOffset>
+        <samplingTimeOffset>44s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_45</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1224,7 +1224,7 @@
         <channelAddress>45:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13200ms</samplingTimeOffset>
+        <samplingTimeOffset>44s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_45</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1233,7 +1233,7 @@
         <channelAddress>45:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13200ms</samplingTimeOffset>
+        <samplingTimeOffset>44s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_45</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1242,7 +1242,7 @@
         <channelAddress>46:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13500ms</samplingTimeOffset>
+        <samplingTimeOffset>45s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_46</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1251,7 +1251,7 @@
         <channelAddress>46:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13500ms</samplingTimeOffset>
+        <samplingTimeOffset>45s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_46</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1260,7 +1260,7 @@
         <channelAddress>46:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13500ms</samplingTimeOffset>
+        <samplingTimeOffset>45s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_46</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1269,7 +1269,7 @@
         <channelAddress>47:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13800ms</samplingTimeOffset>
+        <samplingTimeOffset>46s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_47</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1278,7 +1278,7 @@
         <channelAddress>47:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13800ms</samplingTimeOffset>
+        <samplingTimeOffset>46s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_47</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1287,7 +1287,7 @@
         <channelAddress>47:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>13800ms</samplingTimeOffset>
+        <samplingTimeOffset>46s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_47</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1296,7 +1296,7 @@
         <channelAddress>48:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14100ms</samplingTimeOffset>
+        <samplingTimeOffset>47s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_48</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1305,7 +1305,7 @@
         <channelAddress>48:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14100ms</samplingTimeOffset>
+        <samplingTimeOffset>47s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_48</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1314,7 +1314,7 @@
         <channelAddress>48:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14100ms</samplingTimeOffset>
+        <samplingTimeOffset>47s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_48</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1323,7 +1323,7 @@
         <channelAddress>49:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14400ms</samplingTimeOffset>
+        <samplingTimeOffset>48s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_49</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1332,7 +1332,7 @@
         <channelAddress>49:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14400ms</samplingTimeOffset>
+        <samplingTimeOffset>48s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_49</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1341,7 +1341,7 @@
         <channelAddress>49:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14400ms</samplingTimeOffset>
+        <samplingTimeOffset>48s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_49</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1350,7 +1350,7 @@
         <channelAddress>50:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14700ms</samplingTimeOffset>
+        <samplingTimeOffset>49s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_50</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1359,7 +1359,7 @@
         <channelAddress>50:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14700ms</samplingTimeOffset>
+        <samplingTimeOffset>49s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_50</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1368,7 +1368,7 @@
         <channelAddress>50:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>14700ms</samplingTimeOffset>
+        <samplingTimeOffset>49s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_50</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1377,7 +1377,7 @@
         <channelAddress>51:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15s</samplingTimeOffset>
+        <samplingTimeOffset>50s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_51</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1386,7 +1386,7 @@
         <channelAddress>51:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15s</samplingTimeOffset>
+        <samplingTimeOffset>50s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_51</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1395,7 +1395,7 @@
         <channelAddress>51:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15s</samplingTimeOffset>
+        <samplingTimeOffset>50s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_51</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1404,7 +1404,7 @@
         <channelAddress>52:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15300ms</samplingTimeOffset>
+        <samplingTimeOffset>51s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_52</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1413,7 +1413,7 @@
         <channelAddress>52:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15300ms</samplingTimeOffset>
+        <samplingTimeOffset>51s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_52</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1422,7 +1422,7 @@
         <channelAddress>52:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15300ms</samplingTimeOffset>
+        <samplingTimeOffset>51s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_52</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1431,7 +1431,7 @@
         <channelAddress>53:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15600ms</samplingTimeOffset>
+        <samplingTimeOffset>52s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_53</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1440,7 +1440,7 @@
         <channelAddress>53:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15600ms</samplingTimeOffset>
+        <samplingTimeOffset>52s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_53</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1449,7 +1449,7 @@
         <channelAddress>53:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15600ms</samplingTimeOffset>
+        <samplingTimeOffset>52s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_53</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1458,7 +1458,7 @@
         <channelAddress>54:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15900ms</samplingTimeOffset>
+        <samplingTimeOffset>53s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_54</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1467,7 +1467,7 @@
         <channelAddress>54:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15900ms</samplingTimeOffset>
+        <samplingTimeOffset>53s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_54</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1476,7 +1476,7 @@
         <channelAddress>54:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>15900ms</samplingTimeOffset>
+        <samplingTimeOffset>53s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_54</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1485,7 +1485,7 @@
         <channelAddress>55:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16200ms</samplingTimeOffset>
+        <samplingTimeOffset>54s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_55</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1494,7 +1494,7 @@
         <channelAddress>55:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16200ms</samplingTimeOffset>
+        <samplingTimeOffset>54s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_55</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1503,7 +1503,7 @@
         <channelAddress>55:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16200ms</samplingTimeOffset>
+        <samplingTimeOffset>54s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_55</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1512,7 +1512,7 @@
         <channelAddress>56:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16500ms</samplingTimeOffset>
+        <samplingTimeOffset>55s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_56</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1521,7 +1521,7 @@
         <channelAddress>56:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16500ms</samplingTimeOffset>
+        <samplingTimeOffset>55s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_56</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1530,7 +1530,7 @@
         <channelAddress>56:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16500ms</samplingTimeOffset>
+        <samplingTimeOffset>55s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_56</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1539,7 +1539,7 @@
         <channelAddress>57:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16800ms</samplingTimeOffset>
+        <samplingTimeOffset>56s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_57</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1548,7 +1548,7 @@
         <channelAddress>57:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16800ms</samplingTimeOffset>
+        <samplingTimeOffset>56s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_57</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1557,7 +1557,7 @@
         <channelAddress>57:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>16800ms</samplingTimeOffset>
+        <samplingTimeOffset>56s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_57</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1566,7 +1566,7 @@
         <channelAddress>58:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17100ms</samplingTimeOffset>
+        <samplingTimeOffset>57s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_58</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1575,7 +1575,7 @@
         <channelAddress>58:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17100ms</samplingTimeOffset>
+        <samplingTimeOffset>57s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_58</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1584,7 +1584,7 @@
         <channelAddress>58:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17100ms</samplingTimeOffset>
+        <samplingTimeOffset>57s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_58</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1593,7 +1593,7 @@
         <channelAddress>59:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17400ms</samplingTimeOffset>
+        <samplingTimeOffset>58s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_59</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1602,7 +1602,7 @@
         <channelAddress>59:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17400ms</samplingTimeOffset>
+        <samplingTimeOffset>58s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_59</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1611,7 +1611,7 @@
         <channelAddress>59:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17400ms</samplingTimeOffset>
+        <samplingTimeOffset>58s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_59</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1620,7 +1620,7 @@
         <channelAddress>60:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17700ms</samplingTimeOffset>
+        <samplingTimeOffset>59s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_60</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1629,7 +1629,7 @@
         <channelAddress>60:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17700ms</samplingTimeOffset>
+        <samplingTimeOffset>59s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_60</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1638,7 +1638,7 @@
         <channelAddress>60:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>17700ms</samplingTimeOffset>
+        <samplingTimeOffset>59s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_60</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1647,7 +1647,7 @@
         <channelAddress>61:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18s</samplingTimeOffset>
+        <samplingTimeOffset>1m</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_61</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1656,7 +1656,7 @@
         <channelAddress>61:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18s</samplingTimeOffset>
+        <samplingTimeOffset>1m</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_61</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1665,7 +1665,7 @@
         <channelAddress>61:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18s</samplingTimeOffset>
+        <samplingTimeOffset>1m</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_61</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1674,7 +1674,7 @@
         <channelAddress>62:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18300ms</samplingTimeOffset>
+        <samplingTimeOffset>61s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_62</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1683,7 +1683,7 @@
         <channelAddress>62:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18300ms</samplingTimeOffset>
+        <samplingTimeOffset>61s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_62</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1692,7 +1692,7 @@
         <channelAddress>62:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18300ms</samplingTimeOffset>
+        <samplingTimeOffset>61s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_62</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1701,7 +1701,7 @@
         <channelAddress>63:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18600ms</samplingTimeOffset>
+        <samplingTimeOffset>62s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_63</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1710,7 +1710,7 @@
         <channelAddress>63:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18600ms</samplingTimeOffset>
+        <samplingTimeOffset>62s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_63</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1719,7 +1719,7 @@
         <channelAddress>63:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18600ms</samplingTimeOffset>
+        <samplingTimeOffset>62s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_63</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1728,7 +1728,7 @@
         <channelAddress>64:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18900ms</samplingTimeOffset>
+        <samplingTimeOffset>63s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_64</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1737,7 +1737,7 @@
         <channelAddress>64:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18900ms</samplingTimeOffset>
+        <samplingTimeOffset>63s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_64</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1746,7 +1746,7 @@
         <channelAddress>64:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>18900ms</samplingTimeOffset>
+        <samplingTimeOffset>63s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_64</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1755,7 +1755,7 @@
         <channelAddress>65:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19200ms</samplingTimeOffset>
+        <samplingTimeOffset>64s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_65</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1764,7 +1764,7 @@
         <channelAddress>65:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19200ms</samplingTimeOffset>
+        <samplingTimeOffset>64s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_65</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1773,7 +1773,7 @@
         <channelAddress>65:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19200ms</samplingTimeOffset>
+        <samplingTimeOffset>64s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_65</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1782,7 +1782,7 @@
         <channelAddress>66:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19500ms</samplingTimeOffset>
+        <samplingTimeOffset>65s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_66</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1791,7 +1791,7 @@
         <channelAddress>66:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19500ms</samplingTimeOffset>
+        <samplingTimeOffset>65s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_66</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1800,7 +1800,7 @@
         <channelAddress>66:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19500ms</samplingTimeOffset>
+        <samplingTimeOffset>65s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_66</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1809,7 +1809,7 @@
         <channelAddress>67:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19800ms</samplingTimeOffset>
+        <samplingTimeOffset>66s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_67</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1818,7 +1818,7 @@
         <channelAddress>67:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19800ms</samplingTimeOffset>
+        <samplingTimeOffset>66s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_67</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1827,7 +1827,7 @@
         <channelAddress>67:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>19800ms</samplingTimeOffset>
+        <samplingTimeOffset>66s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_67</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1836,7 +1836,7 @@
         <channelAddress>68:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20100ms</samplingTimeOffset>
+        <samplingTimeOffset>67s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_68</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1845,7 +1845,7 @@
         <channelAddress>68:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20100ms</samplingTimeOffset>
+        <samplingTimeOffset>67s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_68</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1854,7 +1854,7 @@
         <channelAddress>68:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20100ms</samplingTimeOffset>
+        <samplingTimeOffset>67s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_68</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1863,7 +1863,7 @@
         <channelAddress>69:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20400ms</samplingTimeOffset>
+        <samplingTimeOffset>68s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_69</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1872,7 +1872,7 @@
         <channelAddress>69:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20400ms</samplingTimeOffset>
+        <samplingTimeOffset>68s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_69</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1881,7 +1881,7 @@
         <channelAddress>69:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20400ms</samplingTimeOffset>
+        <samplingTimeOffset>68s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_69</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1890,7 +1890,7 @@
         <channelAddress>70:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20700ms</samplingTimeOffset>
+        <samplingTimeOffset>69s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_70</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1899,7 +1899,7 @@
         <channelAddress>70:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20700ms</samplingTimeOffset>
+        <samplingTimeOffset>69s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_70</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1908,7 +1908,7 @@
         <channelAddress>70:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>20700ms</samplingTimeOffset>
+        <samplingTimeOffset>69s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_70</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1917,7 +1917,7 @@
         <channelAddress>71:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21s</samplingTimeOffset>
+        <samplingTimeOffset>70s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_71</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1926,7 +1926,7 @@
         <channelAddress>71:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21s</samplingTimeOffset>
+        <samplingTimeOffset>70s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_71</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1935,7 +1935,7 @@
         <channelAddress>71:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21s</samplingTimeOffset>
+        <samplingTimeOffset>70s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_71</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1944,7 +1944,7 @@
         <channelAddress>72:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21300ms</samplingTimeOffset>
+        <samplingTimeOffset>71s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_72</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1953,7 +1953,7 @@
         <channelAddress>72:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21300ms</samplingTimeOffset>
+        <samplingTimeOffset>71s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_72</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1962,7 +1962,7 @@
         <channelAddress>72:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21300ms</samplingTimeOffset>
+        <samplingTimeOffset>71s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_72</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1971,7 +1971,7 @@
         <channelAddress>73:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21600ms</samplingTimeOffset>
+        <samplingTimeOffset>72s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_73</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1980,7 +1980,7 @@
         <channelAddress>73:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21600ms</samplingTimeOffset>
+        <samplingTimeOffset>72s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_73</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1989,7 +1989,7 @@
         <channelAddress>73:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21600ms</samplingTimeOffset>
+        <samplingTimeOffset>72s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_73</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -1998,7 +1998,7 @@
         <channelAddress>74:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21900ms</samplingTimeOffset>
+        <samplingTimeOffset>73s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_74</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2007,7 +2007,7 @@
         <channelAddress>74:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21900ms</samplingTimeOffset>
+        <samplingTimeOffset>73s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_74</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2016,7 +2016,7 @@
         <channelAddress>74:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>21900ms</samplingTimeOffset>
+        <samplingTimeOffset>73s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_74</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2025,7 +2025,7 @@
         <channelAddress>75:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22200ms</samplingTimeOffset>
+        <samplingTimeOffset>74s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_75</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2034,7 +2034,7 @@
         <channelAddress>75:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22200ms</samplingTimeOffset>
+        <samplingTimeOffset>74s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_75</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2043,7 +2043,7 @@
         <channelAddress>75:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22200ms</samplingTimeOffset>
+        <samplingTimeOffset>74s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_75</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2052,7 +2052,7 @@
         <channelAddress>76:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22500ms</samplingTimeOffset>
+        <samplingTimeOffset>75s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_76</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2061,7 +2061,7 @@
         <channelAddress>76:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22500ms</samplingTimeOffset>
+        <samplingTimeOffset>75s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_76</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2070,7 +2070,7 @@
         <channelAddress>76:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22500ms</samplingTimeOffset>
+        <samplingTimeOffset>75s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_76</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2079,7 +2079,7 @@
         <channelAddress>77:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22800ms</samplingTimeOffset>
+        <samplingTimeOffset>76s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_77</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2088,7 +2088,7 @@
         <channelAddress>77:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22800ms</samplingTimeOffset>
+        <samplingTimeOffset>76s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_77</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2097,7 +2097,7 @@
         <channelAddress>77:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>22800ms</samplingTimeOffset>
+        <samplingTimeOffset>76s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_77</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2106,7 +2106,7 @@
         <channelAddress>78:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23100ms</samplingTimeOffset>
+        <samplingTimeOffset>77s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_78</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2115,7 +2115,7 @@
         <channelAddress>78:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23100ms</samplingTimeOffset>
+        <samplingTimeOffset>77s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_78</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2124,7 +2124,7 @@
         <channelAddress>78:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23100ms</samplingTimeOffset>
+        <samplingTimeOffset>77s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_78</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2133,7 +2133,7 @@
         <channelAddress>79:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23400ms</samplingTimeOffset>
+        <samplingTimeOffset>78s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_79</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2142,7 +2142,7 @@
         <channelAddress>79:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23400ms</samplingTimeOffset>
+        <samplingTimeOffset>78s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_79</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2151,7 +2151,7 @@
         <channelAddress>79:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23400ms</samplingTimeOffset>
+        <samplingTimeOffset>78s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_79</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2160,7 +2160,7 @@
         <channelAddress>80:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23700ms</samplingTimeOffset>
+        <samplingTimeOffset>79s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_80</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2169,7 +2169,7 @@
         <channelAddress>80:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23700ms</samplingTimeOffset>
+        <samplingTimeOffset>79s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_80</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2178,7 +2178,7 @@
         <channelAddress>80:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>23700ms</samplingTimeOffset>
+        <samplingTimeOffset>79s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_80</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2187,7 +2187,7 @@
         <channelAddress>81:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24s</samplingTimeOffset>
+        <samplingTimeOffset>80s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_81</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2196,7 +2196,7 @@
         <channelAddress>81:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24s</samplingTimeOffset>
+        <samplingTimeOffset>80s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_81</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2205,7 +2205,7 @@
         <channelAddress>81:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24s</samplingTimeOffset>
+        <samplingTimeOffset>80s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_81</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2214,7 +2214,7 @@
         <channelAddress>82:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24300ms</samplingTimeOffset>
+        <samplingTimeOffset>81s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_82</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2223,7 +2223,7 @@
         <channelAddress>82:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24300ms</samplingTimeOffset>
+        <samplingTimeOffset>81s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_82</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2232,7 +2232,7 @@
         <channelAddress>82:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24300ms</samplingTimeOffset>
+        <samplingTimeOffset>81s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_82</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2241,7 +2241,7 @@
         <channelAddress>83:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24600ms</samplingTimeOffset>
+        <samplingTimeOffset>82s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_83</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2250,7 +2250,7 @@
         <channelAddress>83:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24600ms</samplingTimeOffset>
+        <samplingTimeOffset>82s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_83</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2259,7 +2259,7 @@
         <channelAddress>83:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24600ms</samplingTimeOffset>
+        <samplingTimeOffset>82s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_83</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2268,7 +2268,7 @@
         <channelAddress>84:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24900ms</samplingTimeOffset>
+        <samplingTimeOffset>83s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_84</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2277,7 +2277,7 @@
         <channelAddress>84:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24900ms</samplingTimeOffset>
+        <samplingTimeOffset>83s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_84</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2286,7 +2286,7 @@
         <channelAddress>84:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>24900ms</samplingTimeOffset>
+        <samplingTimeOffset>83s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_84</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2295,7 +2295,7 @@
         <channelAddress>85:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25200ms</samplingTimeOffset>
+        <samplingTimeOffset>84s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_85</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2304,7 +2304,7 @@
         <channelAddress>85:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25200ms</samplingTimeOffset>
+        <samplingTimeOffset>84s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_85</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2313,7 +2313,7 @@
         <channelAddress>85:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25200ms</samplingTimeOffset>
+        <samplingTimeOffset>84s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_85</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2322,7 +2322,7 @@
         <channelAddress>86:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25500ms</samplingTimeOffset>
+        <samplingTimeOffset>85s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_86</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2331,7 +2331,7 @@
         <channelAddress>86:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25500ms</samplingTimeOffset>
+        <samplingTimeOffset>85s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_86</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2340,7 +2340,7 @@
         <channelAddress>86:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25500ms</samplingTimeOffset>
+        <samplingTimeOffset>85s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_86</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2349,7 +2349,7 @@
         <channelAddress>87:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25800ms</samplingTimeOffset>
+        <samplingTimeOffset>86s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_87</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2358,7 +2358,7 @@
         <channelAddress>87:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25800ms</samplingTimeOffset>
+        <samplingTimeOffset>86s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_87</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2367,7 +2367,7 @@
         <channelAddress>87:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>25800ms</samplingTimeOffset>
+        <samplingTimeOffset>86s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_87</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2376,7 +2376,7 @@
         <channelAddress>88:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26100ms</samplingTimeOffset>
+        <samplingTimeOffset>87s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_88</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2385,7 +2385,7 @@
         <channelAddress>88:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26100ms</samplingTimeOffset>
+        <samplingTimeOffset>87s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_88</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2394,7 +2394,7 @@
         <channelAddress>88:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26100ms</samplingTimeOffset>
+        <samplingTimeOffset>87s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_88</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2403,7 +2403,7 @@
         <channelAddress>89:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26400ms</samplingTimeOffset>
+        <samplingTimeOffset>88s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_89</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2412,7 +2412,7 @@
         <channelAddress>89:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26400ms</samplingTimeOffset>
+        <samplingTimeOffset>88s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_89</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2421,7 +2421,7 @@
         <channelAddress>89:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26400ms</samplingTimeOffset>
+        <samplingTimeOffset>88s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_89</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2430,7 +2430,7 @@
         <channelAddress>90:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26700ms</samplingTimeOffset>
+        <samplingTimeOffset>89s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_90</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2439,7 +2439,7 @@
         <channelAddress>90:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26700ms</samplingTimeOffset>
+        <samplingTimeOffset>89s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_90</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2448,7 +2448,7 @@
         <channelAddress>90:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>26700ms</samplingTimeOffset>
+        <samplingTimeOffset>89s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_90</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2457,7 +2457,7 @@
         <channelAddress>91:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27s</samplingTimeOffset>
+        <samplingTimeOffset>90s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_91</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2466,7 +2466,7 @@
         <channelAddress>91:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27s</samplingTimeOffset>
+        <samplingTimeOffset>90s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_91</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2475,7 +2475,7 @@
         <channelAddress>91:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27s</samplingTimeOffset>
+        <samplingTimeOffset>90s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_91</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2484,7 +2484,7 @@
         <channelAddress>92:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27300ms</samplingTimeOffset>
+        <samplingTimeOffset>91s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_92</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2493,7 +2493,7 @@
         <channelAddress>92:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27300ms</samplingTimeOffset>
+        <samplingTimeOffset>91s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_92</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2502,7 +2502,7 @@
         <channelAddress>92:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27300ms</samplingTimeOffset>
+        <samplingTimeOffset>91s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_92</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2511,7 +2511,7 @@
         <channelAddress>93:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27600ms</samplingTimeOffset>
+        <samplingTimeOffset>92s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_93</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2520,7 +2520,7 @@
         <channelAddress>93:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27600ms</samplingTimeOffset>
+        <samplingTimeOffset>92s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_93</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2529,7 +2529,7 @@
         <channelAddress>93:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27600ms</samplingTimeOffset>
+        <samplingTimeOffset>92s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_93</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2538,7 +2538,7 @@
         <channelAddress>94:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27900ms</samplingTimeOffset>
+        <samplingTimeOffset>93s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_94</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2547,7 +2547,7 @@
         <channelAddress>94:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27900ms</samplingTimeOffset>
+        <samplingTimeOffset>93s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_94</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2556,7 +2556,7 @@
         <channelAddress>94:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>27900ms</samplingTimeOffset>
+        <samplingTimeOffset>93s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_94</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2565,7 +2565,7 @@
         <channelAddress>95:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28200ms</samplingTimeOffset>
+        <samplingTimeOffset>94s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_95</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2574,7 +2574,7 @@
         <channelAddress>95:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28200ms</samplingTimeOffset>
+        <samplingTimeOffset>94s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_95</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2583,7 +2583,7 @@
         <channelAddress>95:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28200ms</samplingTimeOffset>
+        <samplingTimeOffset>94s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_95</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2592,7 +2592,7 @@
         <channelAddress>96:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28500ms</samplingTimeOffset>
+        <samplingTimeOffset>95s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_96</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2601,7 +2601,7 @@
         <channelAddress>96:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28500ms</samplingTimeOffset>
+        <samplingTimeOffset>95s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_96</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2610,7 +2610,7 @@
         <channelAddress>96:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28500ms</samplingTimeOffset>
+        <samplingTimeOffset>95s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_96</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2619,7 +2619,7 @@
         <channelAddress>97:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28800ms</samplingTimeOffset>
+        <samplingTimeOffset>96s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_97</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2628,7 +2628,7 @@
         <channelAddress>97:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28800ms</samplingTimeOffset>
+        <samplingTimeOffset>96s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_97</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2637,7 +2637,7 @@
         <channelAddress>97:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>28800ms</samplingTimeOffset>
+        <samplingTimeOffset>96s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_97</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2646,7 +2646,7 @@
         <channelAddress>98:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29100ms</samplingTimeOffset>
+        <samplingTimeOffset>97s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_98</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2655,7 +2655,7 @@
         <channelAddress>98:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29100ms</samplingTimeOffset>
+        <samplingTimeOffset>97s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_98</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2664,7 +2664,7 @@
         <channelAddress>98:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29100ms</samplingTimeOffset>
+        <samplingTimeOffset>97s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_98</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2673,7 +2673,7 @@
         <channelAddress>99:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29400ms</samplingTimeOffset>
+        <samplingTimeOffset>98s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_99</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2682,7 +2682,7 @@
         <channelAddress>99:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29400ms</samplingTimeOffset>
+        <samplingTimeOffset>98s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_99</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2691,7 +2691,7 @@
         <channelAddress>99:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29400ms</samplingTimeOffset>
+        <samplingTimeOffset>98s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_99</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2700,7 +2700,7 @@
         <channelAddress>100:HOLDING_REGISTERS:0:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29700ms</samplingTimeOffset>
+        <samplingTimeOffset>99s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_100</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2709,7 +2709,7 @@
         <channelAddress>100:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29700ms</samplingTimeOffset>
+        <samplingTimeOffset>99s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_100</samplingGroup>
         <disabled>false</disabled>
       </channel>
@@ -2718,8 +2718,17 @@
         <channelAddress>100:HOLDING_REGISTERS:2:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
-        <samplingTimeOffset>29700ms</samplingTimeOffset>
+        <samplingTimeOffset>99s</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_100</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_total_I">
+        <description>String 1 (I)</description>
+        <channelAddress>106:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str1_sg_pack</samplingGroup>
         <disabled>false</disabled>
       </channel>
     </device>
