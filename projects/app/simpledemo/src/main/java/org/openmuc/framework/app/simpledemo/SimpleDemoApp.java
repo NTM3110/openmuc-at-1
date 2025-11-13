@@ -79,13 +79,13 @@ public final class SimpleDemoApp {
     private void getChannel(){
         // logger.info("Getting value from channel {}", CHANNEL);
         try {
-            for(int i = 1; i < 70; i++){
+            for(int i = 0; i < 70; i++){
                 logger.info("str1_cell_{}, Value: --------> V: {},  T: {},   R: {}", i+1, 
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_V").getLatestRecord().getValue().asDouble(),
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_T").getLatestRecord().getValue().asDouble(),
                     dataAccessService.getChannel("str1_cell"+ (i+1)+"_R").getLatestRecord().getValue().asDouble()
                 );
-            }
+            }x  
         } catch (Exception e) {
             logger.warn("Error updating channel {}", e.getMessage());
         }
