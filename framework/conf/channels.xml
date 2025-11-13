@@ -1,147 +1,82 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configuration>
-
-<driver id="modbus">
-	<device id="str1_modbus">
-    	<description>String 1 Modbus RTU</description>
-    	<deviceAddress>/dev/ttyS1</deviceAddress>
-    	<!-- 9600 8N1, no flow control -->
-    	<settings>RTU:SERIAL_ENCODING_RTU:9600:DATABITS_8:PARITY_NONE:STOPBITS_1:ECHO_FALSE:FLOWCONTROL_NONE:FLOWCONTROL_NONE</settings>
-
-  <!-- Give the bus time -->
-    	<samplingTimeout>8s</samplingTimeout>
-    	<connectRetryInterval>5s</connectRetryInterval>
-
-  <!-- Slave 1 -->
-    	<!-- <channel id="str1_cell1_1">
-        	<channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
-        	<valueType>INTEGER</valueType>
-        	<samplingInterval>3s</samplingInterval>
-        	<samplingGroup>str1_sg_slave_1</samplingGroup>
-        	<loggingInterval>5s</loggingInterval>
-        	<loggingSettings>sqllogger:</loggingSettings>
-        	<disabled>false</disabled>
-      	</channel>
-      	<channel id="str1_cell1_2">
-        	<channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
-        	<valueType>INTEGER</valueType>
-        	<samplingInterval>3s</samplingInterval>
-        	<samplingGroup>str1_sg_slave_1</samplingGroup>
-        	<loggingInterval>5s</loggingInterval>
-        	<loggingSettings>sqllogger:</loggingSettings>
-        	<disabled>false</disabled>
-      	</channel>
-      	<channel id="str1_cell1_3">
-        	<channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
-        	<valueType>INTEGER</valueType>
-        	<samplingInterval>3s</samplingInterval>
-        	<samplingGroup>str1_sg_slave_1</samplingGroup>
-        	<loggingInterval>5s</loggingInterval>
-        	<loggingSettings>sqllogger:</loggingSettings>
-        	<disabled>false</disabled>
-    	</channel> -->
-
-    <!-- Slave 2 -->
-    	<channel id="str1_cell2_1">
-			<description>Cell (R) (str1_cell2)</description>
-			<channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>100ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_2</samplingGroup>
-			<loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings>
-			<disabled>false</disabled>
-		</channel>
-    	<channel id="str1_cell2_2">
-			<description>Cell (V) (str1_cell2)</description>
-			<channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>100ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_2</samplingGroup>
-			<!-- <loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-    	</channel>
-    	<channel id="str1_cell2_3">
-			<description>Cell (T) (str1_cell3)</description>
-			<channelAddress>2:HOLDING_REGISTERS:3:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>100ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_2</samplingGroup>
-			<!-- <loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-    	</channel>
-
-      <!-- Slave 3 -->
-		<channel id="str1_cell3_1">
-			<channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>200ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_3</samplingGroup>
-			<!-- <loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-      	</channel>
-      	<channel id="str1_cell3_2">
-			<channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingGroup>str1_sg_slave_3</samplingGroup>
-			<samplingTimeOffset>200ms</samplingTimeOffset>
-			<!-- <loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-		</channel>
-		<channel id="str1_cell3_3">
-			<channelAddress>3:HOLDING_REGISTERS:3:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingGroup>str1_sg_slave_3</samplingGroup>
-			<samplingTimeOffset>200ms</samplingTimeOffset>
-			<!-- <loggingInterval>5s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-		</channel>
-
-      <!-- Slave 4 -->
-      	<channel id="str1_cell4_1">
-			<description>Cell (R) (str1_cell4)</description>
-			<channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>300ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<!-- <loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-		</channel>
-    	<channel id="str1_cell4_2">
-			<description>Cell (V) (str1_cell4)</description>
-			<channelAddress>4:HOLDING_REGISTERS:2:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>300ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<!-- <loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-		</channel>
-		<channel id="str1_cell4_3">
-			<description>Cell (T) (str1_cell4)</description>
-			<channelAddress>4:HOLDING_REGISTERS:3:INT16</channelAddress>
-			<valueType>INTEGER</valueType>
-			<samplingInterval>3s</samplingInterval>
-			<samplingTimeOffset>300ms</samplingTimeOffset>
-			<samplingGroup>str1_sg_slave_4</samplingGroup>
-			<!-- <loggingInterval>1s</loggingInterval>
-			<loggingSettings>sqllogger:</loggingSettings> -->
-			<disabled>false</disabled>
-      	</channel>
-  	</device>
-</driver>
+  <driver id="virtual">
+    <device id="virtual_device_1">
+      <description>Virtual Device 1</description>
+      <channel id="virtual_channel_1">
+        <channelAddress>virtual_address_1</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>5s</samplingInterval>
+        <samplingGroup>virtual_sg_1</samplingGroup>
+        <loggingInterval>10s</loggingInterval>
+        <loggingSettings>sqllogger:</loggingSettings>
+        <disabled>false</disabled>
+      </channel>
+    </device>
+  </driver>
+  <driver id="modbus">
+    <device id="str1_modbus">
+      <description>String 1 Modbus RTU</description>
+      <deviceAddress>/dev/ttyS1</deviceAddress>
+      <settings>RTU:SERIAL_ENCODING_RTU:9600:DATABITS_8:PARITY_NONE:STOPBITS_1:ECHO_FALSE:FLOWCONTROL_NONE:FLOWCONTROL_NONE</settings>
+      <samplingTimeout>8s</samplingTimeout>
+      <connectRetryInterval>5s</connectRetryInterval>
+      <channel id="str1_cell2_R">
+        <description>Cell (R) (str1_cell2)</description>
+        <channelAddress>2:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_2</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell2_V">
+        <description>Cell (V) (str1_cell2)</description>
+        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_2</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell2_T">
+        <description>Cell (T) (str1_cell2)</description>
+        <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>100ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_2</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell3_R">
+        <description>Cell (R) (str1_cell3)</description>
+        <channelAddress>3:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <!-- <loggingInterval>1s</loggingInterval> -->
+        <!-- <loggingSettings>sqllogger:</loggingSettings> -->
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell3_V">
+        <description>Cell (V) (str1_cell3)</description>
+        <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell3_T">
+        <description>Cell (T) (str1_cell3)</description>
+        <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>3s</samplingInterval>
+        <samplingTimeOffset>200ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_3</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+    </device>
+  </driver>
 </configuration>

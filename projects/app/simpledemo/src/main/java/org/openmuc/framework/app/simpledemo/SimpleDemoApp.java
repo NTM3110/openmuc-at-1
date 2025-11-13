@@ -81,9 +81,9 @@ public final class SimpleDemoApp {
         try {
             for(int i = 1; i < 4; i++){
                 logger.info("str1_cell_{}, Value: --------> V: {},  T: {},   R: {}", i+1, 
-                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_1").getLatestRecord().getValue().asDouble(),
-                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_2").getLatestRecord().getValue().asDouble(),
-                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_3").getLatestRecord().getValue().asDouble()
+                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_V").getLatestRecord().getValue().asDouble(),
+                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_T").getLatestRecord().getValue().asDouble(),
+                    dataAccessService.getChannel("str1_cell"+ (i+1)+"_R").getLatestRecord().getValue().asDouble()
                 );
             }
         } catch (Exception e) {
