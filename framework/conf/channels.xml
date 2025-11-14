@@ -2732,5 +2732,2722 @@
         <disabled>false</disabled>
       </channel>
     </device>
+    <device id="str2_modbus">
+      <description>String 2 Modbus RTU</description>
+      <deviceAddress>/dev/ttyS7</deviceAddress>
+      <settings>RTU:SERIAL_ENCODING_RTU:9600:DATABITS_8:PARITY_NONE:STOPBITS_1:ECHO_FALSE:FLOWCONTROL_NONE:FLOWCONTROL_NONE</settings>
+      <samplingTimeout>8s</samplingTimeout>
+      <connectRetryInterval>8s</connectRetryInterval>
+      <disabled>false</disabled>
+      <channel id="str2_cell1_R">
+        <description>Cell (R) (str2_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell1_V">
+        <description>Cell (V) (str2_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell1_T">
+        <description>Cell (T) (str2_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell2_R">
+        <description>Cell (R) (str2_cell2)</description>
+        <channelAddress>2:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>1s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_2</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell2_V">
+        <description>Cell (V) (str2_cell2)</description>
+        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>1s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_2</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell2_T">
+        <description>Cell (T) (str2_cell2)</description>
+        <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>1s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_2</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell3_R">
+        <description>Cell (R) (str2_cell3)</description>
+        <channelAddress>3:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>2s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_3</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell3_V">
+        <description>Cell (V) (str2_cell3)</description>
+        <channelAddress>3:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>2s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_3</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell3_T">
+        <description>Cell (T) (str2_cell3)</description>
+        <channelAddress>3:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>2s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_3</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell4_R">
+        <description>Cell (R) (str2_cell4)</description>
+        <channelAddress>4:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_4</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell4_V">
+        <description>Cell (V) (str2_cell4)</description>
+        <channelAddress>4:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_4</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell4_T">
+        <description>Cell (T) (str2_cell4)</description>
+        <channelAddress>4:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>3s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_4</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell5_R">
+        <description>Cell (R) (str2_cell5)</description>
+        <channelAddress>5:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>4s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_5</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell5_V">
+        <description>Cell (V) (str2_cell5)</description>
+        <channelAddress>5:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>4s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_5</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell5_T">
+        <description>Cell (T) (str2_cell5)</description>
+        <channelAddress>5:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>4s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_5</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell6_R">
+        <description>Cell (R) (str2_cell6)</description>
+        <channelAddress>6:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_6</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell6_V">
+        <description>Cell (V) (str2_cell6)</description>
+        <channelAddress>6:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_6</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell6_T">
+        <description>Cell (T) (str2_cell6)</description>
+        <channelAddress>6:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_6</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell7_R">
+        <description>Cell (R) (str2_cell7)</description>
+        <channelAddress>7:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_7</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell7_V">
+        <description>Cell (V) (str2_cell7)</description>
+        <channelAddress>7:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_7</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell7_T">
+        <description>Cell (T) (str2_cell7)</description>
+        <channelAddress>7:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>6s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_7</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell8_R">
+        <description>Cell (R) (str2_cell8)</description>
+        <channelAddress>8:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>7s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_8</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell8_V">
+        <description>Cell (V) (str2_cell8)</description>
+        <channelAddress>8:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>7s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_8</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell8_T">
+        <description>Cell (T) (str2_cell8)</description>
+        <channelAddress>8:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>7s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_8</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell9_R">
+        <description>Cell (R) (str2_cell9)</description>
+        <channelAddress>9:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>8s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_9</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell9_V">
+        <description>Cell (V) (str2_cell9)</description>
+        <channelAddress>9:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>8s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_9</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell9_T">
+        <description>Cell (T) (str2_cell9)</description>
+        <channelAddress>9:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>8s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_9</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell10_R">
+        <description>Cell (R) (str2_cell10)</description>
+        <channelAddress>10:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_10</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell10_V">
+        <description>Cell (V) (str2_cell10)</description>
+        <channelAddress>10:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_10</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell10_T">
+        <description>Cell (T) (str2_cell10)</description>
+        <channelAddress>10:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>9s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_10</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell11_R">
+        <description>Cell (R) (str2_cell11)</description>
+        <channelAddress>11:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>10s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_11</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell11_V">
+        <description>Cell (V) (str2_cell11)</description>
+        <channelAddress>11:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>10s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_11</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell11_T">
+        <description>Cell (T) (str2_cell11)</description>
+        <channelAddress>11:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>10s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_11</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell12_R">
+        <description>Cell (R) (str2_cell12)</description>
+        <channelAddress>12:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>11s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_12</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell12_V">
+        <description>Cell (V) (str2_cell12)</description>
+        <channelAddress>12:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>11s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_12</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell12_T">
+        <description>Cell (T) (str2_cell12)</description>
+        <channelAddress>12:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>11s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_12</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell13_R">
+        <description>Cell (R) (str2_cell13)</description>
+        <channelAddress>13:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>12s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_13</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell13_V">
+        <description>Cell (V) (str2_cell13)</description>
+        <channelAddress>13:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>12s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_13</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell13_T">
+        <description>Cell (T) (str2_cell13)</description>
+        <channelAddress>13:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>12s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_13</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell14_R">
+        <description>Cell (R) (str2_cell14)</description>
+        <channelAddress>14:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>13s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_14</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell14_V">
+        <description>Cell (V) (str2_cell14)</description>
+        <channelAddress>14:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>13s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_14</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell14_T">
+        <description>Cell (T) (str2_cell14)</description>
+        <channelAddress>14:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>13s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_14</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell15_R">
+        <description>Cell (R) (str2_cell15)</description>
+        <channelAddress>15:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>14s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_15</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell15_V">
+        <description>Cell (V) (str2_cell15)</description>
+        <channelAddress>15:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>14s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_15</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell15_T">
+        <description>Cell (T) (str2_cell15)</description>
+        <channelAddress>15:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>14s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_15</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell16_R">
+        <description>Cell (R) (str2_cell16)</description>
+        <channelAddress>16:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>15s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_16</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell16_V">
+        <description>Cell (V) (str2_cell16)</description>
+        <channelAddress>16:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>15s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_16</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell16_T">
+        <description>Cell (T) (str2_cell16)</description>
+        <channelAddress>16:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>15s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_16</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell17_R">
+        <description>Cell (R) (str2_cell17)</description>
+        <channelAddress>17:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>16s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_17</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell17_V">
+        <description>Cell (V) (str2_cell17)</description>
+        <channelAddress>17:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>16s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_17</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell17_T">
+        <description>Cell (T) (str2_cell17)</description>
+        <channelAddress>17:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>16s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_17</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell18_R">
+        <description>Cell (R) (str2_cell18)</description>
+        <channelAddress>18:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>17s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_18</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell18_V">
+        <description>Cell (V) (str2_cell18)</description>
+        <channelAddress>18:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>17s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_18</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell18_T">
+        <description>Cell (T) (str2_cell18)</description>
+        <channelAddress>18:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>17s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_18</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell19_R">
+        <description>Cell (R) (str2_cell19)</description>
+        <channelAddress>19:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>18s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_19</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell19_V">
+        <description>Cell (V) (str2_cell19)</description>
+        <channelAddress>19:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>18s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_19</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell19_T">
+        <description>Cell (T) (str2_cell19)</description>
+        <channelAddress>19:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>18s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_19</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell20_R">
+        <description>Cell (R) (str2_cell20)</description>
+        <channelAddress>20:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>19s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_20</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell20_V">
+        <description>Cell (V) (str2_cell20)</description>
+        <channelAddress>20:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>19s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_20</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell20_T">
+        <description>Cell (T) (str2_cell20)</description>
+        <channelAddress>20:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>19s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_20</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell21_R">
+        <description>Cell (R) (str2_cell21)</description>
+        <channelAddress>21:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>20s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_21</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell21_V">
+        <description>Cell (V) (str2_cell21)</description>
+        <channelAddress>21:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>20s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_21</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell21_T">
+        <description>Cell (T) (str2_cell21)</description>
+        <channelAddress>21:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>20s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_21</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell22_R">
+        <description>Cell (R) (str2_cell22)</description>
+        <channelAddress>22:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>21s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_22</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell22_V">
+        <description>Cell (V) (str2_cell22)</description>
+        <channelAddress>22:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>21s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_22</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell22_T">
+        <description>Cell (T) (str2_cell22)</description>
+        <channelAddress>22:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>21s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_22</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell23_R">
+        <description>Cell (R) (str2_cell23)</description>
+        <channelAddress>23:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>22s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_23</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell23_V">
+        <description>Cell (V) (str2_cell23)</description>
+        <channelAddress>23:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>22s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_23</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell23_T">
+        <description>Cell (T) (str2_cell23)</description>
+        <channelAddress>23:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>22s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_23</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell24_R">
+        <description>Cell (R) (str2_cell24)</description>
+        <channelAddress>24:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>23s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_24</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell24_V">
+        <description>Cell (V) (str2_cell24)</description>
+        <channelAddress>24:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>23s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_24</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell24_T">
+        <description>Cell (T) (str2_cell24)</description>
+        <channelAddress>24:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>23s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_24</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell25_R">
+        <description>Cell (R) (str2_cell25)</description>
+        <channelAddress>25:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>24s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_25</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell25_V">
+        <description>Cell (V) (str2_cell25)</description>
+        <channelAddress>25:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>24s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_25</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell25_T">
+        <description>Cell (T) (str2_cell25)</description>
+        <channelAddress>25:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>24s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_25</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell26_R">
+        <description>Cell (R) (str2_cell26)</description>
+        <channelAddress>26:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>25s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_26</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell26_V">
+        <description>Cell (V) (str2_cell26)</description>
+        <channelAddress>26:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>25s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_26</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell26_T">
+        <description>Cell (T) (str2_cell26)</description>
+        <channelAddress>26:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>25s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_26</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell27_R">
+        <description>Cell (R) (str2_cell27)</description>
+        <channelAddress>27:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>26s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_27</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell27_V">
+        <description>Cell (V) (str2_cell27)</description>
+        <channelAddress>27:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>26s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_27</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell27_T">
+        <description>Cell (T) (str2_cell27)</description>
+        <channelAddress>27:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>26s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_27</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell28_R">
+        <description>Cell (R) (str2_cell28)</description>
+        <channelAddress>28:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>27s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_28</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell28_V">
+        <description>Cell (V) (str2_cell28)</description>
+        <channelAddress>28:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>27s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_28</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell28_T">
+        <description>Cell (T) (str2_cell28)</description>
+        <channelAddress>28:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>27s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_28</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell29_R">
+        <description>Cell (R) (str2_cell29)</description>
+        <channelAddress>29:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>28s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_29</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell29_V">
+        <description>Cell (V) (str2_cell29)</description>
+        <channelAddress>29:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>28s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_29</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell29_T">
+        <description>Cell (T) (str2_cell29)</description>
+        <channelAddress>29:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>28s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_29</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell30_R">
+        <description>Cell (R) (str2_cell30)</description>
+        <channelAddress>30:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>29s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_30</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell30_V">
+        <description>Cell (V) (str2_cell30)</description>
+        <channelAddress>30:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>29s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_30</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell30_T">
+        <description>Cell (T) (str2_cell30)</description>
+        <channelAddress>30:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>29s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_30</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell31_R">
+        <description>Cell (R) (str2_cell31)</description>
+        <channelAddress>31:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>30s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_31</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell31_V">
+        <description>Cell (V) (str2_cell31)</description>
+        <channelAddress>31:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>30s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_31</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell31_T">
+        <description>Cell (T) (str2_cell31)</description>
+        <channelAddress>31:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>30s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_31</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell32_R">
+        <description>Cell (R) (str2_cell32)</description>
+        <channelAddress>32:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>31s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_32</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell32_V">
+        <description>Cell (V) (str2_cell32)</description>
+        <channelAddress>32:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>31s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_32</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell32_T">
+        <description>Cell (T) (str2_cell32)</description>
+        <channelAddress>32:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>31s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_32</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell33_R">
+        <description>Cell (R) (str2_cell33)</description>
+        <channelAddress>33:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>32s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_33</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell33_V">
+        <description>Cell (V) (str2_cell33)</description>
+        <channelAddress>33:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>32s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_33</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell33_T">
+        <description>Cell (T) (str2_cell33)</description>
+        <channelAddress>33:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>32s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_33</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell34_R">
+        <description>Cell (R) (str2_cell34)</description>
+        <channelAddress>34:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>33s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_34</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell34_V">
+        <description>Cell (V) (str2_cell34)</description>
+        <channelAddress>34:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>33s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_34</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell34_T">
+        <description>Cell (T) (str2_cell34)</description>
+        <channelAddress>34:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>33s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_34</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell35_R">
+        <description>Cell (R) (str2_cell35)</description>
+        <channelAddress>35:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>34s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_35</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell35_V">
+        <description>Cell (V) (str2_cell35)</description>
+        <channelAddress>35:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>34s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_35</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell35_T">
+        <description>Cell (T) (str2_cell35)</description>
+        <channelAddress>35:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>34s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_35</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell36_R">
+        <description>Cell (R) (str2_cell36)</description>
+        <channelAddress>36:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>35s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_36</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell36_V">
+        <description>Cell (V) (str2_cell36)</description>
+        <channelAddress>36:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>35s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_36</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell36_T">
+        <description>Cell (T) (str2_cell36)</description>
+        <channelAddress>36:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>35s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_36</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell37_R">
+        <description>Cell (R) (str2_cell37)</description>
+        <channelAddress>37:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>36s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_37</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell37_V">
+        <description>Cell (V) (str2_cell37)</description>
+        <channelAddress>37:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>36s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_37</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell37_T">
+        <description>Cell (T) (str2_cell37)</description>
+        <channelAddress>37:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>36s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_37</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell38_R">
+        <description>Cell (R) (str2_cell38)</description>
+        <channelAddress>38:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>37s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_38</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell38_V">
+        <description>Cell (V) (str2_cell38)</description>
+        <channelAddress>38:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>37s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_38</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell38_T">
+        <description>Cell (T) (str2_cell38)</description>
+        <channelAddress>38:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>37s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_38</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell39_R">
+        <description>Cell (R) (str2_cell39)</description>
+        <channelAddress>39:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>38s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_39</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell39_V">
+        <description>Cell (V) (str2_cell39)</description>
+        <channelAddress>39:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>38s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_39</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell39_T">
+        <description>Cell (T) (str2_cell39)</description>
+        <channelAddress>39:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>38s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_39</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell40_R">
+        <description>Cell (R) (str2_cell40)</description>
+        <channelAddress>40:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>39s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_40</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell40_V">
+        <description>Cell (V) (str2_cell40)</description>
+        <channelAddress>40:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>39s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_40</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell40_T">
+        <description>Cell (T) (str2_cell40)</description>
+        <channelAddress>40:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>39s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_40</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell41_R">
+        <description>Cell (R) (str2_cell41)</description>
+        <channelAddress>41:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>40s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_41</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell41_V">
+        <description>Cell (V) (str2_cell41)</description>
+        <channelAddress>41:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>40s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_41</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell41_T">
+        <description>Cell (T) (str2_cell41)</description>
+        <channelAddress>41:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>40s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_41</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell42_R">
+        <description>Cell (R) (str2_cell42)</description>
+        <channelAddress>42:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>41s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_42</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell42_V">
+        <description>Cell (V) (str2_cell42)</description>
+        <channelAddress>42:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>41s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_42</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell42_T">
+        <description>Cell (T) (str2_cell42)</description>
+        <channelAddress>42:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>41s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_42</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell43_R">
+        <description>Cell (R) (str2_cell43)</description>
+        <channelAddress>43:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>42s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_43</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell43_V">
+        <description>Cell (V) (str2_cell43)</description>
+        <channelAddress>43:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>42s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_43</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell43_T">
+        <description>Cell (T) (str2_cell43)</description>
+        <channelAddress>43:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>42s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_43</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell44_R">
+        <description>Cell (R) (str2_cell44)</description>
+        <channelAddress>44:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>43s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_44</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell44_V">
+        <description>Cell (V) (str2_cell44)</description>
+        <channelAddress>44:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>43s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_44</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell44_T">
+        <description>Cell (T) (str2_cell44)</description>
+        <channelAddress>44:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>43s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_44</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell45_R">
+        <description>Cell (R) (str2_cell45)</description>
+        <channelAddress>45:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>44s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_45</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell45_V">
+        <description>Cell (V) (str2_cell45)</description>
+        <channelAddress>45:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>44s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_45</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell45_T">
+        <description>Cell (T) (str2_cell45)</description>
+        <channelAddress>45:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>44s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_45</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell46_R">
+        <description>Cell (R) (str2_cell46)</description>
+        <channelAddress>46:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>45s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_46</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell46_V">
+        <description>Cell (V) (str2_cell46)</description>
+        <channelAddress>46:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>45s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_46</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell46_T">
+        <description>Cell (T) (str2_cell46)</description>
+        <channelAddress>46:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>45s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_46</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell47_R">
+        <description>Cell (R) (str2_cell47)</description>
+        <channelAddress>47:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>46s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_47</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell47_V">
+        <description>Cell (V) (str2_cell47)</description>
+        <channelAddress>47:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>46s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_47</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell47_T">
+        <description>Cell (T) (str2_cell47)</description>
+        <channelAddress>47:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>46s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_47</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell48_R">
+        <description>Cell (R) (str2_cell48)</description>
+        <channelAddress>48:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>47s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_48</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell48_V">
+        <description>Cell (V) (str2_cell48)</description>
+        <channelAddress>48:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>47s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_48</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell48_T">
+        <description>Cell (T) (str2_cell48)</description>
+        <channelAddress>48:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>47s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_48</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell49_R">
+        <description>Cell (R) (str2_cell49)</description>
+        <channelAddress>49:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>48s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_49</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell49_V">
+        <description>Cell (V) (str2_cell49)</description>
+        <channelAddress>49:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>48s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_49</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell49_T">
+        <description>Cell (T) (str2_cell49)</description>
+        <channelAddress>49:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>48s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_49</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell50_R">
+        <description>Cell (R) (str2_cell50)</description>
+        <channelAddress>50:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>49s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_50</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell50_V">
+        <description>Cell (V) (str2_cell50)</description>
+        <channelAddress>50:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>49s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_50</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell50_T">
+        <description>Cell (T) (str2_cell50)</description>
+        <channelAddress>50:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>49s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_50</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell51_R">
+        <description>Cell (R) (str2_cell51)</description>
+        <channelAddress>51:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>50s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_51</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell51_V">
+        <description>Cell (V) (str2_cell51)</description>
+        <channelAddress>51:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>50s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_51</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell51_T">
+        <description>Cell (T) (str2_cell51)</description>
+        <channelAddress>51:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>50s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_51</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell52_R">
+        <description>Cell (R) (str2_cell52)</description>
+        <channelAddress>52:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>51s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_52</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell52_V">
+        <description>Cell (V) (str2_cell52)</description>
+        <channelAddress>52:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>51s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_52</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell52_T">
+        <description>Cell (T) (str2_cell52)</description>
+        <channelAddress>52:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>51s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_52</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell53_R">
+        <description>Cell (R) (str2_cell53)</description>
+        <channelAddress>53:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>52s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_53</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell53_V">
+        <description>Cell (V) (str2_cell53)</description>
+        <channelAddress>53:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>52s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_53</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell53_T">
+        <description>Cell (T) (str2_cell53)</description>
+        <channelAddress>53:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>52s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_53</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell54_R">
+        <description>Cell (R) (str2_cell54)</description>
+        <channelAddress>54:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>53s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_54</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell54_V">
+        <description>Cell (V) (str2_cell54)</description>
+        <channelAddress>54:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>53s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_54</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell54_T">
+        <description>Cell (T) (str2_cell54)</description>
+        <channelAddress>54:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>53s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_54</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell55_R">
+        <description>Cell (R) (str2_cell55)</description>
+        <channelAddress>55:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>54s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_55</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell55_V">
+        <description>Cell (V) (str2_cell55)</description>
+        <channelAddress>55:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>54s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_55</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell55_T">
+        <description>Cell (T) (str2_cell55)</description>
+        <channelAddress>55:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>54s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_55</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell56_R">
+        <description>Cell (R) (str2_cell56)</description>
+        <channelAddress>56:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>55s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_56</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell56_V">
+        <description>Cell (V) (str2_cell56)</description>
+        <channelAddress>56:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>55s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_56</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell56_T">
+        <description>Cell (T) (str2_cell56)</description>
+        <channelAddress>56:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>55s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_56</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell57_R">
+        <description>Cell (R) (str2_cell57)</description>
+        <channelAddress>57:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>56s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_57</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell57_V">
+        <description>Cell (V) (str2_cell57)</description>
+        <channelAddress>57:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>56s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_57</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell57_T">
+        <description>Cell (T) (str2_cell57)</description>
+        <channelAddress>57:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>56s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_57</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell58_R">
+        <description>Cell (R) (str2_cell58)</description>
+        <channelAddress>58:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>57s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_58</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell58_V">
+        <description>Cell (V) (str2_cell58)</description>
+        <channelAddress>58:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>57s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_58</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell58_T">
+        <description>Cell (T) (str2_cell58)</description>
+        <channelAddress>58:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>57s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_58</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell59_R">
+        <description>Cell (R) (str2_cell59)</description>
+        <channelAddress>59:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>58s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_59</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell59_V">
+        <description>Cell (V) (str2_cell59)</description>
+        <channelAddress>59:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>58s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_59</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell59_T">
+        <description>Cell (T) (str2_cell59)</description>
+        <channelAddress>59:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>58s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_59</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell60_R">
+        <description>Cell (R) (str2_cell60)</description>
+        <channelAddress>60:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>59s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_60</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell60_V">
+        <description>Cell (V) (str2_cell60)</description>
+        <channelAddress>60:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>59s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_60</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell60_T">
+        <description>Cell (T) (str2_cell60)</description>
+        <channelAddress>60:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>59s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_60</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell61_R">
+        <description>Cell (R) (str2_cell61)</description>
+        <channelAddress>61:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>1m</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_61</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell61_V">
+        <description>Cell (V) (str2_cell61)</description>
+        <channelAddress>61:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>1m</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_61</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell61_T">
+        <description>Cell (T) (str2_cell61)</description>
+        <channelAddress>61:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>1m</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_61</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell62_R">
+        <description>Cell (R) (str2_cell62)</description>
+        <channelAddress>62:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>61s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_62</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell62_V">
+        <description>Cell (V) (str2_cell62)</description>
+        <channelAddress>62:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>61s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_62</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell62_T">
+        <description>Cell (T) (str2_cell62)</description>
+        <channelAddress>62:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>61s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_62</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell63_R">
+        <description>Cell (R) (str2_cell63)</description>
+        <channelAddress>63:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>62s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_63</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell63_V">
+        <description>Cell (V) (str2_cell63)</description>
+        <channelAddress>63:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>62s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_63</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell63_T">
+        <description>Cell (T) (str2_cell63)</description>
+        <channelAddress>63:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>62s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_63</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell64_R">
+        <description>Cell (R) (str2_cell64)</description>
+        <channelAddress>64:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>63s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_64</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell64_V">
+        <description>Cell (V) (str2_cell64)</description>
+        <channelAddress>64:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>63s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_64</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell64_T">
+        <description>Cell (T) (str2_cell64)</description>
+        <channelAddress>64:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>63s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_64</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell65_R">
+        <description>Cell (R) (str2_cell65)</description>
+        <channelAddress>65:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>64s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_65</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell65_V">
+        <description>Cell (V) (str2_cell65)</description>
+        <channelAddress>65:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>64s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_65</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell65_T">
+        <description>Cell (T) (str2_cell65)</description>
+        <channelAddress>65:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>64s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_65</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell66_R">
+        <description>Cell (R) (str2_cell66)</description>
+        <channelAddress>66:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>65s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_66</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell66_V">
+        <description>Cell (V) (str2_cell66)</description>
+        <channelAddress>66:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>65s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_66</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell66_T">
+        <description>Cell (T) (str2_cell66)</description>
+        <channelAddress>66:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>65s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_66</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell67_R">
+        <description>Cell (R) (str2_cell67)</description>
+        <channelAddress>67:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>66s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_67</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell67_V">
+        <description>Cell (V) (str2_cell67)</description>
+        <channelAddress>67:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>66s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_67</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell67_T">
+        <description>Cell (T) (str2_cell67)</description>
+        <channelAddress>67:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>66s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_67</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell68_R">
+        <description>Cell (R) (str2_cell68)</description>
+        <channelAddress>68:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>67s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_68</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell68_V">
+        <description>Cell (V) (str2_cell68)</description>
+        <channelAddress>68:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>67s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_68</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell68_T">
+        <description>Cell (T) (str2_cell68)</description>
+        <channelAddress>68:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>67s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_68</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell69_R">
+        <description>Cell (R) (str2_cell69)</description>
+        <channelAddress>69:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>68s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_69</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell69_V">
+        <description>Cell (V) (str2_cell69)</description>
+        <channelAddress>69:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>68s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_69</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell69_T">
+        <description>Cell (T) (str2_cell69)</description>
+        <channelAddress>69:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>68s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_69</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell70_R">
+        <description>Cell (R) (str2_cell70)</description>
+        <channelAddress>70:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>69s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_70</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell70_V">
+        <description>Cell (V) (str2_cell70)</description>
+        <channelAddress>70:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>69s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_70</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell70_T">
+        <description>Cell (T) (str2_cell70)</description>
+        <channelAddress>70:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>69s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_70</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell71_R">
+        <description>Cell (R) (str2_cell71)</description>
+        <channelAddress>71:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>70s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_71</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell71_V">
+        <description>Cell (V) (str2_cell71)</description>
+        <channelAddress>71:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>70s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_71</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell71_T">
+        <description>Cell (T) (str2_cell71)</description>
+        <channelAddress>71:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>70s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_71</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell72_R">
+        <description>Cell (R) (str2_cell72)</description>
+        <channelAddress>72:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>71s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_72</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell72_V">
+        <description>Cell (V) (str2_cell72)</description>
+        <channelAddress>72:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>71s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_72</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell72_T">
+        <description>Cell (T) (str2_cell72)</description>
+        <channelAddress>72:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>71s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_72</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell73_R">
+        <description>Cell (R) (str2_cell73)</description>
+        <channelAddress>73:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>72s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_73</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell73_V">
+        <description>Cell (V) (str2_cell73)</description>
+        <channelAddress>73:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>72s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_73</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell73_T">
+        <description>Cell (T) (str2_cell73)</description>
+        <channelAddress>73:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>72s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_73</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell74_R">
+        <description>Cell (R) (str2_cell74)</description>
+        <channelAddress>74:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>73s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_74</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell74_V">
+        <description>Cell (V) (str2_cell74)</description>
+        <channelAddress>74:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>73s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_74</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell74_T">
+        <description>Cell (T) (str2_cell74)</description>
+        <channelAddress>74:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>73s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_74</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell75_R">
+        <description>Cell (R) (str2_cell75)</description>
+        <channelAddress>75:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>74s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_75</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell75_V">
+        <description>Cell (V) (str2_cell75)</description>
+        <channelAddress>75:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>74s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_75</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell75_T">
+        <description>Cell (T) (str2_cell75)</description>
+        <channelAddress>75:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>74s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_75</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell76_R">
+        <description>Cell (R) (str2_cell76)</description>
+        <channelAddress>76:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>75s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_76</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell76_V">
+        <description>Cell (V) (str2_cell76)</description>
+        <channelAddress>76:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>75s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_76</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell76_T">
+        <description>Cell (T) (str2_cell76)</description>
+        <channelAddress>76:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>75s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_76</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell77_R">
+        <description>Cell (R) (str2_cell77)</description>
+        <channelAddress>77:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>76s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_77</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell77_V">
+        <description>Cell (V) (str2_cell77)</description>
+        <channelAddress>77:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>76s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_77</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell77_T">
+        <description>Cell (T) (str2_cell77)</description>
+        <channelAddress>77:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>76s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_77</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell78_R">
+        <description>Cell (R) (str2_cell78)</description>
+        <channelAddress>78:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>77s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_78</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell78_V">
+        <description>Cell (V) (str2_cell78)</description>
+        <channelAddress>78:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>77s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_78</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell78_T">
+        <description>Cell (T) (str2_cell78)</description>
+        <channelAddress>78:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>77s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_78</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell79_R">
+        <description>Cell (R) (str2_cell79)</description>
+        <channelAddress>79:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>78s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_79</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell79_V">
+        <description>Cell (V) (str2_cell79)</description>
+        <channelAddress>79:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>78s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_79</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell79_T">
+        <description>Cell (T) (str2_cell79)</description>
+        <channelAddress>79:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>78s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_79</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell80_R">
+        <description>Cell (R) (str2_cell80)</description>
+        <channelAddress>80:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>79s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_80</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell80_V">
+        <description>Cell (V) (str2_cell80)</description>
+        <channelAddress>80:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>79s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_80</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell80_T">
+        <description>Cell (T) (str2_cell80)</description>
+        <channelAddress>80:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>79s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_80</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell81_R">
+        <description>Cell (R) (str2_cell81)</description>
+        <channelAddress>81:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>80s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_81</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell81_V">
+        <description>Cell (V) (str2_cell81)</description>
+        <channelAddress>81:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>80s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_81</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell81_T">
+        <description>Cell (T) (str2_cell81)</description>
+        <channelAddress>81:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>80s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_81</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell82_R">
+        <description>Cell (R) (str2_cell82)</description>
+        <channelAddress>82:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>81s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_82</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell82_V">
+        <description>Cell (V) (str2_cell82)</description>
+        <channelAddress>82:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>81s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_82</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell82_T">
+        <description>Cell (T) (str2_cell82)</description>
+        <channelAddress>82:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>81s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_82</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell83_R">
+        <description>Cell (R) (str2_cell83)</description>
+        <channelAddress>83:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>82s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_83</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell83_V">
+        <description>Cell (V) (str2_cell83)</description>
+        <channelAddress>83:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>82s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_83</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell83_T">
+        <description>Cell (T) (str2_cell83)</description>
+        <channelAddress>83:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>82s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_83</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell84_R">
+        <description>Cell (R) (str2_cell84)</description>
+        <channelAddress>84:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>83s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_84</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell84_V">
+        <description>Cell (V) (str2_cell84)</description>
+        <channelAddress>84:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>83s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_84</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell84_T">
+        <description>Cell (T) (str2_cell84)</description>
+        <channelAddress>84:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>83s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_84</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell85_R">
+        <description>Cell (R) (str2_cell85)</description>
+        <channelAddress>85:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>84s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_85</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell85_V">
+        <description>Cell (V) (str2_cell85)</description>
+        <channelAddress>85:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>84s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_85</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell85_T">
+        <description>Cell (T) (str2_cell85)</description>
+        <channelAddress>85:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>84s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_85</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell86_R">
+        <description>Cell (R) (str2_cell86)</description>
+        <channelAddress>86:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>85s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_86</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell86_V">
+        <description>Cell (V) (str2_cell86)</description>
+        <channelAddress>86:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>85s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_86</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell86_T">
+        <description>Cell (T) (str2_cell86)</description>
+        <channelAddress>86:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>85s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_86</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell87_R">
+        <description>Cell (R) (str2_cell87)</description>
+        <channelAddress>87:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>86s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_87</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell87_V">
+        <description>Cell (V) (str2_cell87)</description>
+        <channelAddress>87:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>86s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_87</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell87_T">
+        <description>Cell (T) (str2_cell87)</description>
+        <channelAddress>87:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>86s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_87</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell88_R">
+        <description>Cell (R) (str2_cell88)</description>
+        <channelAddress>88:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>87s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_88</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell88_V">
+        <description>Cell (V) (str2_cell88)</description>
+        <channelAddress>88:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>87s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_88</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell88_T">
+        <description>Cell (T) (str2_cell88)</description>
+        <channelAddress>88:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>87s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_88</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell89_R">
+        <description>Cell (R) (str2_cell89)</description>
+        <channelAddress>89:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>88s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_89</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell89_V">
+        <description>Cell (V) (str2_cell89)</description>
+        <channelAddress>89:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>88s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_89</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell89_T">
+        <description>Cell (T) (str2_cell89)</description>
+        <channelAddress>89:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>88s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_89</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell90_R">
+        <description>Cell (R) (str2_cell90)</description>
+        <channelAddress>90:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>89s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_90</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell90_V">
+        <description>Cell (V) (str2_cell90)</description>
+        <channelAddress>90:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>89s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_90</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell90_T">
+        <description>Cell (T) (str2_cell90)</description>
+        <channelAddress>90:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>89s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_90</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell91_R">
+        <description>Cell (R) (str2_cell91)</description>
+        <channelAddress>91:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>90s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_91</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell91_V">
+        <description>Cell (V) (str2_cell91)</description>
+        <channelAddress>91:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>90s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_91</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell91_T">
+        <description>Cell (T) (str2_cell91)</description>
+        <channelAddress>91:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>90s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_91</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell92_R">
+        <description>Cell (R) (str2_cell92)</description>
+        <channelAddress>92:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>91s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_92</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell92_V">
+        <description>Cell (V) (str2_cell92)</description>
+        <channelAddress>92:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>91s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_92</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell92_T">
+        <description>Cell (T) (str2_cell92)</description>
+        <channelAddress>92:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>91s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_92</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell93_R">
+        <description>Cell (R) (str2_cell93)</description>
+        <channelAddress>93:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>92s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_93</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell93_V">
+        <description>Cell (V) (str2_cell93)</description>
+        <channelAddress>93:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>92s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_93</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell93_T">
+        <description>Cell (T) (str2_cell93)</description>
+        <channelAddress>93:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>92s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_93</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell94_R">
+        <description>Cell (R) (str2_cell94)</description>
+        <channelAddress>94:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>93s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_94</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell94_V">
+        <description>Cell (V) (str2_cell94)</description>
+        <channelAddress>94:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>93s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_94</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell94_T">
+        <description>Cell (T) (str2_cell94)</description>
+        <channelAddress>94:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>93s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_94</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell95_R">
+        <description>Cell (R) (str2_cell95)</description>
+        <channelAddress>95:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>94s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_95</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell95_V">
+        <description>Cell (V) (str2_cell95)</description>
+        <channelAddress>95:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>94s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_95</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell95_T">
+        <description>Cell (T) (str2_cell95)</description>
+        <channelAddress>95:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>94s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_95</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell96_R">
+        <description>Cell (R) (str2_cell96)</description>
+        <channelAddress>96:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>95s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_96</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell96_V">
+        <description>Cell (V) (str2_cell96)</description>
+        <channelAddress>96:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>95s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_96</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell96_T">
+        <description>Cell (T) (str2_cell96)</description>
+        <channelAddress>96:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>95s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_96</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell97_R">
+        <description>Cell (R) (str2_cell97)</description>
+        <channelAddress>97:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>96s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_97</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell97_V">
+        <description>Cell (V) (str2_cell97)</description>
+        <channelAddress>97:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>96s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_97</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell97_T">
+        <description>Cell (T) (str2_cell97)</description>
+        <channelAddress>97:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>96s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_97</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell98_R">
+        <description>Cell (R) (str2_cell98)</description>
+        <channelAddress>98:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>97s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_98</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell98_V">
+        <description>Cell (V) (str2_cell98)</description>
+        <channelAddress>98:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>97s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_98</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell98_T">
+        <description>Cell (T) (str2_cell98)</description>
+        <channelAddress>98:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>97s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_98</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell99_R">
+        <description>Cell (R) (str2_cell99)</description>
+        <channelAddress>99:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>98s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_99</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell99_V">
+        <description>Cell (V) (str2_cell99)</description>
+        <channelAddress>99:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>98s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_99</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell99_T">
+        <description>Cell (T) (str2_cell99)</description>
+        <channelAddress>99:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>98s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_99</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell100_R">
+        <description>Cell (R) (str2_cell100)</description>
+        <channelAddress>100:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>99s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_100</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell100_V">
+        <description>Cell (V) (str2_cell100)</description>
+        <channelAddress>100:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>99s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_100</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_cell100_T">
+        <description>Cell (T) (str2_cell100)</description>
+        <channelAddress>100:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>99s</samplingTimeOffset>
+        <samplingGroup>str2_sg_slave_100</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str2_total_I">
+        <description>String 2 (I)</description>
+        <channelAddress>106:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>5s</samplingTimeOffset>
+        <samplingGroup>str2_sg_pack</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+    </device>
   </driver>
 </configuration>
