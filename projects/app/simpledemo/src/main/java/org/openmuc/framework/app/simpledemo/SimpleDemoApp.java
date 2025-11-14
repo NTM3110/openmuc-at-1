@@ -89,9 +89,14 @@ public final class SimpleDemoApp {
                         logger.warn("Channel str{}_cell{}_V or str{}_cell{}_T or str{}_cell{}_R not found!", i+1, j+1, i+1, j+1, i+1, j+1);
                         continue;
                     }
-                    
+                    logger.info("str{}_cell_{}, Value: --------> V: {},  T: {},   R: {}", i+1, j+1, 
+                        voltage.asDouble(),
+                        temperature.asDouble(),
+                        resistance.asDouble()
+                    );
                 }
             }
+            logger.info("\n---------------------------------------------------\n\n");
         // } catch (Exception e) {
         //     logger.warn("Error updating channel {}", e.getMessage());
         // }
