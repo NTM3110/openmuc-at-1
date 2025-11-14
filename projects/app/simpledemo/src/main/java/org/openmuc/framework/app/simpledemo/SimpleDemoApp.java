@@ -117,7 +117,7 @@ public final class SimpleDemoApp {
                 getChannel();
             }
         };
-        updateTimer.scheduleAtFixedRate(task, (long) 1 * 1000, (long) 1 * 1000);
+        updateTimer.scheduleAtFixedRate(task, (long) 2 * 1000, (long) 2 * 1000);
     }
    
 }
