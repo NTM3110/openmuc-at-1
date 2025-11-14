@@ -33481,3 +33481,93 @@ org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
 org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
 2025-11-14 09:50:55.078800+07:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.764239+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.765032+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.765322+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.765561+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.765778+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.765987+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.766208+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.766418+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.766649+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.766874+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.767098+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.767310+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.767520+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.767721+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:54:11.767919+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.640514+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.641349+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.641628+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.641845+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.642053+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.642267+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.642471+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.642678+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.642889+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.643088+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.643301+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.643496+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.643684+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.643874+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:20.644083+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.074263+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.075090+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.075388+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.075616+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.075826+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.076045+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.076267+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.076479+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.076709+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.076928+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.077139+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.077359+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.077560+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.077751+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-11-14 09:55:52.077956+07:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
