@@ -24,7 +24,7 @@
       <disabled>false</disabled>
       <channel id="str1_cell1_R">
         <description>Cell (R) (str1_cell1)</description>
-        <channelAddress>1:HOLDING_REGISTERS:0:INT16</channelAddress>
+        <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>
