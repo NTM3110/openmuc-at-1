@@ -81,7 +81,7 @@ import org.slf4j.LoggerFactory;
         try {
 
 <span class="nc bnc" id="L83" title="All 2 branches missed.">            for(int i = 0; i &lt; 1; i++){</span>
-<span class="nc bnc" id="L84" title="All 2 branches missed.">                for(int j = 0; j &lt; 10; j++){</span>
+<span class="nc bnc" id="L84" title="All 2 branches missed.">                for(int j = 0; j &lt; 100; j++){</span>
 <span class="nc" id="L85">                    Value voltage = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_V&quot;).getLatestRecord().getValue();</span>
 <span class="nc" id="L86">                    Value temperature = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_T&quot;).getLatestRecord().getValue();</span>
 <span class="nc" id="L87">                    Value resistance = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_R&quot;).getLatestRecord().getValue();</span>
