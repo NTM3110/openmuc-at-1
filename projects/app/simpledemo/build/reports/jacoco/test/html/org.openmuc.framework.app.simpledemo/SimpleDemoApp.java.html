@@ -78,31 +78,29 @@ import org.slf4j.LoggerFactory;
 
     private void getChannel(){
         // logger.info(&quot;Getting value from channel {}&quot;, CHANNEL);
-        // try {
+        try {
 
-            // for(int i = 0; i &lt; 1; i++){
-            //     for(int j = 0; j &lt; 1; j++){
-<span class="nc" id="L85">                    Value voltage = dataAccessService.getChannel(&quot;str1_cell1_R&quot;).getLatestRecord().getValue();</span>
-
-<span class="nc" id="L87">                    logger.info(&quot;VOltage: {}&quot;,voltage.asDouble());</span>
-                    // Value temperature = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_T&quot;).getLatestRecord().getValue();
-                    // Value resistance = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_R&quot;).getLatestRecord().getValue();
-                    // if (voltage == null || temperature == null || resistance == null) {
-                    //     logger.warn(&quot;Channel str{}_cell{}_V or str{}_cell{}_T or str{}_cell{}_R not found!&quot;, i+1, j+1, i+1, j+1, i+1, j+1);
-                    //     continue;
-                    // }
-                    // logger.info(&quot;str{}_cell_{}, Value: --------&gt; V: {},  T: {},   R: {}&quot;, i+1, j+1, 
-                    //     voltage.asDouble(),
-                    //     temperature.asDouble(),
-                    //     resistance.asDouble()
-                    // );
-                // }
-            // }
-<span class="nc" id="L101">            logger.info(&quot;\n---------------------------------------------------\n\n&quot;);</span>
-        // } catch (Exception e) {
-        //     logger.warn(&quot;Error updating channel {}&quot;, e.getMessage());
-        // }
-<span class="nc" id="L105">    }</span>
+<span class="nc bnc" id="L83" title="All 2 branches missed.">            for(int i = 0; i &lt; 1; i++){</span>
+<span class="nc bnc" id="L84" title="All 2 branches missed.">                for(int j = 0; j &lt; 2; j++){</span>
+<span class="nc" id="L85">                    Value voltage = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_V&quot;).getLatestRecord().getValue();</span>
+<span class="nc" id="L86">                    Value temperature = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_T&quot;).getLatestRecord().getValue();</span>
+<span class="nc" id="L87">                    Value resistance = dataAccessService.getChannel(&quot;str&quot; +(i+1)+ &quot;_cell&quot;+ (j+1)+&quot;_R&quot;).getLatestRecord().getValue();</span>
+<span class="nc bnc" id="L88" title="All 6 branches missed.">                    if (voltage == null || temperature == null || resistance == null) {</span>
+<span class="nc" id="L89">                        logger.warn(&quot;Channel str{}_cell{}_V or str{}_cell{}_T or str{}_cell{}_R not found!&quot;, i+1, j+1, i+1, j+1, i+1, j+1);</span>
+<span class="nc" id="L90">                        continue;</span>
+                    }
+<span class="nc" id="L92">                    logger.info(&quot;str{}_cell_{}, Value: --------&gt; V: {},  T: {},   R: {}&quot;, i+1, j+1, </span>
+<span class="nc" id="L93">                        voltage.asDouble(),</span>
+<span class="nc" id="L94">                        temperature.asDouble(),</span>
+<span class="nc" id="L95">                        resistance.asDouble()</span>
+                    );
+                }
+            }
+<span class="nc" id="L99">            logger.info(&quot;\n---------------------------------------------------\n\n&quot;);</span>
+<span class="nc" id="L100">        } catch (Exception e) {</span>
+<span class="nc" id="L101">            logger.warn(&quot;Error updating channel {}&quot;, e.getMessage());</span>
+<span class="nc" id="L102">        }</span>
+<span class="nc" id="L103">    }</span>
     /**
      * Initialize channel objects
      */
@@ -110,17 +108,17 @@ import org.slf4j.LoggerFactory;
      * Apply a RecordListener to get notified if a new value is available for a channel
      */
     private void initUpdateTimer() {
-<span class="nc" id="L113">        logger.info(&quot;Initializing update timer...&quot;);</span>
-<span class="nc" id="L114">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
+<span class="nc" id="L111">        logger.info(&quot;Initializing update timer...&quot;);</span>
+<span class="nc" id="L112">        updateTimer = new Timer(&quot;BMS Update Timer&quot;, true);</span>
 
-<span class="nc" id="L116">        TimerTask task = new TimerTask() {</span>
+<span class="nc" id="L114">        TimerTask task = new TimerTask() {</span>
             @Override
             public void run() {
-<span class="nc" id="L119">                getChannel();</span>
-<span class="nc" id="L120">            }</span>
+<span class="nc" id="L117">                getChannel();</span>
+<span class="nc" id="L118">            }</span>
         };
-<span class="nc" id="L122">        updateTimer.scheduleAtFixedRate(task, (long) 2 * 1000, (long) 2 * 1000);</span>
-<span class="nc" id="L123">    }</span>
+<span class="nc" id="L120">        updateTimer.scheduleAtFixedRate(task, (long) 2 * 1000, (long) 2 * 1000);</span>
+<span class="nc" id="L121">    }</span>
    
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
