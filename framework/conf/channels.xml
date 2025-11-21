@@ -22,12 +22,57 @@
       <samplingTimeout>8s</samplingTimeout>
       <connectRetryInterval>8s</connectRetryInterval>
       <disabled>false</disabled>
-      <channel id="str1_cell1_R">
+      <channel id="str1_cell1_V">
         <description>Cell (R) (str1_cell1)</description>
         <channelAddress>1:HOLDING_REGISTERS:1:INT16</channelAddress>
         <valueType>INTEGER</valueType>
         <samplingInterval>8s</samplingInterval>
         <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+       <channel id="str1_cell1_T">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell1_R">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>1:HOLDING_REGISTERS:3:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell2_V">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>2:HOLDING_REGISTERS:1:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>0</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+       <channel id="str1_cell2_T">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>2:HOLDING_REGISTERS:2:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>300ms</samplingTimeOffset>
+        <samplingGroup>str1_sg_slave_1</samplingGroup>
+        <disabled>false</disabled>
+      </channel>
+      <channel id="str1_cell2_R">
+        <description>Cell (R) (str1_cell1)</description>
+        <channelAddress>2:HOLDING_REGISTERS:3:INT16</channelAddress>
+        <valueType>INTEGER</valueType>
+        <samplingInterval>8s</samplingInterval>
+        <samplingTimeOffset>300ms</samplingTimeOffset>
         <samplingGroup>str1_sg_slave_1</samplingGroup>
         <disabled>false</disabled>
       </channel>
