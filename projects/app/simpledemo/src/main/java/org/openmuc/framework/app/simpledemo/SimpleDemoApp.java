@@ -81,7 +81,7 @@ public final class SimpleDemoApp {
         try {
 
             for(int i = 0; i < 1; i++){
-                for(int j = 0; j < 2; j++){
+                for(int j = 0; j < 10; j++){
                     Value voltage = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_V").getLatestRecord().getValue();
                     Value temperature = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_T").getLatestRecord().getValue();
                     Value resistance = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_R").getLatestRecord().getValue();
