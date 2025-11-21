@@ -80,22 +80,24 @@ public final class SimpleDemoApp {
         // logger.info("Getting value from channel {}", CHANNEL);
         // try {
 
-            for(int i = 0; i < 2; i++){
-                for(int j = 0; j < 100; j++){
-                    Value voltage = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_V").getLatestRecord().getValue();
-                    Value temperature = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_T").getLatestRecord().getValue();
-                    Value resistance = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_R").getLatestRecord().getValue();
-                    if (voltage == null || temperature == null || resistance == null) {
-                        logger.warn("Channel str{}_cell{}_V or str{}_cell{}_T or str{}_cell{}_R not found!", i+1, j+1, i+1, j+1, i+1, j+1);
-                        continue;
-                    }
+            // for(int i = 0; i < 1; i++){
+            //     for(int j = 0; j < 1; j++){
+                    Value voltage = dataAccessService.getChannel("str1_cell1_R").getLatestRecord().getValue();
+
+                    logger.info("VOltage: {}",voltage.asDouble());
+                    // Value temperature = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_T").getLatestRecord().getValue();
+                    // Value resistance = dataAccessService.getChannel("str" +(i+1)+ "_cell"+ (j+1)+"_R").getLatestRecord().getValue();
+                    // if (voltage == null || temperature == null || resistance == null) {
+                    //     logger.warn("Channel str{}_cell{}_V or str{}_cell{}_T or str{}_cell{}_R not found!", i+1, j+1, i+1, j+1, i+1, j+1);
+                    //     continue;
+                    // }
                     // logger.info("str{}_cell_{}, Value: --------> V: {},  T: {},   R: {}", i+1, j+1, 
                     //     voltage.asDouble(),
                     //     temperature.asDouble(),
                     //     resistance.asDouble()
                     // );
-                }
-            }
+                // }
+            // }
             logger.info("\n---------------------------------------------------\n\n");
         // } catch (Exception e) {
         //     logger.warn("Error updating channel {}", e.getMessage());
